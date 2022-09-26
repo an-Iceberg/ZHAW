@@ -57,4 +57,6 @@ Abspaltung von Nullstellen
 
 Horner Schema
 
+TODO: Polynomdivision via synthetic division
+
 ∈∉∞

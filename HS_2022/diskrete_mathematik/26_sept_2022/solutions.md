@@ -106,112 +106,182 @@ Q := (r & q) -> s
 
 - a)
 
-p -> (q -> p) | Implikation
+  p -> (q -> p) | Implikation
 
-=> !p # !q # p | Konstantes Element
+  => !p # !q # p | Konstantes Element
 
-=> 1 # !q | Tautologie
+  => 1 # !q | Tautologie
 
-=> 1
+  => 1
 
-|p|q|p -> (q -> p)|
-|-|-|-            |
-|0|0|1            |
-|0|1|1            |
-|1|0|1            |
-|1|1|1            |
+  |p|q|p -> (q -> p)|
+  |-|-|-            |
+  |0|0|1            |
+  |0|1|1            |
+  |1|0|1            |
+  |1|1|1            |
 
-(a) ist allgemeingültig.
+  (a) ist allgemeingültig.
 
 - b)
 
-(p -> q) -> (!q -> !p) | Implikation
+  (p -> q) -> (!q -> !p) | Implikation
 
-=> !(!p # q) # (q # !p) | DeMorgan
+  => !(!p # q) # (q # !p) | DeMorgan
 
-=> (p & !q) # q # !p | Distributivität
+  => (p & !q) # q # !p | Distributivität
 
-=> ((q # p) & (q # !q)) # !p | Konstantes Element
+  => ((q # p) & (q # !q)) # !p | Konstantes Element
 
-=> ((q # p) & 1) # !p | Neutrales Element
+  => ((q # p) & 1) # !p | Neutrales Element
 
-=> q # p # !p | Konstantes Element
+  => q # p # !p | Konstantes Element
 
-=> q # 1 | Tautologie
+  => q # 1 | Tautologie
 
-|p|q|(p -> q) -> (!q -> !p)|
-|-|-|-                     |
-|0|0|1                     |
-|0|1|1                     |
-|1|0|1                     |
-|1|1|1                     |
+  |p|q|(p -> q) -> (!q -> !p)|
+  |-|-|-                     |
+  |0|0|1                     |
+  |0|1|1                     |
+  |1|0|1                     |
+  |1|1|1                     |
 
-(b) ist allgemeingültig.
+  (b) ist allgemeingültig.
 
 - c)
 
-(p -> q) -> (q -> p) | Implikation
+  (p -> q) -> (q -> p) | Implikation
 
-=> !(!p # q) # (!q # p) | DeMorgan
+  => !(!p # q) # (!q # p) | DeMorgan
 
-=> (p & !q) # !q # p | Distributivität
+  => (p & !q) # !q # p | Distributivität
 
-=> ((p # !q) & (!q # q)) # p | Konstantes Element
+  => ((p # !q) & (!q # q)) # p | Konstantes Element
 
-=> ((p # !q) & 1) # p | Neutrales Element
+  => ((p # !q) & 1) # p | Neutrales Element
 
-=> p # !q # p | Absorbtion
+  => p # !q # p | Absorbtion
 
-=> p # !q
+  => p # !q
 
-|p|q|(p -> q) -> (q -> p)|
-|-|-|-                   |
-|0|0|1                   |
-|0|1|0                   |
-|1|0|1                   |
-|1|1|1                   |
+  |p|q|(p -> q) -> (q -> p)|
+  |-|-|-                   |
+  |0|0|1                   |
+  |0|1|0                   |
+  |1|0|1                   |
+  |1|1|1                   |
 
-(c) ist erfüllbar.
+  (c) ist erfüllbar.
 
 - d)
 
-(p -> q) & (p & !q) | Implikation
+  (p -> q) & (p & !q) | Implikation
 
-=> (!p # q) & p & !q | Distributivität
+  => (!p # q) & p & !q | Distributivität
 
-=> ((!p & p) # (q & p)) & !q | Konstantes Element
+  => ((!p & p) # (q & p)) & !q | Konstantes Element
 
-=> (0 # (q & p)) & !q | Neutrales Element
+  => (0 # (q & p)) & !q | Neutrales Element
 
-=> q & p & !q | Konstantes Element
+  => q & p & !q | Konstantes Element
 
-=> 0 & p | "unerfüllbar"
+  => 0 & p
 
-|p|q|(p -> q) & (p & !q)|
-|-|-|-                  |
-|0|0|0                  |
-|0|1|0                  |
-|1|0|0                  |
-|1|1|0                  |
+  => 0 | "unerfüllbar"
 
-(d) ist unerfüllbar.
+  |p|q|(p -> q) & (p & !q)|
+  |-|-|-                  |
+  |0|0|0                  |
+  |0|1|0                  |
+  |1|0|0                  |
+  |1|1|0                  |
+
+  (d) ist unerfüllbar.
 
 ## Aufgabe 6
 
 - a) {!, #}
 
-A & B = !(!A # !B)
+  A & B = !(!A # !B)
 
-A -> B = !A # B
+  A -> B = !A # B
 
 - b) {!, ->}
 
-TODO
+  A & B = !(A -> !B)
 
-- c) {NAND} (NAND = !(A & B))
+  A # B = A -> !B
 
-TODO
+- c) {!&} (NAND = !(A & B))
 
-- d) {NOR} (NOR = !(A # B))
+  A & B = (A !& B) !& (A !& B)
 
-TODO
+  A # B =
+
+  !A = A !& A
+
+  A -> B = (A !& B) !& A
+
+  |A|A !& A|
+  |-|-|
+  |0|1|
+  |1|0|
+
+  |A|B|A !& B|
+  |-|-|-|
+  |0|0|1|
+  |0|1|1|
+  |1|0|1|
+  |1|1|0|
+
+  |A|B|(A !& B) !& A|
+  |-|-|-|
+  |0|0|1|
+  |0|1|1|
+  |1|0|0|
+  |1|1|1|
+
+  |A|B|(A !& A) !& A|
+  |-|-|-|
+  |0|0|1|
+  |0|1|0|
+  |1|0|1|
+  |1|1|1|
+
+  |A|B|(A !& x) !& B|
+  |-|-|-|
+  |0|0|1|
+  |0|1|0|
+  |1|0|1|
+  |1|1|1|
+
+  |A|B|(A !& B) !& (A !& A)|
+  |-|-|-|
+  |0|0|0|
+  |0|1|0|
+  |1|0|1|
+  |1|1|1|
+
+  |A|B|(A !& B) !& (B !& B)|
+  |-|-|-|
+  |0|0|0|
+  |0|1|1|
+  |1|0|0|
+  |1|1|1|
+
+  |A|B|A # B|
+  |-|-|-|
+  |0|0|0|
+  |0|1|1|
+  |1|0|1|
+  |1|1|1|
+
+- d) {!#} (NOR = !(A # B))
+
+  A & B =
+
+  A # B =
+
+  !A =
+
+  A -> B =

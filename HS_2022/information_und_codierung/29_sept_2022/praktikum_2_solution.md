@@ -54,3 +54,7 @@ Q0 & !Q1
   {name: 'fall', wave: '0...10.10'},
 ]}
 ```
+
+## Aufgabe 2
+
+TODO

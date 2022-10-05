@@ -101,15 +101,6 @@
 
 - c)
 
-:::mermaid
-stateDiagram-v2
-  4/100 --> 1/001
-  1/001 --> 2/010
-  2/010 --> 5/101
-  5/101 --> 3/011
-  3/011 --> 7/111
-  7/111 --> 6/110
-  6/110 --> 4/100
-:::
+  ![](praktikum_2_aufgabe_2_c.jpeg)
 
 - d) Es würde gar nichts passieren.

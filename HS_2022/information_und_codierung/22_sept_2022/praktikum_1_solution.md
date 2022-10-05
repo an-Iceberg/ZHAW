@@ -120,8 +120,6 @@
 
 - a)
 
-  **h und i sind im Bild vertauscht**
-
   ![Lösung zu Aufgabe 3](praktikum_1_aufgabe_3.png)
 
   ```

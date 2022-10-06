@@ -1,4 +1,4 @@
-# Information und Codierung - 20 September 2022
+# Information und Codierung - 20. September 2022
 Dozent: rosn@zhaw.ch
 
 Prüfungshilfe: 14 A4 Seiten hinten und vorne bedrukt

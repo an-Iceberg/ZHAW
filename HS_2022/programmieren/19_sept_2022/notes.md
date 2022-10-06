@@ -1,2 +1,2 @@
-# Programmieren - 19 September 2022
+# Programmieren - 19. September 2022
 Dozent:

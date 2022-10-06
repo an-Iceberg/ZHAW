@@ -216,6 +216,7 @@ Q := (r & q) -> s
 
   A & B = (A !& B) !& (A !& B)
 
+  TODO: this
   A # B =
 
   !A = A !& A

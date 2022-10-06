@@ -1,4 +1,4 @@
-# Analysis - 22 September 2022
+# Analysis - 22. September 2022
 Dozent: Andreas Henrici
 
 ---

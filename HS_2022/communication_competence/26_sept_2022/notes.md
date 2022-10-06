@@ -1,4 +1,4 @@
-# Communication Comptence - 26 September 2022
+# Communication Comptence - 26. September 2022
 
 ## Themenentwurf
 

@@ -1,1 +1,1 @@
-# Programmieren - 26 September 2022
+# Programmieren - 26. September 2022

@@ -1,4 +1,4 @@
-# Information und Codierung - 27 September 2022
+# Information und Codierung - 27. September 2022
 
 ## Clocks
 

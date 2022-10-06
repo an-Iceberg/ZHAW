@@ -1,4 +1,4 @@
-# Diskrete Mathematik - 26 September 2022
+# Diskrete Mathematik - 26. September 2022
 
 Aussagenlogik ist Prädikatenlogik ohne Quantoren
 

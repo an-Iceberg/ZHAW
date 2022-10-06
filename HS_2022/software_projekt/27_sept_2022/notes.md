@@ -1,4 +1,4 @@
-# Software Projekt - 27 September 2022
+# Software Projekt - 27. September 2022
 
 Proposal:
 

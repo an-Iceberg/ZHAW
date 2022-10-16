@@ -1,0 +1,12 @@
+{
+  "configurations": [
+  {
+    "name": "Lua",
+    "type": "f5anything",
+    "request": "launch",
+    "command": "lua ${workspaceFolder}/entropy_analysis.lua",
+    "terminalName": "Lua",
+    "showTerminal": true,
+  }
+  ]
+}

@@ -2,7 +2,13 @@
 
 ## Aufgabe 1
 
+- a) Ja
+
+- b) Nein, weil z.B. auf 3 nicht abgebildet werden kann.
+
 ## Aufgabe 2
+
+`F(b) -> if b.contains('c') then b.remove('c') end`
 
 ## Aufgabe 3
 

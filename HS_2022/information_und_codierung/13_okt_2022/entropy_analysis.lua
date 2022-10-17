@@ -20,60 +20,86 @@ Y8,          I8   8I   8I  ,I8,  ,8'    8I  i8'    ,8I  I8'    ,8i  I8,   ,8I   
 
 -- Opening all files
 local files = {
-  io.open("source_1.txt"),
-  io.open("source_2.txt"),
-  io.open("source_3.txt"),
-  io.open("source_4.txt"),
-  io.open("source_5.txt"),
-  io.open("source_6.txt"),
+  ["source_1.txt"] = io.open("source_1.txt"),
+  ["source_2.txt"] = io.open("source_2.txt"),
+  ["source_3.txt"] = io.open("source_3.txt"),
+  ["source_4.txt"] = io.open("source_4.txt"),
+  ["source_5.txt"] = io.open("source_5.txt"),
+  ["source_6.txt"] = io.open("source_6.txt"),
 }
 
 for file_name, file in pairs(files) do
   if file ~= nil then
-    io.write("Source file "..file_name.." Analysis running...\n")
+    io.write(string.format("Running analysis on %s...\n", file_name))
 
-    local character_frequency = {}
+    local character_count = {}
     local total_characters = 0
+    local total_distinct_characters = 0
 
     -- Going through all characters in the file and storing analytical data
     local character
     while true do
+      -- Reads the next character (letter, symbol)
       character = file:read(1)
+
       -- End of file, end loop
       if character == nil then break end
 
-      total_characters = total_characters + 1
+      -- Ignores whitespaces and newlines
+      if character ~= " " and character ~= "\n" then
 
-      local has_letter_been_found = false
-      -- Comparing the current character with every other character
-      for letter, frequency in pairs(character_frequency) do
+        -- Increment total character count
+        total_characters = total_characters + 1
 
-        -- An existing character has been found
-        if character == letter then
-          -- Updating count
-          character_frequency[letter] = frequency + 1
+        local has_letter_been_found = false
+        -- Comparing the current character with every other character
+        for letter, count in pairs(character_count) do
 
-          has_letter_been_found = true
-          break
+          -- An existing character has been found
+          if character == letter then
+            -- Updating count
+            character_count[letter] = count + 1
+
+            has_letter_been_found = true
+            break
+          end
+        end
+
+        -- A new character has been found
+        if not has_letter_been_found then
+          character_count[character] = 1
+          total_distinct_characters = total_distinct_characters + 1
         end
       end
-
-      -- A new character has been found
-      if not has_letter_been_found then
-        character_frequency[character] = 1
-      end
     end
+
+    local entropy = 0
 
     -- Printing the results of the analysis
-    for letter, frequency in pairs(character_frequency) do
+    for letter, count in pairs(character_count) do
       if letter == "\n" then letter = "\\n" end
 
-      io.write("\""..letter.."\"".." occured "..frequency.." times\n")
+      local probability = count / total_characters
+      local information_content = math.log(1 / probability, 2)
+
+      entropy = entropy + (probability * information_content)
+
+      io.write(string.format(
+        "\"%s\": %6d times,\tProbability(%s) = %f,\tInformation content(%s) = %f\n",
+        letter,
+        count,
+        letter,
+        probability,
+        letter,
+        information_content
+      ))
     end
 
-    io.write("Total number of characters in Source "..file_name..": "..total_characters.."\n")
+    io.write(string.format("Entropy(%s) = %f\n",file_name, entropy))
 
-    io.write("Done analysis of file "..file_name..". Closing file...\n\n")
+    io.write(string.format("%d characters with %d distinct symbols in %s.\n", total_characters, total_distinct_characters, file_name))
+
+    io.write(string.format("Done analysis of %s. Closing file...\n\n", file_name))
     file:close()
   end
 end

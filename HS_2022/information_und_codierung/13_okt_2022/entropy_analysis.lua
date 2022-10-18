@@ -1,64 +1,53 @@
-io.write([[
+local title = io.open("title.txt")
 
-   ,ggggggg,                                                                                ,ggg,                                                                            ,ggggggggggggggg
- ,dP""""""Y8b               I8                                                             dP""8I                             ,dPYb,                                        dP""""""88"""""""                 ,dPYb,
- d8'    a  Y8               I8                                                            dP   88                             IP'`Yb                                        Yb,_    88                        IP'`Yb
- 88     "Y8P'            88888888                                                        dP    88                             I8  8I                       gg                `""    88                        I8  8I
- `8baaaa                    I8                                                          ,8'    88                             I8  8'                       ""                       88                        I8  8'
-,d8P""""      ,ggg,,ggg,    I8    ,gggggg,    ,ggggg,   gg,gggg,    gg     gg           d88888888    ,ggg,,ggg,     ,gggg,gg  I8 dP  gg     gg    ,g,      gg     ,g,               88   ,ggggg,    ,ggggg,   I8 dP
-d8"          ,8" "8P" "8,   I8    dP""""8I   dP"  "Y8gggI8P"  "Yb   I8     8I     __   ,8"     88   ,8" "8P" "8,   dP"  "Y8I  I8dP   I8     8I   ,8'8,     88    ,8'8,              88  dP"  "Y8gggdP"  "Y8gggI8dP
-Y8,          I8   8I   8I  ,I8,  ,8'    8I  i8'    ,8I  I8'    ,8i  I8,   ,8I    dP"  ,8P      Y8   I8   8I   8I  i8'    ,8I  I8P    I8,   ,8I  ,8'  Yb    88   ,8'  Yb       gg,   88 i8'    ,8I i8'    ,8I  I8P
-`Yba,,_____,,dP   8I   Yb,,d88b,,dP     Y8,,d8,   ,d8' ,I8 _  ,d8' ,d8b, ,d8I    Yb,_,dP       `8b,,dP   8I   Yb,,d8,   ,d8b,,d8b,_ ,d8b, ,d8I ,8'_   8) _,88,_,8'_   8)       "Yb,,8P,d8,   ,d8',d8,   ,d8' ,d8b,_
-  `"Y88888888P'   8I   `Y88P""Y88P      `Y8P"Y8888P"   PI8 YY88888PP""Y88P"888    "Y8P"         `Y88P'   8I   `Y8P"Y8888P"`Y88P'"Y88P""Y88P"888P' "YY8P8P8P""Y8P' "YY8P8P        "Y8P'P"Y8888P"  P"Y8888P"   8P'"Y88
-                                                        I8               ,d8I'                                                            ,d8I'
-                                                        I8             ,dP'8I                                                           ,dP'8I
-                                                        I8            ,8"  8I                                                          ,8"  8I
-                                                        I8            I8   8I                                                          I8   8I
-                                                        I8            `8, ,8I                                                          `8, ,8I
-                                                        I8             `Y8P"                                                            `Y8P"
-]])
+-- Prints the fancy title
+if title ~= nil then
+  for line in title:lines("L") do
+    io.write(line)
+  end
+end
 
--- Opening all files
-local files = {
-  ["source_1.txt"] = io.open("source_1.txt"),
-  ["source_2.txt"] = io.open("source_2.txt"),
-  ["source_3.txt"] = io.open("source_3.txt"),
-  ["source_4.txt"] = io.open("source_4.txt"),
-  ["source_5.txt"] = io.open("source_5.txt"),
-  ["source_6.txt"] = io.open("source_6.txt"),
-}
+local files = {}
 
-for file_name, file in pairs(files) do
-  if file ~= nil then
-    io.write(string.format("Running analysis on %s...\n", file_name))
+for i = 1, 6, 1 do
+  table.insert(files, {
+    -- Opening all files
+    file = io.open(string.format("source_%d.txt", i)),
+    name = string.format("source_%d.txt", i),
+    current_character = "",
+    character_count = {},
+    total_characters = 0,
+    total_distinct_characters = 0,
+    entropy = 0
+  })
+end
 
-    local character_count = {}
-    local total_characters = 0
-    local total_distinct_characters = 0
+for _, file in pairs(files) do
+  if file.file ~= nil then
+    io.write(string.format("Running analysis on %s...\n", file.name))
 
     -- Going through all characters in the file and storing analytical data
-    local character
     while true do
       -- Reads the next character (letter, symbol)
-      character = file:read(1)
+      file.current_character = file.file:read(1)
 
       -- End of file, end loop
-      if character == nil then break end
+      if file.current_character == nil then break end
 
       -- Ignores whitespaces and newlines
-      if character ~= " " and character ~= "\n" then
+      if file.current_character ~= " " and file.current_character ~= "\n" then
 
         -- Increment total character count
-        total_characters = total_characters + 1
+        file.total_characters = file.total_characters + 1
 
         local has_letter_been_found = false
         -- Comparing the current character with every other character
-        for letter, count in pairs(character_count) do
+        for letter, data in pairs(file.character_count) do
 
           -- An existing character has been found
-          if character == letter then
+          if file.current_character == letter then
             -- Updating count
-            character_count[letter] = count + 1
+            data.count = data.count + 1
 
             has_letter_been_found = true
             break
@@ -67,39 +56,37 @@ for file_name, file in pairs(files) do
 
         -- A new character has been found
         if not has_letter_been_found then
-          character_count[character] = 1
-          total_distinct_characters = total_distinct_characters + 1
+          file.character_count[file.current_character] = {count = 1, probability = 0, information_content = 0}
+          file.total_distinct_characters = file.total_distinct_characters + 1
         end
       end
     end
 
-    local entropy = 0
-
     -- Printing the results of the analysis
-    for letter, count in pairs(character_count) do
+    for letter, data in pairs(file.character_count) do
       if letter == "\n" then letter = "\\n" end
 
-      local probability = count / total_characters
-      local information_content = math.log(1 / probability, 2)
+      data.probability = data.count / file.total_characters
+      data.information_content = math.log(1 / data.probability, 2)
 
-      entropy = entropy + (probability * information_content)
+      file.entropy = file.entropy + (data.probability * data.information_content)
 
       io.write(string.format(
-        "\"%s\": %6d times,\tProbability(%s) = %f,\tInformation content(%s) = %f\n",
+        "\"%s\": %6d times,\tP(%s) = %f,\tI(%s) = %f\n",
         letter,
-        count,
+        data.count,
         letter,
-        probability,
+        data.probability,
         letter,
-        information_content
+        data.information_content
       ))
     end
 
-    io.write(string.format("Entropy(%s) = %f\n",file_name, entropy))
+    io.write(string.format("Entropy(%s) = %f\n", file.name, file.entropy))
 
-    io.write(string.format("%d characters with %d distinct symbols in %s.\n", total_characters, total_distinct_characters, file_name))
+    io.write(string.format("%d characters with %d distinct symbols in %s.\n", file.total_characters, file.total_distinct_characters, file.name))
 
-    io.write(string.format("Done analysis of %s. Closing file...\n\n", file_name))
-    file:close()
+    io.write(string.format("Done analysis of %s. Closing file...\n\n", file.name))
+    file.file:close()
   end
 end

@@ -7,7 +7,7 @@
 
 - ***2. Wie zufrieden sind Sie heute mit der bisherigen Kooperation in Ihrem Team?***
 
-  Es ist nicht eindeutig, was mit "Kooperation" gemeint ist.
+  Es ist nicht eindeutig, was mit "Kooperation" gemeint ist. Code kann nicht gut von mehreren Personen geschrieben werden.
 
 - ***3. Wie stellen Sie sicher, dass die Qualität der Kooperation auf gutem Niveau bleibt bzw. besser wird?***
 
@@ -15,7 +15,7 @@
 
 - ***4. Wie ist die Kommunikation im Team organisiert und wie gut funktioniert sie?***
 
-  Organisiert war die Kommunikation so gut wie gar nicht. Funktioniert hatte sie jedoch ausgezeichnet.
+  Die Kommunikation war nicht besonders gut organisiert, nichtsdestotrotz hatte sie sehr gut gut funktioniert.
 
 - ***5. Wie stellen Sie sicher, dass die Kommunikation auf gutem Niveau bleibt btw. besser wird?***
 

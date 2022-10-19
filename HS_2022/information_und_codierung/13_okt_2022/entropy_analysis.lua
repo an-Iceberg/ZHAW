@@ -82,7 +82,7 @@ for _, file in pairs(files) do
       ))
     end
 
-    io.write(string.format("Entropy(%s) = %f\n", file.name, file.entropy))
+    io.write(string.format("H(%s) = %f\n", file.name, file.entropy))
 
     io.write(string.format("%d characters with %d distinct symbols in %s.\n", file.total_characters, file.total_distinct_characters, file.name))
 

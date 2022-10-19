@@ -4,17 +4,17 @@
 
 - lauffähiges Progamm (Hauptkriterium erreicht)
 
-- Teamatmosphäre gut
+- Die Teamatmosphäre war gut
 
 ## Herausforderungen
 
-- Aufteilung war nicht gut
+- Die Arbeitsaufteilung war nicht gut
 
 - Zu wenige Sitzungen
 
-- Meetings nicht geplant
+- Die Meetings waren nicht geplant
 
-- Schlecht organisiert
+- Das Team war im allgemeinen wenig organisiert
 
 - Ungleicher Wissensstand muss abgeklärt werden
 
@@ -22,7 +22,7 @@
 
 ## Erkenntnisse
 
-- Tool zur Task Einteilung (github projects) (zur besseren organisations der Arbeit)
+- Tool zur Task Einteilung ausprobieren (github projects) (zur besseren organisations der Arbeit)
 
 - Öftere Meetings (zur besseren Produktivität)
 
@@ -36,20 +36,18 @@
 
 - GitHub Projects ausprobieren
 
-- Kleinere Deadlines (divide and conquer)
+- Kleinere Deadlines (divide and conquer Prinzip stärker anwenden)
 
-- Git workflow
+- Git workflow erstellen
 
 ## Feedback vom Dozenten
 
 - siehe Feedback auf github
 
-- Teamleitung: Wrapup zum Schluss
+- Teamleitung: Wrapup zum Schluss sollte besser erdacht werden
 
-- Planung sollte besser sein
+- Mehr Planung des Projektes
 
-- Meeting Plan sollte am Anfang des Projektes gemacht werden
+- Meeting Plan sollte am Anfang des Projektes erstellt werden
 
 - Bessere Struktur (Teamaufteilung)
-
-- Meistertask, Asana

@@ -37,7 +37,7 @@ Ein Code ist präfixfrei, wenn jeder Code eindeutig zu einem decodierten Symbol 
 
 ***Formeln: siehe Folien***
 
-> :warning: ***TODO: nte Entropie: Entropie pro Element (Buchstabe, Zeichen) berechnen
+> :warning: ***TODO: nte Entropie: Entropie pro Element (Buchstabe, Zeichen) berechnen***
 
 ### Run Length Encoding (RLE)
 

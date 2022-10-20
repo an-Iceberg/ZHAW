@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"entrpyAnalysis/src/file"
 	"fmt"
 	"os"
@@ -9,21 +10,7 @@ import (
 func main() {
 	fmt.Println("Entropy Analysis")
 
-	title, error := os.Open("title.txt")
-	if error != nil { panic(fmt.Sprintf("Error: %s", error)) }
-
-	letter := make([]byte, 1)
-
-	for {
-		// Reading in the next letter
-		number, _ := title.Read(letter)
-		// If no additional letter was read, stop the reading of the file
-		if number == 0 { break }
-
-		fmt.Print(string(letter))
-	}
-
-	title.Close()
+	printTitle()
 
 	// Crating an array of 6 files
 	files := [6]file.File{}
@@ -38,5 +25,23 @@ func main() {
 		files[fileNumber].Analyse()
 
 		files[fileNumber].PrintResults()
+	}
+}
+
+func printTitle() {
+	// Opens file and handles error
+	title, error := os.Open("title.txt")
+	if error != nil { panic(fmt.Sprintf("Error: %s", error)) }
+	// Closes file
+	defer title.Close()
+
+	// File scanner
+	titleScanner := bufio.NewScanner(title)
+	// Splits file into lines
+	titleScanner.Split(bufio.ScanLines)
+
+	// Prints each line to the console
+	for titleScanner.Scan() {
+		fmt.Println(titleScanner.Text())
 	}
 }

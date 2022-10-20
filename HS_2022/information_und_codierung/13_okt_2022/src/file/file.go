@@ -33,10 +33,11 @@ func (file *File) Analyse() {
 
 	var doesLetterExist bool
 
+	// TODO: rework file reading to use the bufio.NewScanner()
 	// Doing the analysis for each character
 	for {
 		// No character was read; end of file was reached; stop reading any more letters
-		if file.readOneCharacter() < 1 { break }
+		if file.readLettersIntoBuffer() < 1 { break }
 
 		// ? Should this be here?
 		// ~ It should only be here if we do not ignore any characters
@@ -109,18 +110,18 @@ func (file *File) ignoreCharacters(letters []string) bool {
 }
 
 // Reads a single character from the file
-func (file *File) readOneCharacter() int {
-	character := [1]byte{}
+func (file *File) readLettersIntoBuffer() int {
+	buffer := [1]byte{}
 
 	// Reads a single character
-	amount, error := file.File.Read(character[:])
+	amount, error := file.File.Read(buffer[:])
 	// In case something unexpected happens, the readign of the file is stopped
 	if error != nil {
 		// fmt.Println("  !#! Error:", error)
 		return 0
 	}
 
-	file.CurrentLetter = string(character[:])
+	file.CurrentLetter = string(buffer[:])
 	return amount
 }
 

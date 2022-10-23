@@ -1,6 +1,7 @@
 package file
 
 import (
+	"bufio"
 	"entrpyAnalysis/src/characterCount"
 	"fmt"
 	"os"
@@ -16,57 +17,57 @@ type File struct {
 	Entropy float64
 }
 
-// TODO: consider reading the file in chunks and doing the analysis on these chunks instead of letter by letter
-
 // Opens a file using the @param fileName
 func (file *File) Open(fileName string) {
-	var error error
+	var fileOpeningError error
 	fmt.Printf("Opening %s...\n", fileName)
 
-	file.File, error = os.Open(fileName)
-	if error != nil { panic(error) }
+	file.File, fileOpeningError = os.Open(fileName)
+	if fileOpeningError != nil { panic(fileOpeningError) }
 	file.Name = fileName
 }
 
-func (file *File) Analyse() {
+func (file *File) Read() {
 	fmt.Printf("Starting analysis of %s...\n", file.Name)
 
-	var doesLetterExist bool
+	doesLetterExist := false
 
-	// TODO: rework file reading to use the bufio.NewScanner()
-	// Doing the analysis for each character
-	for {
-		// No character was read; end of file was reached; stop reading any more letters
-		if file.readLettersIntoBuffer() < 1 { break }
+	fileScanner := bufio.NewScanner(file.File)
+	fileScanner.Split(bufio.ScanBytes)
 
-		// ? Should this be here?
-		// ~ It should only be here if we do not ignore any characters
-		// file.TotalCharacters++
+	// Reading each letter of the file
+	for fileScanner.Scan() {
+
+		doesLetterExist = false
 
 		// Ignoring whitespace and newline characters
-		if file.ignoreCharacters([]string{" ", "\n"}) { continue }
-
-		file.TotalCharacters++
+		if ignoreCharacter(fileScanner.Text(), []string{" ", "\n"}) { continue }
 
 		// Finding out if the characte that was read is unique or if it already exists
-		doesLetterExist = false
-		for i, letter := range file.LetterData { // Iterating over all existing LetterData objects
+		for i, letter := range file.LetterData {
 
 			// If the current character already exists in the LetterData array, update its data
-			if file.CurrentLetter == letter.Character {
+			if fileScanner.Text() == letter.Character {
+				file.TotalCharacters++
 				doesLetterExist = true
 				file.LetterData[i].IncrementCount()
 				break
 			}
 		}
 
-		// If the letter does not exist yet, a new one is created
+		// The letter does not exist yet, creating a new one
 		if !doesLetterExist {
-			file.createNewCharacter(file.CurrentLetter)
+			file.createNewCharacter(fileScanner.Text())
+			file.TotalCharacters++
 		}
 	}
+}
 
-	file.analyseCharacters()
+func (file *File) Analyse()  {
+	for i := range file.LetterData {
+		file.LetterData[i].Analyse(file.TotalCharacters)
+		file.Entropy += file.LetterData[i].Probability * file.LetterData[i].InformationContent
+	}
 }
 
 func (file *File) PrintResults() {
@@ -86,7 +87,7 @@ func (file *File) PrintResults() {
 	// Print the results of the file
 	fmt.Printf("H(%s) = %f\n", file.Name, file.Entropy)
 	fmt.Printf(
-		"%d characters with %d distinct symbols in %s.\n",
+		"%d total characters with %d distinct symbols in %s.\n",
 		file.TotalCharacters,
 		file.TotalDistinctCharacters,
 		file.Name,
@@ -95,34 +96,13 @@ func (file *File) PrintResults() {
 	file.File.Close()
 }
 
-func (file *File) analyseCharacters() {
-	for i := range file.LetterData {
-		file.LetterData[i].Analyse(file.TotalCharacters)
-		file.Entropy += file.LetterData[i].Probability * file.LetterData[i].InformationContent
+func ignoreCharacter(currentLetter string, symbols []string) bool {
+	for _, symbol := range symbols {
+		// The current letter matches one of the symbols we want to ignroe
+		if symbol == currentLetter { return true }
 	}
-}
 
-func (file *File) ignoreCharacters(letters []string) bool {
-	for _, letter := range letters {
-		if file.CurrentLetter == letter { return true }
-	}
 	return false
-}
-
-// Reads a single character from the file
-func (file *File) readLettersIntoBuffer() int {
-	buffer := [1]byte{}
-
-	// Reads a single character
-	amount, error := file.File.Read(buffer[:])
-	// In case something unexpected happens, the readign of the file is stopped
-	if error != nil {
-		// fmt.Println("  !#! Error:", error)
-		return 0
-	}
-
-	file.CurrentLetter = string(buffer[:])
-	return amount
 }
 
 func (file *File) createNewCharacter(letter string) {
@@ -135,5 +115,6 @@ func (file *File) createNewCharacter(letter string) {
 			InformationContent: 0,
 		},
 	)
+
 	file.TotalDistinctCharacters++
 }

@@ -84,7 +84,7 @@ for _, file in pairs(files) do
 
     io.write(string.format("H(%s) = %f\n", file.name, file.entropy))
 
-    io.write(string.format("%d characters with %d distinct symbols in %s.\n", file.total_characters, file.total_distinct_characters, file.name))
+    io.write(string.format("%d total characters with %d distinct symbols in %s.\n", file.total_characters, file.total_distinct_characters, file.name))
 
     io.write(string.format("Done analysis of %s. Closing file...\n\n", file.name))
     file.file:close()

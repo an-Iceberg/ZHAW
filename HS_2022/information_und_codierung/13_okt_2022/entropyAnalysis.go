@@ -8,8 +8,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Entropy Analysis")
-
 	printTitle()
 
 	// Crating an array of 6 files
@@ -21,6 +19,8 @@ func main() {
 
 		// Giving the pointer to the files array
 		files[fileNumber].Open(fileName)
+
+		files[fileNumber].Read()
 
 		files[fileNumber].Analyse()
 

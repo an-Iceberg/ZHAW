@@ -9,6 +9,14 @@
       "showTerminal": true,
     },
     {
+      "name": "GO build",
+      "type": "f5anything",
+      "request": "launch",
+      "command": "go build .",
+      "terminalName": "GO",
+      "showTerminal": true,
+    },
+    {
       "name": "Lua",
       "type": "f5anything",
       "request": "launch",

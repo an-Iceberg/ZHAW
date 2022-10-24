@@ -8,8 +8,6 @@
 
 ## Aufgabe 2
 
-`F(b) -> if b.contains('c') then b.remove('c') end`
-
 ## Aufgabe 3
 
 ## Aufgabe 4

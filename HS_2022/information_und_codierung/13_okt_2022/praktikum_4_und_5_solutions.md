@@ -12,7 +12,7 @@
 
 - c) P(-) = 0.499, P(O) = 0.5
 
-- d) Keine Ahnung.
+- d) 100 KB
 
 - e) 133 KB
 

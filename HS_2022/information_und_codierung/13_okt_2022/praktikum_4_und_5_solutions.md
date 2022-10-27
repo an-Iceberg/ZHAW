@@ -1,4 +1,4 @@
-# Information und Codierung - 13. Oktober 2022
+# Praktikum 4 und 5: Information und Entropie
 
 ## 1.
 

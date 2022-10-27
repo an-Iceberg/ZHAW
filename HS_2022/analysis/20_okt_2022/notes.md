@@ -44,7 +44,7 @@ Eine Folge ist eine Abbildung von einer Menge von Zahlen.
 
 ### Reihen
 
-Reihen sind Folgen von Summen.
+Reihen sind Folgen von Partialsummen.
 
 #### Reihentypen
 

@@ -4,13 +4,13 @@
 
 - i would like to present you laser induced n.f.
 
-- the process takes place within a spherical reactor where all lasers pointing to the center where the helium is located
+- the process takes place within a spherical reactor where all lasers pointing to the center where the hydrogen is located
 
 - january 2021:
 
   - results:
 
-    - NIF  same energy gain as JET
+    - NIF managed to match the energy output of the JET
 
 - promising future for the technology,
 

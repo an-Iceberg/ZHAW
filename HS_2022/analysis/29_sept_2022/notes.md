@@ -44,13 +44,13 @@ Jedes y hat mindestens ein x.
 **bijektiv**<br>
 injektiv und surjektiv. Eine bijektive Funktion kann invertiert werden (Umkehrfunktion).
 
->y = x^2
+>y = x<sup>2</sup>
 >
 >weder injektiv, noch surjektiv
 
 ## Horner Schema
 
-p(x) = 2x^4 - 3x^3 + 4x^2 - 5x + 6
+p(x) = 2x<sup>4</sup> - 3x<sup>3</sup> + 4x<sup>2</sup> - 5x + 6
 
 x = 2
 

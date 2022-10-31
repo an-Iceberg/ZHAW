@@ -44,7 +44,7 @@ f(x0) = 0
 
 Die Funktionskurve schneidet die x-Achse
 
-y = ax^2 + bx + c = a(x - x1)(x - x2)
+y = ax<sup>2</sup> + bx + c = a(x - x1)(x - x2)
 
 ### Polynome
 
@@ -58,5 +58,3 @@ Abspaltung von Nullstellen
 Horner Schema
 
 TODO: Polynomdivision via synthetic division
-
-∈∉∞

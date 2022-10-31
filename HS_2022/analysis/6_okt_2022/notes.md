@@ -17,7 +17,7 @@ f(x) -> f'(x)
 
 > Binomische Formeln (Pascalsches Dreieck)
 
-***f(x) = c * x^n, f'(x) = c * n * x^(n-1)***
+***f(x) = c * x<sup>n</sup>, f'(x) = c * n * x<sup>(n-1)</sup>***
 
 ```
 (f(x0 + h) - f(x0)) / h
@@ -38,16 +38,16 @@ f'(x) = n * x^(n-1)
 f'(x) = 8x^7
 ```
 
-- a) f(x) = 4x^7 - x + 2
+- a) f(x) = 4x<sup>7</sup> - x + 2
 
-  f'(x) = 28x^6 - 1
+  f'(x) = 28x<sup>6</sup> - 1
 
-- b) f(x) = 5x^3 - 2x^2
+- b) f(x) = 5x<sup>3</sup> - 2x<sup>2</sup>
 
-  f'(x) = 15x^2 - 4x
+  f'(x) = 15x<sup>2</sup> - 4x
 
 - c) f(x) = sqrt(x)
 
-  f'(x) = 0.5x^-0.5
+  f'(x) = 0.5x<sup>-0.5</sup>
 
 > - **Ableitungssätze**

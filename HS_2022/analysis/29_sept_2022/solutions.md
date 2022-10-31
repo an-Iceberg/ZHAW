@@ -45,20 +45,20 @@
   - c)
 
 7.
-  - a) `1/(2^2 + 1) = 0.2`
-  - b) `(1/2)^2 + 1 = 1.25`
-  - c) `(2^3 + 1)^2 + 1 = 83`
-  - d) `4^2 + 1 * 1/4 = 4.25`
+  - a) 1/(2<sup>2</sup> + 1) = 0.2
+  - b) (1/2)<sup>2</sup> + 1 = 1.25
+  - c) (2<sup>3</sup> + 1)<sup>2</sup> + 1 = 83
+  - d) 4<sup>2</sup> + 1 * 1/4 = 4.25
 
 8.
   - a)
 
-    `u ° v = 1/(x - 3)` R ohne 3
+    u ° v = 1/(x - 3) | R ohne 3
 
-    `v ° u = (1/x) - 3` R ohne 0
+    v ° u = (1/x) - 3 | R ohne 0
 
   - b)
 
-    `v(x) = 2x - 1, u(x) = x^3`
+    v(x) = 2x - 1, u(x) = x<sup>3</sup>
 
 TODO: we need a different workflow; we need to research the subjects on our own

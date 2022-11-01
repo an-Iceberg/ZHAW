@@ -9,7 +9,7 @@ Die vorherig produzierten Ereignisse haben keinen Einfluss auf die folgenden Ere
 ### 2.
 
 P(0) = 1 - 4/20 = 0.8\
-<u>P(0) = 0.8</u>
+<ins>P(0) = 0.8</ins>
 
 P(1) = 4/20 = 0.2\
 <u>P(1) = 0.2</u>

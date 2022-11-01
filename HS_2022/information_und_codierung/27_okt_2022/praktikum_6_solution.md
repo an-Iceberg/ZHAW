@@ -9,21 +9,21 @@ Die vorherig produzierten Ereignisse haben keinen Einfluss auf die folgenden Ere
 ### 2.
 
 P(0) = 1 - 4/20 = 0.8\
-<u class="solution">P(0) = 0.8</u>
+<u>P(0) = 0.8</u>
 
 P(1) = 4/20 = 0.2\
-<u class="solution">P(1) = 0.2</u>
+<u>P(1) = 0.2</u>
 
 ### 3.
 
 H(X) = P(0) * log2(1/P(0)) + P(1) * log2(1/P(1)) = 0.722\
-<u class="solution">H(X) = 0.722</u>
+<u>H(X) = 0.722</u>
 
 ### 4.
 
 L(X) = P(0) + P(1) = 1\
 R(X) = L(X) - H(X) = 1 - 0.722 = 0.278\
-<u class="solution">R(X) = 0.278</u>
+<u>R(X) = 0.278</u>
 
 ### 5.
 
@@ -36,21 +36,21 @@ P(01) = 0.8 * 0.2 = 0.16\
 P(10) = 0.2 * 0.8 = 0.16\
 P(11) = 0.2 * 0.2 = 0.04
 
-<u class="solution">P(00) = 0.64</u>\
-<u class="solution">P(01) = 0.16</u>\
-<u class="solution">P(10) = 0.16</u>\
-<u class="solution">P(11) = 0.04</u>
+<u>P(00) = 0.64</u>\
+<u>P(01) = 0.16</u>\
+<u>P(10) = 0.16</u>\
+<u>P(11) = 0.04</u>
 
 ### 7.
 
 H(Y) = P(00) * I(00) + P(01) * I(01) + P(10) * I(10) + P(11) * I(11) = 1.44\
-<u class="solution">H(Y) = 1.44</u>
+<u>H(Y) = 1.44</u>
 
 ### 8.
 
 L(Y) = P(00) * 2 + P(01) * 2 + P(10) * 2 + P(11) * 2 = 2\
 R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56\
-<u class="solution">R(Y) = 0.56</u>
+<u>R(Y) = 0.56</u>
 
 ### 9.
 
@@ -75,31 +75,31 @@ R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56\
 
 ## Aufgabe 3.
 
-<u class="solution">P(A) = 0.1</u>
+<u>P(A) = 0.1</u>
 
-<u class="solution">P(B) = 0.3</u>
+<u>P(B) = 0.3</u>
 
-<u class="solution">P(C) = 0.6</u>
+<u>P(C) = 0.6</u>
 
 ### 1.
 
 H(X) = P(A) * I(A) + P(B) * I(B) + P(C) * I(C) = 1.3
 
-<u class="solution">H(X) = 1.3</u>
+<u>H(X) = 1.3</u>
 
 ### 2.
 
-<u class="solution">C = 1</u>
+<u>C = 1</u>
 
-<u class="solution">B = 01</u>
+<u>B = 01</u>
 
-<u class="solution">A = 00</u>
+<u>A = 00</u>
 
 ### 3.
 
 L(X) = P(A) * l(A) + P(B) * l(B) + P(C) * l(C) = 1.4
 
-<u class="solution">L(X) = 1.4</u>
+<u>L(X) = 1.4</u>
 
 ### 4.
 
@@ -171,11 +171,3 @@ H(XX) = 2.56
 
 Es ist nicht Präfixfrei
 
-<style>
-  u.solution {
-    text-decoration-style: double;
-    background-color: indigo;
-    border-radius: 99px;
-    padding: 0 10px;
-  }
-</style>

@@ -4,39 +4,42 @@
 classDiagram
 direction LR
 
-class TextEditor {
+class Editor {
   -HashMap~int, String~ paragraphs
-  -Command commands
-  -Scanner input
+  -Text text
+  -Output output
+  -Interaction interaction
 
-  +processUserInput() void
-  +executeCommand(Command command) void
-
-  +add(int id, String text) void
-  +delete(int id) void
-  +dummy(int id) void
+  +format() void
+  +dummy() void
+  +del() void
   +exit() void
-  +formatRaw() void
-  +formatFix(int width) void
-  +index() void
-  +print() void
-  +replace(int id) void
 
   +main(String[] args)$ void
 }
 
-class Command {
-  <<Enum>>
-  ADD
-  DEL
-  DUMMY
-  EXIT
-  FORMAT_RAW
-  FORMAT_FIX
-  INDEX
-  PRINT
-  REPLACE
+class Text {
+  +add() void
+  +remove() void
+  +replace() void
 }
 
-TextEditor <.. Command
+class Interaction {
+  -Scanner console
+
+  +promptString() String
+  +promptInteger() int
+  +promptCommand() String
+}
+
+class Output {
+  -int columnWidth
+
+  +print() void
+  +index() void
+}
+
+Editor <.. Text
+Editor <.. Interaction
+Editor <.. Output
 :::

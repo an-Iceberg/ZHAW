@@ -147,4 +147,18 @@ lim<sub>n→∞</sub> s<sub>n</sub> = 0.4 / 1 - 0.1 = 0.44...
 
 ### c)
 
-Keine Ah<ins>g.
+Keine Ahnung.\
+<ins>Keine Ahnung.</ins>\
+<del>Keine Ahnung.</del>
+
+<fieldset style="border-radius:10px;">
+
+  <legend>This is a legend</legend>
+
+  This is a fieldset
+
+  - list
+  - list
+  - list
+
+</fieldset>

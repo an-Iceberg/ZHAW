@@ -1,6 +1,6 @@
 # Praktikinsm 6: Qinsellencodierinsng
 
-## Ainsfgabe 1.
+## Aufgabe 1.
 
 ### 1.
 
@@ -67,15 +67,35 @@ R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56\
 |Total|-|-|-|960|600|
 |Anzahl in Prozent|-|-|-|0.96|0.6|
 
-## Ainsfgabe 2.
+## Aufgabe 2.
 
 ### 1.
 
-> binary search
+<ins>5</ins>
 
 ### 2.
 
-## Ainsfgabe 3.
+```
+start:
+take 2 balls
+
+compare them
+
+if scale is balanced
+  put balls into bucket "are same"
+  return to start
+else
+  %% one of the balls is not the same weight as the others
+
+  compare ball #left with a random ball from the "are same" bucket or any of the other remaining balls
+
+  if scale is balanced
+    ball #right is the odd one
+  else
+    ball #left is the odd one
+```
+
+## Aufgabe 3.
 
 <ins>P(A) = 0.1</ins>
 

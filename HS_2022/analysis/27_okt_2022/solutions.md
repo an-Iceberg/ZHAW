@@ -147,5 +147,4 @@ lim<sub>n→∞</sub> s<sub>n</sub> = 0.4 / 1 - 0.1 = 0.44...
 
 ### c)
 
-Keine Ahnung.\
-<ins style="text-decoration-style:double;">Keine Ahnung.</ins>
+Keine Ahnung.

@@ -51,3 +51,9 @@ $\lim \limits _{x \to \infty} \exp(-x) = 0$
 $x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}$
 
 $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+
+$A := \text{Der grossgeschriebene lateinishche Buchstabe "L" existiert.}$
+
+$B := \text{Der Buchstabe "X" wird als "ch" ausgesprochen.}$
+
+$\lnot\exists \text{Alphabet}(A \land B)$

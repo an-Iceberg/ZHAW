@@ -39,8 +39,8 @@ Dequantisierung beim Dekomprimieren
 
 - MJPEG - Nicht die beste Komprimierungsrate
 
-Intra frame 🡲 iframe
+Intra frame ➔ iframe
 
-bidirectional frame 🡲 bframe
+bidirectional frame ➔ bframe
 
-prediction frame 🡲 pframe
+prediction frame ➔ pframe

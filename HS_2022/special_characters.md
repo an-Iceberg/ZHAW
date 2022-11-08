@@ -26,12 +26,7 @@ $\sqrt[4]{a} + {b \over x} = c^{x - b_{34}}_{34 - x}$
 
 $\sum^{10}_{i=1} t_i$
 
-$
-% Comments
-\left(
-\text{hi there}
-\right)
-$
+$\left(\text{hi there}\right)$
 
 Hello $\frac{x^3}{3} ^4 _{a - b}$ world how is $1 .\overline{66}$ ?
 

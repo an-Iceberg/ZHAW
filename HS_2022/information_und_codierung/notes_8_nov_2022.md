@@ -38,3 +38,9 @@ Dequantisierung beim Dekomprimieren
 ## MPEG ~ :exclamation::warning: nicht prüfungsrelevant :warning::exclamation:
 
 - MJPEG - Nicht die beste Komprimierungsrate
+
+Intra frame ➾ iframe
+
+bidirectional frame ➾ bframe
+
+prediction frame ➾ pframe

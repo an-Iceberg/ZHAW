@@ -1,4 +1,4 @@
-# Praktikinsm 6: Qinsellencodierinsng
+# Praktikum 6: Qinsellencodierinsng
 
 ## Aufgabe 1.
 

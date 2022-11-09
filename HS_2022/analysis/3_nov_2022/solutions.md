@@ -12,7 +12,8 @@ $$
 \lim \limits _{n \to \infty}
 =
 \left.  \frac{2n^2 - n}{n^2 + n - 1}
-\middle| \times \frac{1 \over n^2}{1 \over n^2}
+\quad
+\middle| \quad \times \frac{1 \over n^2}{1 \over n^2}
 \right.
 $$
 
@@ -41,8 +42,8 @@ $$
 $$
 \lim \limits _{n \to \infty}
 =
-\left.  {3^n - 3^{n - 1} \over 2 + 3^n}
-\middle | \times {3^{-n} \over 3^{-n}}
+\left.  {3^n - 3^{n - 1} \over 2 + 3^n} \quad
+\middle | \quad \times {3^{-n} \over 3^{-n}}
 \right.
 $$
 
@@ -65,8 +66,8 @@ $$
 $$
 \lim \limits _{n \to \infty}
 =
-\left. {3n - 2(-1)^n \over n}
-\middle | \times {{1 \over n} \over {1 \over n}}
+\left. {3n - 2(-1)^n \over n} \quad
+\middle | \quad \times {{1 \over n} \over {1 \over n}}
 \right.
 $$
 
@@ -79,8 +80,8 @@ $$
 >$$
 >\lim \limits _{n \to \infty}
 >=
->\left. {-2^n \over n}
->\middle | \times {-2^{-n} \over -2^{-n}}
+>\left. {-2^n \over n} \quad
+>\middle | \quad \times {-2^{-n} \over -2^{-n}}
 >\right.
 >$$
 
@@ -109,24 +110,24 @@ $$
 $$
 \lim \limits _{n \to \infty}
 =
-\left. {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}}
-\middle | \times {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
+\left. {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \quad
+\middle | \quad \times {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
 \right.
 $$
 
 $$
 \lim \limits _{n \to \infty}
 =
-\left. {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}
-\middle | \text{Umformung}
+\left. {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \quad
+\middle | \quad \text{Umformung}
 \right.
 $$
 
 $$
 \lim \limits _{n \to \infty}
 =
-\left. {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}}
-\middle |
+\left. {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}} \quad
+\middle | \quad
 \right.
 $$
 
@@ -137,7 +138,7 @@ $$
 $$
 \lim \limits _{n \to \infty}
 =
-\left. \left(1 + {1 \over 7n}\right)^n
+\left. \left(1 + {1 \over 7n}\right)^n \quad
 \middle | ^{7 {1 \over 7}}
 \right.
 $$

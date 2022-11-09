@@ -1,4 +1,4 @@
-# Information und Codierung ~ 8. November 2022
+# Information und Codierung $\sim$ 8. November 2022
 
 ## Wiederholung JPEG
 
@@ -20,7 +20,7 @@ Downsampling - Irrelevante Daten verwerfen
 Bild in 8x8 Pixel Blöcke unterteilen
 
 ### 4.
-Discrete Cosine Transform ~ DTC
+Discrete Cosine Transform - DTC
 
 Helligkeit als Signal darstellen
 
@@ -35,7 +35,7 @@ RLE für die Nullen (diagonal)
 Dequantisierung beim Dekomprimieren
 
 
-## MPEG ~ :exclamation::warning: nicht prüfungsrelevant :warning::exclamation:
+## MPEG $\sim$ :exclamation::warning: nicht prüfungsrelevant :warning::exclamation:
 
 - MJPEG - Nicht die beste Komprimierungsrate
 
@@ -44,3 +44,5 @@ Intra frame $\Rightarrow$ iframe
 bidirectional frame $\Rightarrow$ bframe
 
 prediction frame $\Rightarrow$ pframe
+
+$f(n) = n^5 + 4n^2 + 2 \quad | \quad n=17$

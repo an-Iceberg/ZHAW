@@ -32,6 +32,8 @@ TODO: restructuring
 
 ➝
 
+⇾
+
 $\sqrt[4]{a} + {b \over x} = c^{x - b_{34}}_{34 - x}$
 
 $\sum^{10}_{i=1} t_i$

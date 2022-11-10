@@ -4,62 +4,60 @@
 
 ### a.
 
-`∃x ∈ N (E(x))`
+$\exists x \in \N (E(x))$
 
 ### b.
 
-`∀x ∈ N (E(x))`
+$\forall x \in \N (E(x))$
 
 ### c.
 
-`∃!x ∈ N (E(x)) <=> ∃x ∈ N (E(x) ∧ ¬(∃y, z ∈ N (E(y) ∧ E(z) ∧ y != z))`
+$\lnot\exists x \in \N (E(x)) \Leftrightarrow \exists x \in \N (E(x) \land \lnot(\exists y,z \in \N (E(y) \land E(z) \land y \neq z)))$
 
 ### d.
 
-`∃x,y,z ∈ N (E(x) ∧ E(y) ∧ E(z) ∧ x != y != z)`
+$\exists x,y,z \in \N (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
 
 ### e.
 
-`¬∃x,y,z ∈ N (E(x) ∧ E(y) ∧ E(z) ∧ x != y != z)`
+$\lnot\exists x,y,z \in \N (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
 
 ## Aufgabe 2
 
 ### a.
 
-`∀x,y(PF(x,y) => Prim(x))`
+$\forall x,y (PF(x,y) \Rightarrow Prim(x))$
 
 ### b.
 
-`∀x ∈ N ∃y ∈ N (x > 1 ∧ PF(y,x))`
+$\forall x \in \N \; \exists y \in \N (x > 1 \land PF(y,x))$
 
 ### c.
 
-`∃x,y,z (Prim(x) ∧ PF(y,x) ∧ PF(z,x) ∧ y == z)`
+$\exists x,y,z (Prim(x) \land PF(y,x) \land PF(z,x) \land y = z)$
 
 ### d.
 
-?? notwendigerweise ?? `∃x,y,z(Prim(x) ∧ PF(y,x) ∧ PF(z,x) ∧ y == z ∧ /* nicht notwendigerweise Primzahlen */)`
+$\exists x,y,z \land PF(y,x) \land PF(z,x) \land y = z \land \text{ nicht notwendigerweise Primzahlen}$
 
 ### e.
 
-`∃x(Prim(x) ∧ PF(x,x))`
+$\exists x(Prim(x) \land PF(x,x))$
 
 ## Aufgabe 3
 
 ### a.
 
-`Keine Zahl x ist ein Primfaktor von der Zahl x + 1`
+Keine Zahl x ist ein Primfaktor von der Zahl x + 1
 
 ### b.
 
-`Wenn x und x + 1 Primzahlen sind, dann ist x = 2`
+Wenn x und x + 1 Primzahlen sind, dann ist x = 2
 
 ### c.
 
-`Es gibt eine Zahl x, die keine Primfaktoren hat`
+Es gibt eine Zahl x, die keine Primfaktoren hat
 
 ### d.
 
-`Es gibt eine Zahl x, die kein Primfaktor ist`
-
-∀∃∈∉∧∨
+Es gibt eine Zahl x, die kein Primfaktor ist

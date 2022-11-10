@@ -98,7 +98,7 @@ $\underline{\underline{8\text{ Bits}}}$
 
 ### d)
 
-$(2 \times 4\text{ Bit}) + (23 \times 8\text{ Bits} + 3 \times 2\text{ Bits}) = \underline{\underline{198\text{ Bits}}}$
+$(2 \times 4\text{ Bit}) + (23 \times 8\text{ Bits}) + (3 \times 2\text{ Bits}) = \underline{\underline{198\text{ Bits}}}$
 
 ### e)
 
@@ -112,7 +112,7 @@ $198 / 208 = 0.95$
 
 ### a)
 
-G15Y,G30R,G4B,G2G,G8B,G1G,G40B
+G15Y, G30R, G4B, G2G, G8B, G1G, G40B
 
 $2 + 6 + 2 = 10$
 
@@ -126,4 +126,4 @@ $106 / 208 = 0.5$
 
 ## Aufgabe 5
 
-:exclamation: Der Text wird auf 100'000 Zeichen limitiert :exclamation:
+:exclamation::warning: Der Text wird auf 100'000 Zeichen limitiert :warning::exclamation:

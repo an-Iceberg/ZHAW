@@ -44,5 +44,3 @@ Intra frame $\Rightarrow$ iframe
 bidirectional frame $\Rightarrow$ bframe
 
 prediction frame $\Rightarrow$ pframe
-
-$f(n) = n^5 + 4n^2 + 2 \quad | \quad n=17$

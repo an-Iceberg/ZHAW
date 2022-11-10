@@ -2,47 +2,36 @@
 
 ## Aufgabe 1
 
-F := p -> (q & r)
+$F := p \to (q \land r)$\
+$\Rightarrow \underline{\underline{\lnot p \lor (q \land r)}}$
 
-=> ***!p # (q & r)***
+$Q := (r \land q) \to s$\
+$\Rightarrow ¬(r \land q) \lor s$\
+$\Rightarrow \underline{\underline{¬r \lor ¬q \lor s}}$
 
-Q := (r & q) -> s
+### a)
 
-=> !(r & q) # s
+$\text{false} \to (\text{true} \land \text{true}) \quad | \quad \text{Absorbtion}$\
+$\Rightarrow \text{false} \to \text{true} \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬\text{false} \lor \text{true} \quad | \quad \text{Negation}$\
+$\Rightarrow \text{true} \lor \text{true} \quad | \quad \text{Absorption}$
 
-=> ***!r # !q # s***
+$\Rightarrow \underline{\underline{\text{true}}}$
 
-- a)
+$(\text{true} \land \text{true}) \to \text{false} \quad | \quad \text{Absorption}$\
+$\Rightarrow \text{true} \to \text{false} \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬\text{true} \lor \text{false} \quad | \quad \text{Negation}$\
+$\Rightarrow \text{false} \lor  \text{false} \quad | \quad \text{Absorbtion}$\
+$\Rightarrow \text{false}$
 
-  false -> (true & true) | Absorbtion
+$\Rightarrow \underline{\underline{\text{false}}}$
 
-  => false -> true | Implikation
+### b)
 
-  => !false # true | Negation
-
-  => true # true | Absorption
-
-  => ***true***
-
-  (true & true) -> false | Absorption
-
-  => true -> false | Implikation
-
-  => !true # false | Negation
-
-  => false # false | Absorbtion/Auswertung
-
-  => ***false***
-
-- b)
-
-  p == true
-
-  q == false
-
-  r == false
-
-  s == false
+$p = \text{true}$\
+$q = \text{false}$\
+$r = \text{false}$\
+$s = \text{false}$
 
 ## Aufgabe 2
 
@@ -58,176 +47,150 @@ Q := (r & q) -> s
 
 ## Aufgabe 3
 
-- a)
+### a)
 
-  p -> (q # (p1 & p2)) | Implikation
+$p \to (q \lor (p_1 \land p_2)) \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬p \lor (q \lor (p_1 \land p_2)) \quad | \quad \text{Distributivität}$\
+$\Rightarrow ¬p \lor ((p_1 \lor q) \land (p_2 \lor q)) \quad | \quad \text{Distributivität}$\
+$\Rightarrow \underline{(¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q)} \quad | \quad \text{Distributivität}$\
+$\Rightarrow (((¬p \lor p_1 \lor q) \land ¬p) \lor ((¬p \lor p_1 \lor q) \land p_2) \lor ((¬p \lor p_1 \lor q) \land q)) \quad | \quad \text{Distributivität}$\
+$\Rightarrow (¬p \land ¬p) \lor (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1) \lor (q \land q)$\
+$\Rightarrow \underline{(¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)}$
 
-  => !p # (q # (p1 & p2)) | Distributivität
+$\underline{\underline{\text{KNF:} \ (¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q)}}$\
+$\underline{\underline{\text{DNF:} \ (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)}}$
 
-  => !p # ((p1 # q) & (p2 # q)) | Distributivität
+### b)
 
-  => **(!p # p1 # q) & (!p # p2 # q)** | Distributivität
+$p \to (q \to p_1) \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬p \lor ¬q \lor p_1$\
+$\underline{\underline{\text{DNF und KNF:} \ ¬p \lor ¬q \lor p_1}}$
 
-  => (((!p # p1 # q) & !p) # ((!p # p1 # q) & p2) # ((!p # p1 # q) & q)) | Distributivität
+### c)
 
-  => (!p & !p) # (!p & p1) # (!p & q) # (p2 & !p) # (p2 & p1) # (p2 & q)) # (q & !p) # (q & p1) # (q & q) | Absorption
+$(p \to q) \to p_1 \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬(¬p \lor q) \lor p_1 \quad | \quad \text{DeMorgaDeMorgann}$\
+$\Rightarrow \underline{(p \land ¬q) \lor p_1} \quad | \quad \text{Distributivität}$\
+$\Rightarrow \underline{(p_1 \lor p) \land (p_1 \lor ¬q)}$
 
-  => **(!p & p1) # (!p & q) # (p2 & !p) # (p2 & p1) # (p2 & q) # (q & !p) # (q & p1)**
-
-  ***KNF: (!p # p1 # q) & (!p # p2 # q)***
-
-  ***DNF: (!p & p1) # (!p & q) # (p2 & !p) # (p2 & p1) # (p2 & q) # (q & !p) # (q & p1)***
-
-- b)
-
-  p -> (q -> p1) | Implikation
-
-  => **!p # !q # p1**
-
-  ***DNF & KNF: !p # !q # p1***
-
-- c)
-
-  (p -> q) -> p1 | Implikation
-
-  => !(!p # q) # p1 | DeMorgan
-
-  => **(p & !q) # p1** | Distributivität
-
-  => **(p1 # p) & (p1 # !q)**
-
-  ***DNF: (p & !q) # p1***
-
-  ***KNF: (p1 # p) & (p1 # !q)***
+$\underline{\underline{\text{DNF:} \ (p \land ¬q) \lor p_1}}$\
+$\underline{\underline{\text{KNF:} \ (p_1 \lor p) \land (p_1 \lor ¬q)}}$
 
 ## Aufgabe 4
 
 ## Aufgabe 5
 
-- a)
+### a)
 
-  p -> (q -> p) | Implikation
+$p \to (q \to p) \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬p \lor ¬q \lor p \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow \text{true} \lor ¬q \quad | \quad \text{Tautologie}$\
+$\Rightarrow \text{true}$
 
-  => !p # !q # p | Konstantes Element
+|$p$|$q$|$p \to (q \to p)$|
+|-|-|-            |
+|0|0|1            |
+|0|1|1            |
+|1|0|1            |
+|1|1|1            |
 
-  => 1 # !q | Tautologie
+$\underline{\underline{\text{(a) ist allgemeingültig}}}$
 
-  => 1
+### b)
 
-  |p|q|p -> (q -> p)|
-  |-|-|-            |
-  |0|0|1            |
-  |0|1|1            |
-  |1|0|1            |
-  |1|1|1            |
+$(p \to q) \to (¬q \to ¬p) \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬(¬p \lor q) \lor (q \lor ¬p) \quad | \quad \text{DeMorgan}$\
+$\Rightarrow (p \land ¬q) \lor q \lor ¬p \quad | \quad \text{Distributivität}$\
+$\Rightarrow ((q \lor p) \land (q \lor ¬q)) \lor ¬p \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow ((q \lor p) \land 1) \lor ¬p \quad | \quad \text{Neutrales Element}$\
+$\Rightarrow q \lor p \lor ¬p \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow q \lor \text{true} \quad | \quad \text{Tautologie}$
 
-  ***(a) ist allgemeingültig.***
+|$p$|$q$|$(p \to q) \to (¬q \to ¬p)$|
+|-|-|-                     |
+|0|0|1                     |
+|0|1|1                     |
+|1|0|1                     |
+|1|1|1                     |
 
-- b)
+$\underline{\underline{\text{(b) ist allgemeingültig}}}$
 
-  (p -> q) -> (!q -> !p) | Implikation
+### c)
 
-  => !(!p # q) # (q # !p) | DeMorgan
+$(p \to q) \to (q \to p) \quad | \quad \text{Implikation}$\
+$\Rightarrow ¬(¬p \lor q) \lor (¬q \lor p) \quad | \quad \text{DeMorgan}$\
+$\Rightarrow (p \land ¬q) \lor ¬q \lor p \quad | \quad \text{Distributivität}$\
+$\Rightarrow ((p \lor ¬q) \land (¬q \lor q)) \lor p \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow ((p \lor ¬q) \land 1) \lor p \quad | \quad \text{Neutrales Element}$\
+$\Rightarrow p \lor ¬q \lor p \quad | \quad \text{Absorbtion}$\
+$p \lor ¬q$
 
-  => (p & !q) # q # !p | Distributivität
+|$p$|$q$|$(p \to q) \to (q \to p)$|
+|-|-|-                   |
+|0|0|1                   |
+|0|1|0                   |
+|1|0|1                   |
+|1|1|1                   |
 
-  => ((q # p) & (q # !q)) # !p | Konstantes Element
+$\underline{\underline{\text{(c) ist erfüllbar}}}$
 
-  => ((q # p) & 1) # !p | Neutrales Element
+### d)
 
-  => q # p # !p | Konstantes Element
+$(p \to q) \land (p \land ¬q) \quad | \quad \text{Implikation}$\
+$\Rightarrow (¬p \lor q) \land p \land ¬q \quad | \quad \text{Distributivität}$\
+$\Rightarrow ((¬p \land p) \lor (q \land p)) \land ¬q \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow (0 \lor (q \land p)) \land ¬q \quad | \quad \text{Neutrales Element}$\
+$\Rightarrow q \land p \land ¬q \quad | \quad \text{Konstantes Element}$\
+$\Rightarrow \text{false} \land p$\
+$\Rightarrow \underline{\underline{\text{false}}}$
 
-  => q # 1 | Tautologie
+|$p$|$q$|$(p \to q) \land (p \land ¬q)$|
+|-|-|-                  |
+|0|0|0                  |
+|0|1|0                  |
+|1|0|0                  |
+|1|1|0                  |
 
-  |p|q|(p -> q) -> (!q -> !p)|
-  |-|-|-                     |
-  |0|0|1                     |
-  |0|1|1                     |
-  |1|0|1                     |
-  |1|1|1                     |
-
-  ***(b) ist allgemeingültig.***
-
-- c)
-
-  (p -> q) -> (q -> p) | Implikation
-
-  => !(!p # q) # (!q # p) | DeMorgan
-
-  => (p & !q) # !q # p | Distributivität
-
-  => ((p # !q) & (!q # q)) # p | Konstantes Element
-
-  => ((p # !q) & 1) # p | Neutrales Element
-
-  => p # !q # p | Absorbtion
-
-  => p # !q
-
-  |p|q|(p -> q) -> (q -> p)|
-  |-|-|-                   |
-  |0|0|1                   |
-  |0|1|0                   |
-  |1|0|1                   |
-  |1|1|1                   |
-
-  ***(c) ist erfüllbar.***
-
-- d)
-
-  (p -> q) & (p & !q) | Implikation
-
-  => (!p # q) & p & !q | Distributivität
-
-  => ((!p & p) # (q & p)) & !q | Konstantes Element
-
-  => (0 # (q & p)) & !q | Neutrales Element
-
-  => q & p & !q | Konstantes Element
-
-  => 0 & p
-
-  => 0 | "unerfüllbar"
-
-  |p|q|(p -> q) & (p & !q)|
-  |-|-|-                  |
-  |0|0|0                  |
-  |0|1|0                  |
-  |1|0|0                  |
-  |1|1|0                  |
-
-  ***(d) ist unerfüllbar.***
+$\underline{\underline{\text{(d) ist unerfüllbar}}}$
 
 ## Aufgabe 6
 
-- a) {!, #}
+### a)
 
-  A & B = !(!A # !B)
+>$\{¬, \lor\}$
 
-  A -> B = !A # B
+$A \land B = ¬(¬A \lor ¬B)$
 
-- b) {!, ->}
+$A \to B = ¬A \lor B$
 
-  A & B = !(A -> !B)
+### b)
 
-  A # B = A -> !B
+>$\{¬, \to\}$
 
-- c) {!&} (NAND = !(A & B))
+$A \land B = ¬(A \to ¬B)$
 
-  A & B = (A !& B) !& (A !& B)
+$A \lor B = A \to ¬B$
 
-  A # B = (A !& A) !& (B !& B)
+### c)
 
-  !A = A !& A
+>$\{\text{ nand }\}$
 
-  A -> B = (A !& B) !& A
+$A \land B = (A \text{ nand } B) \text{ nand } (A \text{ nand } B)$
 
-- d) {!#} (NOR = !(A # B))
+$A \lor B = (A \text{ nand } A) \text{ nand } (B \text{ nand } B)$
 
-  A & B =
+$¬A = A \text{ nand } A$
 
-  A # B =
+$A \to B = (A \text{ nand } B) \text{ nand } A$
 
-  !A =
+### d)
 
-  A -> B =
+>$\{\text{ nor }\}$
+
+$A \land B =$
+
+$A \lor B =$
+
+$¬A =$
+
+$A \to B =$

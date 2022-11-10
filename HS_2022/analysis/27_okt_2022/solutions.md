@@ -59,10 +59,10 @@ $a(1) = 10$\
 $s = 6 = {10 \over 1 - q} \quad$
 
 $6 = {10 \over 1 - q} \quad | \quad \times (1 - q)$\
-$\rightarrow 6 \times (1 - q) = 10$\
-$\rightarrow 6 - 6q = 10 \quad | \quad -6$\
-$\rightarrow -6q = 4 \quad | \quad \times (-1)$\
-$\rightarrow6q = -4 \quad | \quad \div 6$\
+$\to 6 \times (1 - q) = 10$\
+$\to 6 - 6q = 10 \quad | \quad -6$\
+$\to -6q = 4 \quad | \quad \times (-1)$\
+$\to6q = -4 \quad | \quad \div 6$\
 $\Rightarrow \underline{q = -{4 \over 6} = -{2 \over 3}}$
 
 $\underline{\underline{a(2) = 10 * -{2 \over 3} = -{20 \over 3}}}$\
@@ -79,7 +79,7 @@ $12 - 12q = 4 \quad | \quad -12$\
 $-12q = -8 \quad | \quad (-1)$\
 $12q = 8 \quad | \quad \div 12$
 
-$q = {2 \over 3}$
+$\underline{\underline{q = {2 \over 3}}}$
 
 ## 5.
 
@@ -94,9 +94,9 @@ $q = {2 \over 3}$
 > $s = s - e = 4.999$
 
 $4.999 = 1 \times {1 - 0.8^n \over 1 - 0.8} \quad | \quad \times (1 - 0.8)$\
-$\rightarrow 0.99'98 = 1 - 0.8^n \quad | \quad + 0.8^n, - 0.99'98$\
-$\rightarrow 0.8^n = 0.00'02 \quad | \quad \log$\
-$\rightarrow \log_{0.8}(0.00'02) = n$
+$\to 0.99'98 = 1 - 0.8^n \quad | \quad + 0.8^n, - 0.99'98$\
+$\to 0.8^n = 0.00'02 \quad | \quad \log$\
+$\to \log_{0.8}(0.00'02) = n$
 
 $\Rightarrow \underline{\underline{n=38}}$
 
@@ -108,9 +108,9 @@ $\Rightarrow \underline{\underline{n=38}}$
 > $s = s - e = 9.99'999$
 
 $9.99'999 = 1 \times {1 - 0.9^n \over 1 - 0.9} \quad | \quad \times 0.1$\
-$\rightarrow 0.99'999'9 = 1 - 0.9^n \quad | \quad + 0.9^n, - 0.99'999'9$\
-$\rightarrow 0.9^n = 0.00'000'1 \quad | \quad \log$\
-$\rightarrow \log_{0.9}(0.00'000'1) = n$
+$\to 0.99'999'9 = 1 - 0.9^n \quad | \quad + 0.9^n, - 0.99'999'9$\
+$\to 0.9^n = 0.00'000'1 \quad | \quad \log$\
+$\to \log_{0.9}(0.00'000'1) = n$
 
 $\Rightarrow \underline{\underline{n=131}}$
 
@@ -122,9 +122,9 @@ $\Rightarrow \underline{\underline{n=131}}$
 > $s = s - e = 1.11'110'\overline{11}$
 
 $1.11'110'\overline{11} = 1 \times {1 - 0.1^n \over 1 - 0.1} \quad | \quad \times 0.9$\
-$\rightarrow 0.99'999'0\overline{99} = 1 - 0.1^n \quad | \quad + 0.1^n, - 099'999'0\overline{99}$\
-$\rightarrow 0.1^n = 0.00'000'9 \quad | \quad \log$\
-$\rightarrow \log_{0.1}(0.00'000'9) = n$
+$\to 0.99'999'0\overline{99} = 1 - 0.1^n \quad | \quad + 0.1^n, - 099'999'0\overline{99}$\
+$\to 0.1^n = 0.00'000'9 \quad | \quad \log$\
+$\to \log_{0.1}(0.00'000'9) = n$
 
 $\Rightarrow \underline{\underline{n=5}}$
 

@@ -2,57 +2,51 @@
 
 ## Aufgabe 1
 
-- a)
+### a)
 
-  An e N => n >= 111
+  $\forall n \in \N \Rightarrow n \geq 111$
 
-- b)
+### b)
 
-  An e N => n >= 2
+  $\forall n \in \N \Rightarrow n \geq 2$
 
-- c)
+### c)
 
-- d)
+### d)
 
 ## Aufgabe 2
 
-P(A & B) != P(A) & P(B)
+$\mathcal{P}(A \land B) \neq \mathcal{P}(A) \land \mathcal{P}(B)$
 
-Bsp.: A = {1}, B = {2}
+Bsp.: $A = \{1\},\ B = \{2\}$
 
-P(A & B) = {{}, {1}, {2}, {1,2}}
+$\mathcal{P}(A \land B) = \{\varnothing,\ \{1\},\ \{2\},\ \{1,2\}\}$
 
-P(A) & P(B) = {{}, {1}} & {{}, {2}} = {{}, {1}, {2}}
+$\mathcal{P}(A) \land \mathcal{P}(B) = \{\varnothing,\ \{1\}\} \land \{\varnothing,\ \{2\}\} = \{\varnothing,\ \{1\},\ \{2\}\}$
 
 ## Aufgabe 3
 
 ## Aufgabe 4
 
-- a) {(1,0),(1,2),(3,0),(3,2)}
+### a)
 
-- b) {(2,1),(2,2)}
+$\{(1,0),\ (1,2),\ (3,0),\ (3,2)\}$
 
-- c) P{({},{{}})}
+### b)
 
-- d) {{},1,{{},1}}
+$\{(2,1),\ (2,2)\}$
 
-- e)
+### c)
 
-  {
+$\mathcal{P}\{(\varnothing,\ \{\varnothing\})\}$
 
-    {({},a)},
+### d)
 
-    {({},b)},
+$\{\varnothing,\ 1,\ \{\varnothing,\ 1\}\}$
 
-    {(a,b)},
+### e)
 
-    {({},a),({},b)},
-
-    {({},b),(a,b)},
-
-    {({},a),(a,b)}
-
-  }
+$\{\{(\varnothing,\ a)\},\ \{(\varnothing,\ b)\},\ \{(a,\ b)\},\ \{(\varnothing,\ a),\ (\varnothing,\ b)\},\ \{(\varnothing,\ a),\ (a,\ b)\},\ \{(\varnothing,\ b),\ (a,\ b)\}\}$
 
 ## Aufgabe 5
 

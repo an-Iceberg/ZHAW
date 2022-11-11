@@ -16,14 +16,14 @@ $\underline{\underline{P(1) = 0.2}}$
 
 ### 3.
 
-H(X) = P(0) * log2(1/P(0)) + P(1) * log2(1/P(1)) = 0.722\
-<ins>H(X) = 0.722</ins>
+$H(X) = P(0) \times \log_2({1 \over P(0)}) + P(1) \times \log_2({1 \over P(1)}) = 0.722$\
+$\underline{\underline{H(X) = 0.722}}$
 
 ### 4.
 
-L(X) = P(0) + P(1) = 1\
-R(X) = L(X) - H(X) = 1 - 0.722 = 0.278\
-<ins>R(X) = 0.278</ins>
+$L(X) = P(0) + P(1) = 1$\
+$R(X) = L(X) - H(X) = 1 - 0.722 = 0.278$\
+$\underline{\underline{R(X) = 0.278}}$
 
 ### 5.
 
@@ -31,26 +31,21 @@ R(X) = L(X) - H(X) = 1 - 0.722 = 0.278\
 
 ### 6.
 
-P(00) = 0.8 * 0.8 = 0.64\
-P(01) = 0.8 * 0.2 = 0.16\
-P(10) = 0.2 * 0.8 = 0.16\
-P(11) = 0.2 * 0.2 = 0.04
-
-<ins>P(00) = 0.64</ins>\
-<ins>P(01) = 0.16</ins>\
-<ins>P(10) = 0.16</ins>\
-<ins>P(11) = 0.04</ins>
+$\underline{\underline{P(00)}} = 0.8 * 0.8 = \underline{\underline{0.64}}$\
+$\underline{\underline{P(01)}} = 0.8 * 0.2 = \underline{\underline{0.16}}$\
+$\underline{\underline{P(10)}} = 0.2 * 0.8 = \underline{\underline{0.16}}$\
+$\underline{\underline{P(11)}} = 0.2 * 0.2 = \underline{\underline{0.04}}$
 
 ### 7.
 
-H(Y) = P(00) * I(00) + P(01) * I(01) + P(10) * I(10) + P(11) * I(11) = 1.44\
-<ins>H(Y) = 1.44</ins>
+$H(Y) = P(00) \times I(00) + P(01) \times I(01) + P(10) \times I(10) + P(11) \times I(11) = 1.44$\
+$\underline{\underline{H(Y) = 1.44}}$
 
 ### 8.
 
-L(Y) = P(00) * 2 + P(01) * 2 + P(10) * 2 + P(11) * 2 = 2\
-R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56\
-<ins>R(Y) = 0.56</ins>
+$L(Y) = P(00) \times 2 + P(01) \times 2 + P(10) \times 2 + P(11) \times 2 = 2$\
+$R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56$\
+$\underline{\underline{R(Y) = 0.56}}$
 
 ### 9.
 
@@ -71,7 +66,7 @@ R(Y) = L(Y) - H(Y) = 2 - 1.44 = 0.56\
 
 ### 1.
 
-<ins>5</ins>
+$\underline{\underline{5}}$
 
 ### 2.
 
@@ -97,71 +92,59 @@ else
 
 ## Aufgabe 3.
 
-<ins>P(A) = 0.1</ins>
+$\underline{\underline{P(A) = 0.1}}$
 
-<ins>P(B) = 0.3</ins>
+$\underline{\underline{P(B) = 0.3}}$
 
-<ins>P(C) = 0.6</ins>
+$\underline{\underline{P(C) = 0.6}}$
 
 ### 1.
 
-H(X) = P(A) * I(A) + P(B) * I(B) + P(C) * I(C) = 1.3
+$H(X) = P(A) \times I(A) + P(B) \times I(B) + P(C) \times I(C) = 1.3$
 
-<ins>H(X) = 1.3</ins>
+$\underline{\underline{H(X) = 1.3}}$
 
 ### 2.
 
-<ins>C = 1</ins>
+$\underline{\underline{C = 1}}$
 
-<ins>B = 01</ins>
+$\underline{\underline{B = 01}}$
 
-<ins>A = 00</ins>
+$\underline{\underline{A = 00}}$
 
 ### 3.
 
-L(X) = P(A) * l(A) + P(B) * l(B) + P(C) * l(C) = 1.4
-
-<ins>L(X) = 1.4</ins>
+$L(X) = P(A) \times l(A) + P(B) \times l(B) + P(C) \times l(C) = 1.4$\
+$\underline{\underline{L(X) = 1.4}}$
 
 ### 4.
 
-P(AA) = 0.1 * 0.1 = 0.01\
-P(AB) = 0.1 * 0.3 = 0.03\
-P(AC) = 0.1 * 0.6 = 0.06\
-P(BA) = 0.3 * 0.1 = 0.03\
-P(BB) = 0.3 * 0.3 = 0.09\
-P(BC) = 0.3 * 0.6 = 0.18\
-P(CA) = 0.6 * 0.1 = 0.06\
-P(CB) = 0.6 * 0.3 = 0.18\
-P(CC) = 0.6 * 0.6 = 0.36\
-H(XX) = 2.56
-
-<ins>P(AA) = 0.01</ins>\
-<ins>P(AB) = 0.03</ins>\
-<ins>P(AC) = 0.06</ins>\
-<ins>P(BA) = 0.03</ins>\
-<ins>P(BB) = 0.09</ins>\
-<ins>P(BC) = 0.18</ins>\
-<ins>P(CA) = 0.06</ins>\
-<ins>P(CB) = 0.18</ins>\
-<ins>P(CC) = 0.36</ins>\
-<ins>H(XX) = 2.56</ins>
+$\underline{\underline{P(AA)}} = 0.1 * 0.1 = \underline{\underline{0.01}}$\
+$\underline{\underline{P(AB)}} = 0.1 * 0.3 = \underline{\underline{0.03}}$\
+$\underline{\underline{P(AC)}} = 0.1 * 0.6 = \underline{\underline{0.06}}$\
+$\underline{\underline{P(BA)}} = 0.3 * 0.1 = \underline{\underline{0.03}}$\
+$\underline{\underline{P(BB)}} = 0.3 * 0.3 = \underline{\underline{0.09}}$\
+$\underline{\underline{P(BC)}} = 0.3 * 0.6 = \underline{\underline{0.18}}$\
+$\underline{\underline{P(CA)}} = 0.6 * 0.1 = \underline{\underline{0.06}}$\
+$\underline{\underline{P(CB)}} = 0.6 * 0.3 = \underline{\underline{0.18}}$\
+$\underline{\underline{P(CC)}} = 0.6 * 0.6 = \underline{\underline{0.36}}$\
+$\underline{\underline{H(XX) = 2.56}}$
 
 ### 5.
 
-<ins>CC = 1</ins>\
-<ins>CB = 011</ins>\
-<ins>BC = 010</ins>\
-<ins>BB = 0001</ins>\
-<ins>CA = 0011</ins>\
-<ins>AC = 0010</ins>\
-<ins>AB = 00001</ins>\
-<ins>BA = 000001</ins>\
-<ins>AA = 000000</ins>
+$\underline{\underline{CC = 1}}$\
+$\underline{\underline{CB = 011}}$\
+$\underline{\underline{BC = 010}}$\
+$\underline{\underline{BB = 0001}}$\
+$\underline{\underline{CA = 0011}}$\
+$\underline{\underline{AC = 0010}}$\
+$\underline{\underline{AB = 00001}}$\
+$\underline{\underline{BA = 000001}}$\
+$\underline{\underline{AA = 000000}}$
 
 ### 6.
 
-<ins>L(XX) = 2.32</ins>
+$\underline{\underline{L(XX) = 2.32}}$
 
 ### 7.
 

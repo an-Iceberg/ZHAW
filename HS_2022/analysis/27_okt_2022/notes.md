@@ -10,9 +10,7 @@ konvergent wenn |q| < 1
 
 Folgen können Grenzwerte haben
 
-```
-s = A / (1 - q)
-```
+$s = {A \over 1 - q}$
 
 - konvergent
 

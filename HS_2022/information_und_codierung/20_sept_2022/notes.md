@@ -19,31 +19,31 @@ Gatter/Flip Flops (Gatter = gate)
 
 ### Wahrheitstabellen
 
-- NOT ( ! )
-- AND ( & )
+- not ( ! )
+- and ( & )
 
-  A AND 0 = 0
+  A and 0 = 0
 
-  A AND 1 = A
+  A and 1 = A
 
-  A AND A = A
+  A and A = A
 
-  A AND NOT A = 0
+  A and not A = 0
 
-- OR ( # )
+- or ( # )
 
-  0 OR B = B
+  0 or B = B
 
-  1 OR B = 1
+  1 or B = 1
 
-  B OR B = B
+  B or B = B
 
-  B OR NOT B = 1
+  B or not B = 1
 
-- NAND ( NOT(AND) ) (uiversal gate, can solve every logical problem on it's own)
-- NOR ( NOT(OR) )
-- XOR ( $ )
-- XNOR ( NOT(XOR) )
+- nand ( not(and) ) (uiversal gate, can solve every logical problem on it's own)
+- nor ( not(or) )
+- xor ( $ )
+- xnor ( not(xor) )
 
 ### Beispiel
 
@@ -55,9 +55,9 @@ C := Sicherheitsgurt geschlossen
 
 Z := Warnsummer aktivieren
 
-Za = (A AND NOT B) OR (A AND B AND NOT C)
+Za = (A and not B) or (A and B and not C)
 
-Zo = A AND (NOT C OR NOT B)
+Zo = A and (not C or not B)
 
 | A | B | C | Za | Zo |
 | - | - | - | - | - |

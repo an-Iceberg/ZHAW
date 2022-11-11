@@ -14,13 +14,13 @@ Binary Memoryless Source (BMS)
 
 - kleinster Informationsgehalt eines Ereignisses
 
-Formel: ` Informationsgehalt(xn) = log2(1/Probability(xn)) `
+Formel: $I(x_n) = \log_2({1 \over P(x_n)})$
 
 Je öfter etwas vorkommt, dest weniger Bits braucht man zur dessen Speicherung
 
 Je seltener etwas vorkommt, dest mehr Bits braucht man zur dessen Speicherung
 
-`I(wn) = log2(1/P(wn)) = -log2(P(wn))`
+$I(w_n) = \log_2({1 \over P(w_n)}) = -\log_2(P(w_n))$
 
 ### Entropie
 

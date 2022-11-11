@@ -10,15 +10,15 @@ x-Zahlensystem zu Dezimal
 
 - x mit Zahlenposition als Potenz
 
-1101b -> (1 * 2^3) + (1 * 2^2) + (1 * 2^0) = 8 + 4 + 1 = 13d
+$1101b \to (1 \times 2^3) + (1 \times 2^2) + (1 \times 2^0) = 8 + 4 + 1 = 13d$
 
 - Zahlen hinter dem Komma werden mit negativen Potenzen verrrechnet
 
 `Java: binary: 0b1, hexadecimal: 0x1, decimal: 0d1`
 
-0xbec -> (11 * 16^2) + (14 * 16^1) + (12 * 16^0) = (11 * 256) + (14 * 16) + 12 = 2816 + 224 + 12 = 0d3052
+$0x\mathrm{dec} \to (11 \times 16^2) + (14 \times 16^1) + (12 \times 16^0) = (11 \times 256) + (14 \times 16) + 12 = 2816 + 224 + 12 = 0d3052$
 
-0xa4.3b -> (10 * 16^1) + (4 * 16^0) + (3 * 16^-1) + (11 * 16^-2) = 160 + 4 + 0.1875 + 0.04296875 = 0d164.23046875
+$0xa4.3b \to (10 \times 16^1) + (4 \times 16^0) + (3 \times 16^{-1}) + (11 \times 16^{-2}) = 160 + 4 + 0.1875 + 0.04296875 = 0d164.23046875$
 
 **Horner Schema zur Umwandlung**
 

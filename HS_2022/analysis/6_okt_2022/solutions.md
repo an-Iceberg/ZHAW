@@ -2,85 +2,85 @@
 
 ## 1.
 
-> f(x) = x<sup>3</sup>
+> $f(x) = x^3$
 
-- a) [0,1]
+- a) $[0,1]$
 
-  Steigung = (f(0 + 1) - f(0)) / 1
+  $\text{Steigung} = {f(0 + 1) - f(0) \over 1}$
 
-  = 1<sup>3</sup> - 0<sup>3</sup>
+  $= 1^3 - 0^3$
 
-  = ***1***
+  $= \underline{\underline{1}}$
 
-- b) [1,2]
+- b) $[1,2]$
 
-  Steigung = (f(1 + 2) - f(1)) / 2
+  $\text{Steigung} = {f(1 + 2) - f(1) \over 2}$
 
-  = (3^3 - 1^3) / 2
+  $= {3^3 - 1^3 \over 2}$
 
-  = 26 / 2 = ***13***
+  $= {26 \over 2} = \underline{\underline{13}}$
 
-- c) [-2, -1.5]
+- c) $[-2, -1.5]$
 
-  Steigung = (f(-2 - 1.5) - f(-2)) / -1.5
+  $\text{Steigung} = {f(-2 - 1.5) - f(-2) \over -1.5}$
 
-  = ((-3.5)^3 - (-2)^3) / -1.5
+  $= {-3.5^3 - -2^3 \over -1.5}$
 
-  = (-42.875 - -8) / -1.5
+  $= {-42.875 - -8 \over -1.5}$
 
-  = -35.875 / -1.5
+  $= {-35.875 \over -1.5}$
 
-  = ***23.25***
+  $= \underline{\underline{23.25}}$
 
-- d) [x, x + h] für x e R, h > 0 beliebig
+- d) $[x, x + h] \text{ für } x \in \mathbb{R}, h > 0 \text{ beliebig}$
 
-  Steigung = (f(x + h) - f(x)) / h
+  $\text{Steigung} = {f(x + h) - f(x) \over h}$
 
-  = ((x + h)^3 - x^3) / h
+  $= {(x + h)^3 - x^3 \over h}$
 
-  = (x^3 + 3x^2h + 3xh^2 + h^3 - x^3) / h
+  $= {x^3 + 3x^2h + 3xh^2 + h^3 - x^3 \over h}$
 
-  = (3x^2h + 3xh^2 + h^3) / h
+  $= {3x^2h + 3xh^2 + h^3 \over h}$
 
-  = (h * (3x^2 + 3xh + h^2)) / h
+  $= {h(3x^2 + 3xh + h^2) \over h}$
 
-  = ***3x^2 + 3xh + h^2***
+  $= \underline{\underline{3x^2 + 3xh + h^2}}$
 
 ## 2.
 
-> Stelle: x = 1
+> Stelle: $x = 1$
 
-- a) f(x) = x^6 - x^2 + 3
+- a) $f(x) = x^6 - x^2 + 3$
 
-  - f'(x) = 6x^5 - 2x
+  $f'(x) = 6x^5 - 2x$
 
-  - f'(1) = 6 * 1^5 - 2 * 1
+  $f'(1) = 6 \times 1^5 - 2 \times 1$
 
-    = 6 - 2 = ***4***
+  $= 6 - 2 = \underline{\underline{4}}$
 
-- b) f(x) = x^7 + x^6
+- b) $f(x) = x^7 + x^6$
 
-  - f'(x) = 7x^6 + 6x^5
+  $f'(x) = 7x^6 + 6x^5$
 
-  - f'(1) = 7 * 1^6 + 6 * 1^5
+  $f'(1) = 7 \times 1^6 + 6 \times 1^5$
 
-    = 7 + 6 = ***13***
+  $= 7 + 6 = \underline{\underline{13}}$
 
-- c) f(x) = x^5 + x^3 + 1
+- c) $f(x) = x^5 + x^3 + 1$
 
-  - f'(x) = 5x^4 + 3x^2
+  $f'(x) = 5x^4 + 3x^2$
 
-  - f'(1) = 5 * 1^4 + 3 * 1^2
+  $f'(1) = 5 \times 1^4 + 3 \times 1^2$
 
-    = 5 + 3 = ***8***
+  $= 5 + 3 = \underline{\underline{8}}$
 
 ## 3.
 
-  y = (5x^3 - 4x)(x^2 + 5x)
+  $y = (5x^3 - 4x)(x^2 + 5x)$
 
-  y = 5x^5 + 25x^4 - 4x^3 - 20x^2
+  $y = 5x^5 + 25x^4 - 4x^3 - 20x^2$
 
-  ***y' = 25x^4 + 100x^3 - 12x^2 - 40x***
+  $\underline{\underline{y' = 25x^4 + 100x^3 - 12x^2 - 40x}}$
 
 ## 4.
 
@@ -96,6 +96,6 @@
 
 ## 6.
 
-  f(x) = 1/x = x^-1
+  $f(x) = {1 \over x} = x^{-1}$
 
-  f'(x) = -x^-2 = ***-1/x^2***
+  $f'(x) = -x^{-2} = \underline{\underline{-{1 \over x^2}}}$

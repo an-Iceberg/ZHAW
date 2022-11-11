@@ -2,10 +2,10 @@
 
 ## Intervall
 
-**Intervall**<br>
+**Intervall**\
 Zusamenhängende Teilmenge
 
-**zusammenhängend**<br>
+**zusammenhängend**\
 von einem Element gibt es einen Weg zu einem anderen Element im Intervall
 
 > :warning:️ **Unendlich ist keine Zahl**
@@ -19,40 +19,40 @@ Unterschiedliche Arten:
 
 ## Symmetrie
 
-**gerade**<br>
-f(-x) = f(x)<br>
+**gerade**\
+$f(-x) = f(x)$\
 Funktion ist achsensymmetrisch zur y-Achse. (Sind nie injektiv)
 
-**ungerade**<br>
-f(-x) = -f(x)<br>
+**ungerade**\
+$f(-x) = -f(x)$\
 Funktion ist punktsymmetrisch zum Ursprung
 
 > :warning: Die meisten Funktionen sind weder gerade noch ungerade.
 
 ## Injektiv, surjektiv, bijektiv
 
-f(x) = y
+$f(x) = y$
 
 > :warning: Die Mengen müssen gleich gross sein.
 
-**injektiv**<br>
+**injektiv**\
 Für jedes x gibt es nicht mehr als ein y.
 
-**surjektiv**<br>
+**surjektiv**\
 Jedes y hat mindestens ein x.
 
-**bijektiv**<br>
+**bijektiv**\
 injektiv und surjektiv. Eine bijektive Funktion kann invertiert werden (Umkehrfunktion).
 
->y = x<sup>2</sup>
+>$y = x^2$
 >
 >weder injektiv, noch surjektiv
 
 ## Horner Schema
 
-p(x) = 2x<sup>4</sup> - 3x<sup>3</sup> + 4x<sup>2</sup> - 5x + 6
+$p(x) = 2x^4 - 3x^3 + 4x^2 - 5x + 6$
 
-x = 2
+$x = 2$
 
 | | 2 | -3 | 4 | -5 | 6 |
 |-|-  |-   |-  |-   |-  |
@@ -60,7 +60,7 @@ x = 2
 | |   |    |   |    |   |
 | | 2 | 1  | 6 | 7  | 20|
 
-p(2) = 20
+$p(2) = 20$
 
 >Horner Schema anwenden auf Polynomdivision
 
@@ -70,6 +70,6 @@ Normale Arithmetik (+, -, *, /)
 
 Komposition (Verkettung)
 
-(g ° f)(x) =g(f(x))
+$(g \circ f)(x) =g(f(x))$
 
-> :warning: Komposition ist nicht kommutativ. f ° g != g ° f
+> :warning: Komposition ist nicht kommutativ. $f \circ g \neq g \circ f$

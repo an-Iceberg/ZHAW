@@ -16,28 +16,28 @@ Beispiel:
 
 DNF -> KNF:
 
-F = (p & q) # (z & y) | Distribution
+$F = (p \land q) \lor (z \land y) \quad | \quad \text{Distribution}$
 
-F = ((p & q) # z) & ((p & q) # y) | Distribution
+$F = ((p \land q) \lor z) \land ((p \land q) \lor y) | Distribution$
 
-F = (z # p) & (z # q) & (y # p) & (y # q)
+$\underline{\underline{F = (z \lor p) \land (z \lor q) \land (y \lor p) \land (y \lor q)}}$
 
 KNF -> DNF
 
-F = (p # q) & (z # y) | Distribution
+$F = (p \lor q) \land (z \lor y) \quad | \quad \text{Distribution}$
 
-F = ((p # q) & z) # ((p # q) & y) | Distribution
+$F = ((p \lor q) \land z) \lor ((p \lor q) \land y) \quad | \quad \text{Distribution}$
 
-F = (z & p) # (z & q) # (y & p) # (y & q)
+$\underline{\underline{F = (z \land p) \lor (z \land q) \lor (y \land p) \lor (y \land q)}}$
 
 ## Mengen
 
-A = B <=> Ax(x e A <=> x e B)
+$A = B \iff \forall x(x \in A \iff x \in B)$
 
-{x} = {x,x}
+$\{x\} = \{x,x\}$
 
-{x,y} = {y,x}
+$\{x,y\} = \{y,x\}$
 
 ### Teilmengen
 
-A = B <=> A teilm B & B teilm A
+$A = B \iff (A \subset B \land B \subset A)$

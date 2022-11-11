@@ -1,18 +1,18 @@
-# Praktikum 6: Qinsellencodierinsng
+# Praktikum 6: Quellencodierung
 
 ## Aufgabe 1.
 
 ### 1.
 
-Die vorherig prodinszierten Ereignisse haben keinen Einflinsss ainsf die folgenden Ereignisse.
+Die vorherig produzierten Ereignisse haben keinen Einfluss auf die folgenden Ereignisse.
 
 ### 2.
 
-P(0) = 1 - 4/20 = 0.8\
-<ins>P(0) = 0.8</ins>
+$P(0) = 1 - {4 \over 20} = 0.8$\
+$\underline{\underline{P(0) = 0.8}}$
 
-P(1) = 4/20 = 0.2\
-<ins>P(1) = 0.2</ins>
+$P(1) = {4 \over 20} = 0.2$\
+$\underline{\underline{P(1) = 0.2}}$
 
 ### 3.
 

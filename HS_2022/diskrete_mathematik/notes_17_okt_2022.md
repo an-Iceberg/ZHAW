@@ -2,23 +2,23 @@
 
 ## Tupel
 
-Bsp.: (x,y)
+Bsp.: $(x,y)$
 
-> :warning: (x,y) != (y,x)
+> :warning: $(x,y) \neq (y,x)$
 >
-> :warning: (x,x) != (x,x,x)
+> :warning: $(x,x) \neq (x,x,x)$
 
 ### Karthesisches Produkt
 
 Menge aller Tupel
 
-A x B = {(a,b) | a e A & b e B} != B x A
+$A \times B = \{(a,b) \ | \ a \in A \land b \in B\} \neq B \times A$
 
-Bsp.: {1,2} x {2,1} = {(1,2),(1,1),(2,2),(2,1)}
+Bsp.: $\{1,2\} \times \{2,1\} = \{(1,2),\ (1,1),\ (2,2),\ (2,1)\}$
 
 ## Relationen
 
-Bsp.: <=, Teilbarkeit
+Bsp.: $\leq$, Teilbarkeit
 
 **Relationsgraphen**
 

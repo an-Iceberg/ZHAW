@@ -2,17 +2,17 @@
 
 ## Abzählbarkeit
 
-|{1,1,1}| = |{1}|
+$|\{1,1,1\}| = |\{1\}|$
 
 Bsp.: Prähistorisches Volk mit Ziegen
 
-|A| <= |N| abzählbar
+$|A| \leq |N|$ abzählbar
 
-f: N -> A surjektiv
+$f: N \to A$ surjektiv
 
-N abzählbar f(x) = x
+$N$ abzählbar $f(x) = x$
 
-Z abzähbar f(x) = {x/2 x gerade, -(x + 1)/2 x ungerade}
+$\mathbb{Z}$ abzähbar $f(x) = {{x \over 2},\ \text{if x even}; -{x + 1 \over 2},\ \text{if x ungerade}}$
 
 |N|Z|
 |-|-|
@@ -24,16 +24,16 @@ Z abzähbar f(x) = {x/2 x gerade, -(x + 1)/2 x ungerade}
 |5|-3|
 |6|3|
 
-(A abzählbar & f: A -> B surjektiv) -> B abzählbar
+$(A$ abzählbar & $f: A \to B$ surjektiv $) \to B$ abzählbar
 
 #### Behauptung
 
-A teilm B, B abzählbar => A abzählbar
+$A \subseteq B$, $B$ abzählbar $\Rightarrow A$ abzählbar
 
 #### Beweis
 
-<u>haben:</u> f: N -> B surjektiv
+<u>haben:</u> $f: N \to B \text{ surjektiv}$
 
-<u>wollen:</u> g: N -> A surjektiv
+<u>wollen:</u> $g: N \to A \text{ surjektiv}$
 
 g(x) = {f(x) falls f(x) e A, a}

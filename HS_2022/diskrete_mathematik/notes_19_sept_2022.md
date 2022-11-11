@@ -7,29 +7,29 @@ Prüfungshilfe: 5 A4 Seiten hinten und vorne bedrukt
 
 Aussage: grundlegenster Baustein der Mathematik
 
-2=5 -> falsch
+$2=5 \to \text{false}$
 
-x=1 -> keine Aussage, da man nicht sagen kann, ob es wahr oder falsch ist. x ist in diesem Beispiel ein Prädikat
+$x=1 \to$ keine Aussage, da man nicht sagen kann, ob es wahr oder falsch ist. x ist in diesem Beispiel ein Prädikat.
 
-Eine Aussage ist ein null-stelliges Prädikat
+Eine Aussage ist ein null-stelliges Prädikat.
 
 Ein n-stelliges Prädikat hat n freie Variabeln.
 
-Prädikate -> siehe Skript
+Prädikate $\to$ siehe Skript
 
-Prädikate ~= constructors
+Prädikate $\simeq$ constructors
 
-Junktoren ~= operators
+Junktoren $\simeq$ operators
 
 Durch einen Quantor wird eine Variable gebunden und ist nicht mehr frei.
 
-∀x ∈ M((A(x))) <=> ∀x(x ∈ M => A(x))
+$\forall x \in M (A(x)) \iff \forall x (x \in M \implies A(x))$
 
-∃x ∈ M(A(x)) <=> ∃x (x ∈ M ∧ A(x))
+$\exists x \in M(A(x)) \iff \exists x (x \in M \land A(x))$
 
-¬∀x A(x) <=> ∃x ¬A(x)
+$¬\forall x A(x) \iff \exists x ¬A(x)$
 
-¬∃x A(x) <=> ∀x ¬A(x)
+$¬\exists x A(x) \iff \forall ¬A(x)$
 
 Übung 3.
 

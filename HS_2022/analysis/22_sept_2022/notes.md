@@ -22,9 +22,9 @@ Darstellungen:
 
 Teilmengen von R Intervalle:
 
-[3,11] = {x ∈ R | x <= x <= 11}
+$[3,11] = \{x \in \mathbb{R} \ | \ x \leq x \leq 11\}$
 
-]3,11[ (3,11) {x ∈ R | x < x < 11}
+$]3,11[ \ (3,11) \{x \in \mathbb{R} \ | \ x < x < 11\}$
 
 ---
 
@@ -40,11 +40,11 @@ siehe Folien
 
 ### Nullstelle
 
-f(x0) = 0
+$f(x_0) = 0$
 
 Die Funktionskurve schneidet die x-Achse
 
-y = ax<sup>2</sup> + bx + c = a(x - x1)(x - x2)
+$y = ax^2 + bx + c = a(x - x_1)(x - x_2)$
 
 ### Polynome
 

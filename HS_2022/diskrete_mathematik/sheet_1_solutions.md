@@ -12,7 +12,7 @@ $\forall x \in \N (E(x))$
 
 ### c.
 
-$\lnot\exists x \in \N (E(x)) \Leftrightarrow \exists x \in \N (E(x) \land \lnot(\exists y,z \in \N (E(y) \land E(z) \land y \neq z)))$
+$\exists! x \in \N (E(x)) \Leftrightarrow \exists x \in \N (E(x) \land \lnot(\exists y,z \in \N (E(y) \land E(z) \land y \neq z)))$
 
 ### d.
 

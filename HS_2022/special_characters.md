@@ -91,6 +91,6 @@ $\sum_{\substack{
 
 $\{i,j\}$
 
-$\left\{{x^2 \over y^3}\right\}$
+$\left{{x^2 \over y^3}\right}$
 
 [🔗 Link to nowhere](# "A link to nowhere")

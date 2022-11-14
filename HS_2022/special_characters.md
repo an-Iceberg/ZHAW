@@ -1,4 +1,5 @@
 TODO: restructuring
+TODO: install SASS and Vite
 
 ➤
 
@@ -68,3 +69,5 @@ $
 $
 
 $\boxed{\mathfrak{This\ is\ some\ boxed\ text}}$
+
+$\overbrace{2 - n^6}^{\text{this is an overbrace}}$

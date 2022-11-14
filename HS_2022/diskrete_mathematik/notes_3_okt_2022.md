@@ -18,7 +18,7 @@ DNF -> KNF:
 
 $F = (p \land q) \lor (z \land y) \quad | \quad \text{Distribution}$
 
-$F = ((p \land q) \lor z) \land ((p \land q) \lor y) | Distribution$
+$F = ((p \land q) \lor z) \land ((p \land q) \lor y) \quad | \quad \text{Distribution}$
 
 $\underline{\underline{F = (z \lor p) \land (z \lor q) \land (y \lor p) \land (y \lor q)}}$
 

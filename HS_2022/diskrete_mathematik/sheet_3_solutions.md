@@ -18,11 +18,11 @@
 
 $\mathcal{P}(A \land B) \neq \mathcal{P}(A) \land \mathcal{P}(B)$
 
-Bsp.: $A = \{1\},\ B = \{2\}$
+Bsp.: $A = \\{1\\},\ B = \\{2\\}$
 
-$\mathcal{P}(A \land B) = \{\varnothing,\ \{1\},\ \{2\},\ \{1,2\}\}$
+$\mathcal{P}(A \land B) = \\{\varnothing,\ \\{1\\},\ \\{2\\},\ \\{1,2\\}\\}$
 
-$\mathcal{P}(A) \land \mathcal{P}(B) = \{\varnothing,\ \{1\}\} \land \{\varnothing,\ \{2\}\} = \{\varnothing,\ \{1\},\ \{2\}\}$
+$\mathcal{P}(A) \land \mathcal{P}(B) = \\{\varnothing,\ \\{1\\}\\} \land \\{\varnothing,\ \\{2\\}\\} = \\{\varnothing,\ \\{1\\},\ \\{2\\}\\}$
 
 ## Aufgabe 3
 
@@ -30,23 +30,23 @@ $\mathcal{P}(A) \land \mathcal{P}(B) = \{\varnothing,\ \{1\}\} \land \{\varnothi
 
 ### a)
 
-$\{(1,0),\ (1,2),\ (3,0),\ (3,2)\}$
+$\\{(1,0),\ (1,2),\ (3,0),\ (3,2)\\}$
 
 ### b)
 
-$\{(2,1),\ (2,2)\}$
+$\\{(2,1),\ (2,2)\\}$
 
 ### c)
 
-$\mathcal{P}\{(\varnothing,\ \{\varnothing\})\}$
+$\mathcal{P}\\{(\varnothing,\ \\{\varnothing\\})\\}$
 
 ### d)
 
-$\{\varnothing,\ 1,\ \{\varnothing,\ 1\}\}$
+$\\{\varnothing,\ 1,\ \\{\varnothing,\ 1\\}\\}$
 
 ### e)
 
-$\{\{(\varnothing,\ a)\},\ \{(\varnothing,\ b)\},\ \{(a,\ b)\},\ \{(\varnothing,\ a),\ (\varnothing,\ b)\},\ \{(\varnothing,\ a),\ (a,\ b)\},\ \{(\varnothing,\ b),\ (a,\ b)\}\}$
+$\\{\\{(\varnothing,\ a)\\},\ \\{(\varnothing,\ b)\\},\ \\{(a,\ b)\\},\ \\{(\varnothing,\ a),\ (\varnothing,\ b)\\},\ \\{(\varnothing,\ a),\ (a,\ b)\\},\ \\{(\varnothing,\ b),\ (a,\ b)\\}\\}$
 
 ## Aufgabe 5
 

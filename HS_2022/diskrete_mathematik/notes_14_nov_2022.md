@@ -10,7 +10,7 @@ Eine Menge, die injektiv aber nicht surjektiv ist impliziert, dass die Menge une
 
 $|\mathcal{P}(n)| = 2^n$
 
-$\underline{\text{Bew.:}} \quad n = 0 :$ :heavy_check_mark:
+$\underline{\text{Bew.:}} \quad n = 0 :$ ✔️
 
 $\underline{n \to n+1} : \overbrace{A(n) = 2^n}^{\text{Induktinsannahme}} \implies A(n+1) = 2^{n+1}$
 

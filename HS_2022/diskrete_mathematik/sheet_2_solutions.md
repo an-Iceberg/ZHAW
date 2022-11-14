@@ -157,7 +157,7 @@ $\underline{\underline{\text{(d) ist unerfüllbar}}}$
 
 ### a)
 
->$\{¬, \lor\}$
+>$\\{¬, \lor\\}$
 
 $A \land B = ¬(¬A \lor ¬B)$
 
@@ -165,7 +165,7 @@ $A \to B = ¬A \lor B$
 
 ### b)
 
->$\{¬, \to\}$
+>$\\{¬, \to\\}$
 
 $A \land B = ¬(A \to ¬B)$
 
@@ -173,7 +173,7 @@ $A \lor B = A \to ¬B$
 
 ### c)
 
->$\{\text{ nand }\}$
+>$\\{\text{ nand }\\}$
 
 $A \land B = (A \text{ nand } B) \text{ nand } (A \text{ nand } B)$
 
@@ -185,7 +185,7 @@ $A \to B = (A \text{ nand } B) \text{ nand } A$
 
 ### d)
 
->$\{\text{ nor }\}$
+>$\\{\text{ nor }\\}$
 
 $A \land B =$
 

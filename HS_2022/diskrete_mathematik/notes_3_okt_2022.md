@@ -34,9 +34,9 @@ $\underline{\underline{F = (z \land p) \lor (z \land q) \lor (y \land p) \lor (y
 
 $A = B \iff \forall x(x \in A \iff x \in B)$
 
-$\{x\} = \{x,x\}$
+$\\{x\\} = \\{x,x\\}$
 
-$\{x,y\} = \{y,x\}$
+$\\{x,y\\} = \\{y,x\\}$
 
 ### Teilmengen
 

@@ -4,11 +4,11 @@
 
 ### a)
 
-  $\forall n \in \N \Rightarrow n \geq 111$
+  $\forall n \in \mathbb{N} \Rightarrow n \geq 111$
 
 ### b)
 
-  $\forall n \in \N \Rightarrow n \geq 2$
+  $\forall n \in \mathbb{N} \Rightarrow n \geq 2$
 
 ### c)
 

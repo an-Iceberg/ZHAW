@@ -4,23 +4,23 @@
 
 ### a.
 
-$\exists x \in \N (E(x))$
+$\exists x \in \mathbb{N} (E(x))$
 
 ### b.
 
-$\forall x \in \N (E(x))$
+$\forall x \in \mathbb{N} (E(x))$
 
 ### c.
 
-$\exists! x \in \N (E(x)) \Leftrightarrow \exists x \in \N (E(x) \land \lnot(\exists y,z \in \N (E(y) \land E(z) \land y \neq z)))$
+$\exists! x \in \mathbb{N} (E(x)) \Leftrightarrow \exists x \in \mathbb{N} (E(x) \land \lnot(\exists y,z \in \mathbb{N} (E(y) \land E(z) \land y \neq z)))$
 
 ### d.
 
-$\exists x,y,z \in \N (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
+$\exists x,y,z \in \mathbb{N} (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
 
 ### e.
 
-$\lnot\exists x,y,z \in \N (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
+$\lnot\exists x,y,z \in \mathbb{N} (E(x) \land E(y) \land E(z) \land x \neq y \neq z)$
 
 ## Aufgabe 2
 
@@ -30,7 +30,7 @@ $\forall x,y (PF(x,y) \Rightarrow Prim(x))$
 
 ### b.
 
-$\forall x \in \N \; \exists y \in \N (x > 1 \land PF(y,x))$
+$\forall x \in \mathbb{N} \; \exists y \in \mathbb{N} (x > 1 \land PF(y,x))$
 
 ### c.
 

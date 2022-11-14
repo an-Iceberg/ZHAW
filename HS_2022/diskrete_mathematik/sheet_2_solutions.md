@@ -104,7 +104,8 @@ $\Rightarrow (p \land ¬q) \lor q \lor ¬p \quad | \quad \text{Distributivität}
 $\Rightarrow ((q \lor p) \land (q \lor ¬q)) \lor ¬p \quad | \quad \text{Konstantes Element}$\
 $\Rightarrow ((q \lor p) \land 1) \lor ¬p \quad | \quad \text{Neutrales Element}$\
 $\Rightarrow q \lor p \lor ¬p \quad | \quad \text{Konstantes Element}$\
-$\Rightarrow q \lor \text{true} \quad | \quad \text{Tautologie}$
+$\Rightarrow q \lor \text{true} \quad | \quad \text{Tautologie}$\
+$\Rightarrow \text{true}$
 
 |$p$|$q$|$(p \to q) \to (¬q \to ¬p)$|
 |-|-|-                     |
@@ -123,7 +124,7 @@ $\Rightarrow (p \land ¬q) \lor ¬q \lor p \quad | \quad \text{Distributivität}
 $\Rightarrow ((p \lor ¬q) \land (¬q \lor q)) \lor p \quad | \quad \text{Konstantes Element}$\
 $\Rightarrow ((p \lor ¬q) \land 1) \lor p \quad | \quad \text{Neutrales Element}$\
 $\Rightarrow p \lor ¬q \lor p \quad | \quad \text{Absorbtion}$\
-$p \lor ¬q$
+$\Rightarrow p \lor ¬q$
 
 |$p$|$q$|$(p \to q) \to (q \to p)$|
 |-|-|-                   |
@@ -142,7 +143,7 @@ $\Rightarrow ((¬p \land p) \lor (q \land p)) \land ¬q \quad | \quad \text{Kons
 $\Rightarrow (0 \lor (q \land p)) \land ¬q \quad | \quad \text{Neutrales Element}$\
 $\Rightarrow q \land p \land ¬q \quad | \quad \text{Konstantes Element}$\
 $\Rightarrow \text{false} \land p$\
-$\Rightarrow \underline{\underline{\text{false}}}$
+$\Rightarrow \text{false}$
 
 |$p$|$q$|$(p \to q) \land (p \land ¬q)$|
 |-|-|-                  |

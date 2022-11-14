@@ -36,6 +36,10 @@ Behaupting: $n > 1 \implies PT(n) \neq \varnothing$
 
 Beweis: Annahme: $n_0$ ist die kleinste Zahl, die nicht durch eine Primzahl geteilt werden kann.
 
-$n_0 \notin \mathbb{P} \implies \overbrace{n_0 = x \times y}^{\text{dies gilt, weil sonst } n_0 \text{ eine Primzahl wäre}} \quad \boxed{1 < x,y < n_0}$ $\leftarrow$ Dies gilt, weil sonst $n_0$ eine Primzahl wäre.
+Weitere Annahmen:
+- $n_0$ ist teilbar
+- $\exists x,y \in \mathbb{N}(x|n_0 \land y |n_0)$
 
-$1 < x < n_0 \implies$ es gibt $p \in \mathbb{P}$ mit $p|x \quad \square$
+$n_0 \notin \mathbb{P} \implies n_0 = x \times y \implies \underbrace{1 < x,y < n_0}_{x,y \notin PT(n_0)}$
+
+$\underbrace{1 < x < n_0}_{x \notin PT(n_0)} \implies$ es gibt $p \in \mathbb{P}$ mit $p|x \quad \square$

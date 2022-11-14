@@ -61,13 +61,10 @@ $
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
 $
 
-$
-\begin{align}
- f(x) &= (x+a)(x+b) \nonumber \\
-      &= x^2 + (a+b)x + ab \nonumber
-\end{align}
-$
+$ \begin{align} f(x) &= (x+a)(x+b) \nonumber \\ &= x^2 + (a+b)x + ab \nonumber \end{align} $
 
 $\boxed{\mathfrak{This\ is\ some\ boxed\ text}}$
 
-$\overbrace{2 - n^6}^{\text{this is an overbrace}}$
+$\underbrace{\overbrace{2 - n^6}^{\text{this is an overbrace}}}_{\text{this is an underbrace}}$
+
+[:link: Link](# "A link to nowhere")

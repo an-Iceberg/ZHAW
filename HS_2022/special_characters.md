@@ -89,8 +89,6 @@ $\sum_{\substack{
   0<i<n
 }} P(i,j)$
 
-$\{i,j\}$
-
-$\left{{x^2 \over y^3}\right}$
+$\\{i,j\\}$
 
 [🔗 Link to nowhere](# "A link to nowhere")

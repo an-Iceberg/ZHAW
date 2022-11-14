@@ -84,7 +84,7 @@ $\sum'$
 
 $\dot{\alpha} \ddot{\alpha} \overrightarrow{\alpha} \overleftarrow{\alpha} \alpha''''''''' \sim \approx \simeq \cong \ell \Box \Re \Im \mathfrak{R} \mathfrak{I}$
 
-$\sum\limits_{\substack{
+$\sum_{\substack{
   0<i<m \\
   0<i<n
 }} P(i,j)$

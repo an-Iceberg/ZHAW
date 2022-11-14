@@ -52,7 +52,7 @@ $\mathcal{MaThCaL}$\
 $\mathbb{MATHBB}$\
 $\mathscr{MATHSCR}$
 
-newlines only work in the preview\
+newlines only work in the preview😔\
 $A \\ \stackrel{?}{=} \\ B$
 
 $\stackrel{1}{2}$
@@ -61,13 +61,13 @@ $\stackrel{1}{\stackrel{2}{3}}$
 
 $\stackrel{1}{\stackrel{2}{\stackrel{3}{4}}}$
 
-❗ $
+❗$
 \lim\limits_{x \to \infty} {e^x - 1 \over 2x}
 \overset{\left[ {0 \over 0} \right]}{\underset{\mathrm{H}}{=}}
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
 $❗
 
-❗ $
+❗$
 \begin{align}
  f(x) &= (x+a)(x+b) \nonumber \\
       &= x^2 + (a+b)x + ab \nonumber
@@ -84,4 +84,9 @@ $\sum'$
 
 $\dot{\alpha} \ddot{\alpha} \overrightarrow{\alpha} \overleftarrow{\alpha} \alpha''''''''' \sim \approx \simeq \cong \ell \Box \Re \Im \mathfrak{R} \mathfrak{I}$
 
-[🔗 Link](# "A link to nowhere")
+$\sum\limits_{\substack{
+  0<i<m \\
+  0<i<n
+}} P(i,j)$
+
+[🔗 Link to nowhere](# "A link to nowhere")

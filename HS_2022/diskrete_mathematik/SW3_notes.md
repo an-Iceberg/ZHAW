@@ -1,12 +1,12 @@
-# Diskrete Mathematik - 3 Oktober 2022
+###### Diskrete Mathematik - Semesterwoche #3 - 3 Oktober 2022
 
-## Literale
+# Literale
 
 Atomare oder negiert atomare Formel
 
 p, !q, T
 
-## NNF, DNF, KNF
+# NNF, DNF, KNF
 
 KNF --(Distribution)-> DNF
 
@@ -30,7 +30,7 @@ $F = ((p \lor q) \land z) \lor ((p \lor q) \land y) \quad | \quad \text{Distribu
 
 $\underline{\underline{F = (z \land p) \lor (z \land q) \lor (y \land p) \lor (y \land q)}}$
 
-## Mengen
+# Mengen
 
 $A = B \iff \forall x(x \in A \iff x \in B)$
 

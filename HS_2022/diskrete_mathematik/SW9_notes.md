@@ -1,4 +1,4 @@
-###### Diskrete Mathematik - 14. November 2022
+###### Diskrete Mathematik - Semesterwoche #9 - 14. November 2022
 
 (from last time: Hasse Diagramme)
 
@@ -32,9 +32,9 @@ Behauptung: Jede Zahl $n < 1 \in \mathbb{N} $ ist von einer Primzahl teilbar.
 
 $PZ(n) := \exists x,y \in \mathbb{N} \implies x|n \land y|n \land ((x = 1 \land y = n) \lor (y = 1 \land x = n))$
 
-Behaupting: $n > 1 \implies PT(n) \neq \varnothing$
+Behauptung: $n > 1 \implies PT(n) \neq \varnothing$
 
-Beweis: Annahme: $n_0$ ist die kleinste Zahl, die nicht durch eine Primzahl geteilt werden kann.
+Beweis: Annahme: $n_0 \neq 1$ ist die kleinste Zahl, die nicht durch eine Primzahl geteilt werden kann.
 
 Weitere Annahmen:
 - $n_0$ ist teilbar

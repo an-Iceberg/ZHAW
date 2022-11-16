@@ -61,12 +61,14 @@ $\stackrel{1}{\stackrel{2}{3}}$
 
 $\stackrel{1}{\stackrel{2}{\stackrel{3}{4}}}$
 
+doesn't work 😔\
 ❗$
 \lim\limits_{x \to \infty} {e^x - 1 \over 2x}
 \overset{\left[ {0 \over 0} \right]}{\underset{\mathrm{H}}{=}}
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
 $❗
 
+doesn't work 😔\
 ❗$
 \begin{align}
  f(x) &= (x+a)(x+b) \nonumber \\
@@ -84,6 +86,7 @@ $\sum'$
 
 $\dot{\alpha} \ddot{\alpha} \overrightarrow{\alpha} \overleftarrow{\alpha} \alpha''''''''' \sim \approx \simeq \cong \ell \Box \Re \Im \mathfrak{R} \mathfrak{I}$
 
+doesn't work 😔\
 $\sum_{\substack{
   0<i<m \\
   0<i<n

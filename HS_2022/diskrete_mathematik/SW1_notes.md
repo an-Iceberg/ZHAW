@@ -1,4 +1,4 @@
-# Diskrete Mathematik - 19. September 2022
+###### Diskrete Mathematik - Semesterwoche #1 - 19. September 2022
 Dozent: Dandolo Flumini
 
 Prüfungshilfe: 5 A4 Seiten hinten und vorne bedrukt

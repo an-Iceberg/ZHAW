@@ -1,6 +1,6 @@
-# Diskrete Mathematik - 17. Oktober 2022
+###### Diskrete Mathematik - Semesterwoche #5 - 17. Oktober 2022
 
-## Tupel
+# Tupel
 
 Bsp.: $(x,y)$
 
@@ -8,7 +8,7 @@ Bsp.: $(x,y)$
 >
 > :warning: $(x,x) \neq (x,x,x)$
 
-### Karthesisches Produkt
+## Karthesisches Produkt
 
 Menge aller Tupel
 
@@ -16,13 +16,13 @@ $A \times B = \\{(a,b) \ | \ a \in A \land b \in B\\} \neq B \times A$
 
 Bsp.: $\\{1,2\\} \times \\{2,1\\} = \\{(1,2),\ (1,1),\ (2,2),\ (2,1)\\}$
 
-## Relationen
+# Relationen
 
 Bsp.: $\leq$, Teilbarkeit
 
 **Relationsgraphen**
 
-## Funktion
+# Funktion
 
 Eine Funktion ist eine spezielle Relation.
 

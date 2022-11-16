@@ -1,6 +1,6 @@
-# Diskrethe Mathematik - 24. Oktober 2022
+###### Diskrethe Mathematik - Semesterwoche #6 - 24. Oktober 2022
 
-## Abzählbarkeit
+# Abzählbarkeit
 
 $|\{1,1,1\}| = |\{1\}|$
 
@@ -26,14 +26,14 @@ $\mathbb{Z}$ abzähbar $f(x) = {{x \over 2},\ \text{if x even}; -{x + 1 \over 2}
 
 $(A$ abzählbar & $f: A \to B$ surjektiv $) \to B$ abzählbar
 
-#### Behauptung
+### Behauptung
 
 $A \subseteq B$, $B$ abzählbar $\Rightarrow A$ abzählbar
 
-#### Beweis
+### Beweis
 
-<u>haben:</u> $f: N \to B \text{ surjektiv}$
+<ins>haben:</ins> $f: N \to B \text{ surjektiv}$
 
-<u>wollen:</u> $g: N \to A \text{ surjektiv}$
+<ins>wollen:</ins> $g: N \to A \text{ surjektiv}$
 
-g(x) = {f(x) falls f(x) e A, a}
+$g(x) = (f(x) \text{ falls } f(x) \in A, a)$

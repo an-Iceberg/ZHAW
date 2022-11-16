@@ -1,6 +1,6 @@
-# Diskrete Mathematik - 31. Oktober 2022
+###### Diskrete Mathematik - Semesterwoche #7 - 31. Oktober 2022
 
-## Relationen
+# Relationen
 
 - Reflexiv wenn für alle $x \in X$
 
@@ -18,11 +18,11 @@
 
   $xRy \land yRx \implies x = y$
 
-## Äquivalenzrelationen
+# Äquivalenzrelationen
 
 Eine Äquivalenzrelation ist reflexiv, symmetrisch und transitiv.
 
-### Äquivalenzklassen
+## Äquivalenzklassen
 
 Die Menge aller Elemente, die in äquivalenter Relation zu x stehen.
 

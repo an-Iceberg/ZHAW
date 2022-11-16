@@ -1,12 +1,12 @@
-# Analysis - 27. Oktober 2022
+###### Analysis - Semesterwoche #6 - 27. Oktober 2022
 
-## Partialsummen
+# Partialsummen
 
 **Unendliche geometrische Reihe**
 
 konvergent wenn |q| < 1
 
-### Grenzwerte
+## Grenzwerte
 
 Folgen können Grenzwerte haben
 

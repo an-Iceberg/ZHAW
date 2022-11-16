@@ -1,6 +1,6 @@
-# Analysis - 6. Oktober 2022
+###### Analysis - Semesterwoche #3 - 6. Oktober 2022
 
-## Ableitungen und Ableitung von Polynomen
+# Ableitungen und Ableitung von Polynomen
 
 - **Steigungsdreiecke**
 

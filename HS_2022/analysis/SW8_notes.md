@@ -1,6 +1,6 @@
-# Analysis - 10. November 2022
+###### Analysis - Semesterwoche #8 - 10. November 2022
 
-## Grenzwert von Funktionen
+# Grenzwert von Funktionen
 
 **Idee:** alle y werte einer Funktion zu einer Folge machen und davon den Grenzwert bestimmen.
 
@@ -58,7 +58,7 @@ Der Grenzwert ist der Versuch, Definitionslücken zu füllen.
 
   $f(x) = \sin({1 \over x})$
 
-## Stetigkeit
+# Stetigkeit
 
 Man kann den Graphen ohne den Stift abheben zu müssen.
 

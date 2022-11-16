@@ -1,4 +1,4 @@
-# Analysis - 22. September 2022
+###### Analysis - Semesterwoche #1 - 22. September 2022
 Dozent: Andreas Henrici
 
 ---
@@ -9,7 +9,7 @@ null wird immer dazugezählt
 
 wenn nicht anders erwähnt, verwenden wir die reelen Zahlen
 
-### Mengen
+# Mengen
 
 Darstellungen:
 - aufzählend
@@ -18,7 +18,7 @@ Darstellungen:
 >echt mehr bei unendlichen Zahlenmengen?
 
 
-### Intervalle
+# Intervalle
 
 Teilmengen von R Intervalle:
 
@@ -30,7 +30,7 @@ $]3,11[ \ (3,11) \{x \in \mathbb{R} \ | \ x < x < 11\}$
 
 {3,11} => Menge mit den zwei Elementen 3 und 11
 
-### Funktionen
+# Funktionen
 
 siehe Folien
 
@@ -38,7 +38,7 @@ siehe Folien
 
 - konstante Funktion
 
-### Nullstelle
+# Nullstelle
 
 $f(x_0) = 0$
 
@@ -46,14 +46,14 @@ Die Funktionskurve schneidet die x-Achse
 
 $y = ax^2 + bx + c = a(x - x_1)(x - x_2)$
 
-### Polynome
+# Polynome
 
 Abspaltung von Nullstellen
 
 - Newtonsatz
 - Bisektion (Zwischenwertsatz (ein Satz über stetige Funktionen))
 
-### Polynomdivision
+# Polynomdivision
 
 Horner Schema
 

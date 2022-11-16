@@ -1,20 +1,20 @@
-# Analysis - 20. Oktober 2022
+###### Analysis - Semesterwoche #5 - 20. Oktober 2022
 
-## Folgen und Reihen
+# Folgen und Reihen
 
-### Folgen
+## Folgen
 
 ***Was ist eine Folge?***
 
 Eine Folge ist eine Abbildung von einer Menge von Zahlen.
 
-#### Bildungsgesetze
+### Bildungsgesetze
 
 - explizit/direkt (iterativ)
 
 - rekursiv
 
-#### Folgentypen
+### Folgentypen
 
 - arithmetische
 
@@ -37,13 +37,13 @@ Eine Folge ist eine Abbildung von einer Menge von Zahlen.
   > :warning: Geometrisches Mittel: $\sqrt{ab}$
 
 
-##### Partialsummen
+#### Partialsummen
 
-### Reihen
+## Reihen
 
 Reihen sind Folgen von Partialsummen.
 
-#### Reihentypen
+### Reihentypen
 
 - arithmetische
 

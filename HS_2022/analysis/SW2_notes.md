@@ -1,6 +1,6 @@
-# Analysis - 29 September 2022
+###### Analysis - Semesterwoche #2 - 29 September 2022
 
-## Intervall
+# Intervall
 
 **Intervall**\
 Zusamenhängende Teilmenge
@@ -10,14 +10,14 @@ von einem Element gibt es einen Weg zu einem anderen Element im Intervall
 
 > :warning:️ **Unendlich ist keine Zahl**
 
-## Nullstellen
+# Nullstellen
 
 Unterschiedliche Arten:
 - schneidend
 - berührend
 - durchsetzend
 
-## Symmetrie
+# Symmetrie
 
 **gerade**\
 $f(-x) = f(x)$\
@@ -29,7 +29,7 @@ Funktion ist punktsymmetrisch zum Ursprung
 
 > :warning: Die meisten Funktionen sind weder gerade noch ungerade.
 
-## Injektiv, surjektiv, bijektiv
+# Injektiv, surjektiv, bijektiv
 
 $f(x) = y$
 
@@ -48,7 +48,7 @@ injektiv und surjektiv. Eine bijektive Funktion kann invertiert werden (Umkehrfu
 >
 >weder injektiv, noch surjektiv
 
-## Horner Schema
+# Horner Schema
 
 $p(x) = 2x^4 - 3x^3 + 4x^2 - 5x + 6$
 
@@ -64,7 +64,7 @@ $p(2) = 20$
 
 >Horner Schema anwenden auf Polynomdivision
 
-## Arithmetik auf Funktionen
+# Arithmetik auf Funktionen
 
 Normale Arithmetik (+, -, *, /)
 

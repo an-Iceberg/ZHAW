@@ -1,8 +1,8 @@
-# Analysis - 3. November 2022
+###### Analysis - Semesterwoche #7 - 3. November 2022
 
-## Grenzwerte
+# Grenzwerte
 
-### Von Folgen
+## Von Folgen
 
 $\lim\limits_{n \to \infty}$
 
@@ -10,4 +10,4 @@ $\lim\limits_{n \to \infty}$
 
 $(a - b) \times (a + b) = a^2 + b^2$
 
-### Von Reihen
+## Von Reihen

@@ -1,8 +1,8 @@
-# Analysis - 13. Oktober 2022
+###### Analysis - Semesterwoche #4 - 13. Oktober 2022
 
-## Integralrechnung
+# Integralrechnung
 
-### Unbestimmtes Integral
+## Unbestimmtes Integral
 
 Stammfunktion bestimmen
 
@@ -16,6 +16,6 @@ Bsp.: Standardnormalverteilung: $e^{-{x^2 \over 2}}$
 
 - c) $\int 8x^3 - 4x + 2 \ dx = 2x^4 - 2x^2 + 2x + C$
 
-### Bestimmtes Integral
+## Bestimmtes Integral
 
 **Resultat ist eine Zahl**

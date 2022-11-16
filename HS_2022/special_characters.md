@@ -94,4 +94,9 @@ $\sum_{\substack{
 
 $\\{i,j\\}$
 
+$
+\text{does this work?}
+\lim\limits_{\text{some limit}}
+$
+
 [🔗 Link to nowhere](# "A link to nowhere")

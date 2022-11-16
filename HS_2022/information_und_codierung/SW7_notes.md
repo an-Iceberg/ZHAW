@@ -1,6 +1,6 @@
-# Information und Codierung - 1. November 2022
+###### Information und Codierung - Semesterwoche #7 - 1. November 2022
 
-## JPG
+# JPG
 
 1) Chrominanz/Luminanz Y/Cb/Cr
 

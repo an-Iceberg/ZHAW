@@ -1,12 +1,12 @@
-# Information und Codierung - 11. Oktober 2022
+###### Information und Codierung - Semesterwoche #4 - 11. Oktober 2022
 
-## Informationstheorie
+# Informationstheorie
 
 **Ziel:** fehlerfreie Übertragung von Informationen über einen fehlerhatfen Kanal
 
 Information kommt auf den Sender und Empfänger an.
 
-### Quellen-Modell
+## Quellen-Modell
 
 Discrete Memoryless Source (DMS)
 
@@ -22,7 +22,7 @@ Je seltener etwas vorkommt, dest mehr Bits braucht man zur dessen Speicherung
 
 $I(w_n) = \log_2({1 \over P(w_n)}) = -\log_2(P(w_n))$
 
-### Entropie
+## Entropie
 
 Tiefe Entropie: Elemente sind sortiert verteilt
 

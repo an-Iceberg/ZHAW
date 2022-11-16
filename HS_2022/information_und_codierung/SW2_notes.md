@@ -1,10 +1,10 @@
-# Information und Codierung - 27. September 2022
+###### Information und Codierung - Semesterwoche #2 - 27. September 2022
 
-## Clocks
+# Clocks
 
 > :checkered_flag: **Lernziel:** timing diagramme lesen, zeichnen und verstehen können
 
-## Flip Flop Speicher
+# Flip Flop Speicher
 
 Q übernimmt D bei der steigenden Flanke (rising edge)
 
@@ -17,5 +17,3 @@ Q übernimmt D bei der steigenden Flanke (rising edge)
 ---
 
 Schieberegister können verwendet werden um pseudozufällige Zahlen zu erzeugen. Diese können dann zur Kryptographie verwendet werden.
-
-// TODO: CRC vid -> post in group chat or something idk

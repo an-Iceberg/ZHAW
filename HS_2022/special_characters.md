@@ -94,6 +94,7 @@ $\sum_{\substack{
 
 $\\{i,j\\}$
 
+doesn't work 😔\
 $
 \text{does this work?}
 \lim\limits_{\text{some limit}}

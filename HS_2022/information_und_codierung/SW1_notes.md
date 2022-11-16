@@ -1,4 +1,4 @@
-# Information und Codierung - 20. September 2022
+###### Information und Codierung - Semesterwoche #1 - 20. September 2022
 Dozent: rosn@zhaw.ch
 
 Prüfungshilfe: 14 A4 Seiten hinten und vorne bedrukt
@@ -7,7 +7,7 @@ Prüfungshilfe: 14 A4 Seiten hinten und vorne bedrukt
 
 - Kanalcodierung -> Fehlererkennung
 
-## Kombinatorische Logik
+# Kombinatorische Logik
 
 Arithmetical and Logic Unit (ALU)
 
@@ -17,7 +17,7 @@ Gatter/Flip Flops (Gatter = gate)
 
 1'000'000
 
-### Wahrheitstabellen
+## Wahrheitstabellen
 
 - not ( ! )
 - and ( & )
@@ -45,7 +45,7 @@ Gatter/Flip Flops (Gatter = gate)
 - xor ( $ )
 - xnor ( not(xor) )
 
-### Beispiel
+## Beispiel
 
 A := Auto fährt
 
@@ -70,7 +70,7 @@ Zo = A and (not C or not B)
 | 1 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 1 | 0 | 0 |
 
-### Addierung zweier Zahlen
+## Addierung zweier Zahlen
 
 ---
 

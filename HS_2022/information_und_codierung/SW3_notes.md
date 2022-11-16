@@ -1,6 +1,6 @@
-# Information und Codierung - 4. Oktober 2022
+###### Information und Codierung - Semesterwoche #3 - 4. Oktober 2022
 
-## Zahlensysteme (Binär, Hexadezimal)
+# Zahlensysteme (Binär, Hexadezimal)
 
 16 bit = 1 word
 
@@ -53,11 +53,11 @@ siehe Folien
 -> 0x3E8
 ```
 
-## Halbaddierer und Ganzaddierer
+# Halbaddierer und Ganzaddierer
 
 für Schaltung siehe Folien
 
-## Addieren, Subtrahieren, Multiplikation
+# Addieren, Subtrahieren, Multiplikation
 
 - Bitshift ist sehr effizient
 
@@ -73,7 +73,7 @@ für Schaltung siehe Folien
    1000110
 ```
 
-## Komplementärsysteme
+# Komplementärsysteme
 
 ```
 0101 5

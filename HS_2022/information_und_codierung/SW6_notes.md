@@ -1,12 +1,12 @@
-# Information und Codierung - 25. Oktober 2022
+###### Information und Codierung - Semesterwoche #6 - 25. Oktober 2022
 
-## Quellencodierung 2
+# Quellencodierung 2
 
 - LZ77
 
 - LZW
 
-### LZ77
+## LZ77
 
 **Idee:** 2 Buffer und Tokens generieren
 
@@ -14,7 +14,7 @@
 
 - Vorschau-Buffer
 
-#### Beispiel
+### Beispiel
 
 `AMAMMMAAAMMMTAAT...`
 
@@ -26,10 +26,10 @@
 |`AMAMM`|`MAAA`|(4,2,A)|
 |`AMAMMMAA`|`AMMMT`|(6,4,T)|
 
-#### Kompressionsrate R
+### Kompressionsrate R
 
 R = Codierte Bits / Originale Bits
 
-### LZW
+## LZW
 
 **Idee:** Datenbank bauen

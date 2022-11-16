@@ -4,4 +4,4 @@
 
 leere Menge: $\emptyset$ $\varnothing$
 
-$\mathbb{N}$ geschnitten mit $\text{\{}\mathbb{N}\text{\}}$ hat nur die $\varnothing$
+$\mathbb{N}$ geschnitten mit $\\{\mathbb{N}\\}$ hat nur die $\varnothing$

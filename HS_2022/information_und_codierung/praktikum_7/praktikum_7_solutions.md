@@ -1,24 +1,26 @@
 # Praktikum 7: Datenkompression
 
+>X[.] = { CCACBCCCBBCCBCCBCCAB ... }
+
 ## Aufgabe 1
 
 ### a)
 
-|Nr.|Text|Token (x,y,z)|
+|Nr.|Text|Token (Offset,Länge,Wert)|
 |:-:|:-:|:-:|
-|1|C|(0,0,C)|
-|2|CA|(1,1,A)|
-|3|CB|(2,1,B)|
-|4|CCC|(5,2,C)|
-|5|BB|(4,1,B)|
-|6|CCBC|(4,3,C)|
-|7|CBCC|(3,3,C)|
-|8|A|(0,0,A)|
-|9|B|(0,0,B)|
+|1||(0,0,C)|
+|2|C|(1,1,A)|
+|3|C|(2,1,B)|
+|4|CC|(5,2,C)|
+|5|B|(4,1,B)|
+|6|CCB|(4,3,C)|
+|7|CBC|(3,3,C)|
+|8||(0,0,A)|
+|9||(0,0,B)|
 
 ### b)
 
-|Nr.|Text|Token (x,y,z)|
+|Nr.|Text|Token (Offset,Länge,Wert)|
 |:-:|:-:|:-:|
 |1||(0,0,C)|
 |2||(1,1,A)|
@@ -31,11 +33,27 @@
 
 ### c)
 
+für a)\
+$\text{Offset: } 0 \dots 5 = 3 \text{ Bits}$\
+$\text{Länge: } 0 \dots 3 = 2 \text{ Bits}$\
+$\text{Wärtebereich: } A \dots C = 3 \text{ Bits}$\
+$3 + 2 + 3 = 8 \text{ Bits für 1 Token}$\
+$9 \text{ Tokens} \cdot 8 \text{ Bits} = \underline{\underline{72 \text{ Bits}}}$
+
+für b)\
+$\text{Offset: } 0 \dots 11 = 4 \text{ Bits}$\
+$\text{Länge: } 0 \dots 4 = 3 \text{ Bits}$\
+$\text{Wärtebereich: } A \dots C = 3 \text{ Bits}$\
+$4 + 3 + 3 = 10 \text{ Bits für 1 Token}$\
+$8 \text{ Tokens} \cdot 10 \text{ Bits} = \underline{\underline{80 \text{ Bits}}}$
+
 ### d)
 
-Keine Ahnung
+Für die Zahl 8 bräuchten wir ein weiteres Bit, um es kodieren zu können.
 
 ### e)
+
+❌
 
 ## Aufgabe 2
 
@@ -60,7 +78,15 @@ Keine Ahnung
 
 ### b)
 
+❌
+
 ### c)
+
+|Verfahren|#Token|#Bit/Token|#Zeichen|R|
+|:-:|:-:|:-:|:-:|:-:|
+|LZ-77 1a)|9||15.8 B|0.788|
+|LZ-77 1b)|8||15 B|0.75|
+|LZW|13||14.6 B|0.65|
 
 ## Aufgabe 3
 
@@ -102,7 +128,7 @@ $(2 \times 4\text{ Bit}) + (23 \times 8\text{ Bits}) + (3 \times 2\text{ Bits}) 
 
 ### e)
 
-$198 / 208 = 0.95$
+$198 / 208 = \underline{\underline{0.95}}$
 
 ### f)
 
@@ -122,7 +148,7 @@ $(2 \times 4\text{ Bit}) + (7 \times 14\text{ Bits}) = \underline{\underline{106
 
 ### c)
 
-$106 / 208 = 0.5$
+$106 / 208 = \underline{\underline{0.5}}$
 
 ## Aufgabe 5
 

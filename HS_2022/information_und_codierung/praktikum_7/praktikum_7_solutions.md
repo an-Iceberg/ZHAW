@@ -140,7 +140,7 @@ $198 / 208 = \underline{\underline{0.95}}$
 
 G15Y, G30R, G4B, G2G, G8B, G1G, G40B
 
-$2 + 6 + 2 = 10$
+$2 + 6 + 2 = \underline{\underline{10}}$
 
 ### b)
 

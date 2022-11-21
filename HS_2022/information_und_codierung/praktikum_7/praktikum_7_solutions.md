@@ -84,9 +84,9 @@ Für die Zahl 8 bräuchten wir ein weiteres Bit, um es kodieren zu können.
 
 |Verfahren|#Token|#Bit/Token|#Zeichen|R|
 |:-:|:-:|:-:|:-:|:-:|
-|LZ-77 1a)|9|0.88...|15.8 B|0.788|
-|LZ-77 1b)|8|1.25|15 B|0.75|
-|LZW|13||14.6 B|0.65|
+|LZ-77 1a)|9|0.88...|(3) 15.8 B|0.788|
+|LZ-77 1b)|8|1.25|(3) 15 B|0.75|
+|LZW|13||(3) 14.6 B|0.65|
 
 ## Aufgabe 3
 

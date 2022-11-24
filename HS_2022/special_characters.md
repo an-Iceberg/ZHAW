@@ -114,3 +114,6 @@ $\colorbox{green}{\text{Hello World}}$
 
 doesn't work with anything math inside of it 😔\
 $\color{teal}\fcolorbox{white}{purple}{\text{Hello World}}$
+
+doesn't work 😔\
+$\underline{\text{something that is underlined}}$

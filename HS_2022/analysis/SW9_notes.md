@@ -48,6 +48,17 @@ $f(x) = \cos(x)$
 
 $\Rightarrow \boxed{f'(x) = -\sin(x)}$
 
+$f(x) = -\sin(x)$
+
+$\Rightarrow \boxed{f'(x) = -\cos(x)}$
+
+$f(x) = -\cos(x)$
+
+$\Rightarrow \boxed{f'(x) = \sin(x)}$
+
+$y = \sqrt{x} = x^{1 \over 2}$\
+$\Rightarrow y' = {1 \over 2}x^{-{1 \over 2}} = {1 \over 2}{1 \over \sqrt{x}} = {1 \over 2\sqrt{x}}$
+
 ## Tangentengleichung
 
 $y = f(x)$

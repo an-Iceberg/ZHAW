@@ -61,6 +61,12 @@ $\stackrel{1}{\stackrel{2}{3}}$
 
 $\stackrel{1}{\stackrel{2}{\stackrel{3}{4}}}$
 
+$
+A
+\stackrel{?}{=}
+B
+$
+
 doesn't work 😔\
 ❗$
 \lim\limits_{x \to \infty} {e^x - 1 \over 2x}
@@ -102,11 +108,11 @@ $
 
 [🔗 Link to nowhere](# "A link to nowhere")
 
-| $$\color{black}{Black}$$ |  $$\color{blue}{Blue}$$ | $$\color{brown}{Brown}$$ | $$\color{darkgray}{Darkgray}$$  | $$\color{gray}{Gray}$$ |
+| $$\color{black}{\text{Black}}$$ |  $$\color{blue}{\text{Blue}}$$ | $$\color{brown}{\text{Brown}}$$ | $$\color{darkgray}{\text{Darkgray}}$$  | $$\color{gray}{\text{Gray}}$$ |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| $$\color{lightgray}{Lightgray}$$ |  $$\color{green}{Green}$$ | $$\color{brown}{Brown}$$ | $$\color{lime}{Lime}$$  | $$\color{magenta}{Magenta}$$ |
-| $$\color{olive}{Olive}$$ |  $$\color{orange}{Orange}$$ | $$\color{pink}{Pink}$$ | $$\color{purple}{Purple}$$  | $$\color{red}{Red}$$ |
-| $$\color{teal}{Teal}$$ |  $$\color{violet}{Violet}$$ | $$\color{white}{White}$$ | $$\color{yellow}{Yellow}$$  | $$\color{BurntOrange}{MBurntOrange}$$ |
+| $$\color{lightgray}{\text{Lightgray}}$$ |  $$\color{green}{\text{Green}}$$ | $$\color{brown}{\text{Brown}}$$ | $$\color{lime}{\text{Lime}}$$  | $$\color{magenta}{\text{Magenta}}$$ |
+| $$\color{olive}{\text{Olive}}$$ |  $$\color{orange}{\text{Orange}}$$ | $$\color{pink}{\text{Pink}}$$ | $$\color{purple}{\text{Purple}}$$  | $$\color{red}{\text{Red}}$$ |
+| $$\color{teal}{\text{Teal}}$$ |  $$\color{violet}{\text{Violet}}$$ | $$\color{white}{\text{White}}$$ | $$\color{yellow}{\text{Yellow}}$$  | $$\color{BurntOrange}{\text{Burnt Orange}}$$ |
 | $$\color{white} \colorbox{Green} {White on Green} $$   | $$\color{purple} \fcolorbox{red}{white} {Purple on White} $$  | $$\color{black} \fcolorbox{white} {red} {Black on Red} $$   | $$\color{black} \fcolorbox{red}{white} {Black on White} $$ | $$\color{black} \colorbox{BurntOrange} {orange background} $$ |
 | $$\color{Magenta} \fcolorbox{red}{white} {Magenta on White} $$ |  $$\color{green} \fcolorbox{red}{white} {Green on White} $$ | $$\color{lime} \fcolorbox{white}{red} {Lime on Red} $$ |$$\color{Orange} \fcolorbox{white}{black} {Orange on Black} $$  | $$\color{blue} \fcolorbox{white}{red} {Blue on White} $$ |
 
@@ -117,3 +123,5 @@ $\color{teal}\fcolorbox{white}{purple}{\text{Hello World}}$
 
 doesn't work 😔\
 $\underline{\text{something that is underlined}}$
+
+$\equiv_5 \not\equiv$

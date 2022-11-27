@@ -27,3 +27,5 @@ Eine Äquivalenzrelation ist reflexiv, symmetrisch und transitiv.
 Die Menge aller Elemente, die in äquivalenter Relation zu x stehen.
 
 $[x]_r := {y \in X \ | \ xRy}$
+
+Bsp.: $[10]_< = x \in \mathbb{N} \ | \ x < 10 = \\{0,1,2,3,4,5,6,7,8,9\\}$

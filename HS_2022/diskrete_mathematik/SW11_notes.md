@@ -60,8 +60,10 @@ $ggT(n,m) = ggT(n - m,m)$
 
 $$
 \begin{align}
-&1. \quad x|n \land x|m \nonumber \\ \nonumber \\
-&2. \quad x|(n - m) \land x|m \nonumber \\ \nonumber \\
+&1. \quad x|n \land x|m \nonumber \\
+\nonumber \newline
+&2. \quad x|(n - m) \land x|m \nonumber \\
+\nonumber \newline
 &1 \implies 2 \qquad n = kx \qquad m = sx \nonumber \\
 n - m &= kx - sx \nonumber \\
 &= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m) \nonumber \\ \nonumber \\

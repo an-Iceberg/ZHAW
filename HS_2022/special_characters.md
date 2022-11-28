@@ -146,3 +146,5 @@ $$
   &= -{2 \over 3}
 \end{align*}
 $$
+
+$\bar{\land}$

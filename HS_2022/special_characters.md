@@ -148,3 +148,8 @@ $$
 $$
 
 $$\underline{\text{underlined text}}$$
+
+$\nleq\ngeqslant\nRightarrow\nleftrightarrow$
+
+$\;\not\nobreak\!\!\!\!\implies$\
+$\to \longrightarrow \Longrightarrow$

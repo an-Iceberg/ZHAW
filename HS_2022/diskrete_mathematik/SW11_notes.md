@@ -67,7 +67,7 @@ $$
 &1 \implies 2 \qquad n = kx \qquad m = sx \\
 n - m &= kx - sx \\
 &= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m)  \\
- \newline
+\newline
 &2 \implies 1 \qquad kx = n - m \qquad sx = m  \\
 n &= (n - m) + m  \\
 &= kx + sx  \\

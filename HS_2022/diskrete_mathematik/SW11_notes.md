@@ -60,17 +60,17 @@ $ggT(n,m) = ggT(n - m,m)$
 
 $$
 \begin{align*}
-&1. \quad x|n \land x|m \nonumber \\
-\nonumber \newline
-&2. \quad x|(n - m) \land x|m \nonumber \\
-\nonumber \newline
-&1 \implies 2 \qquad n = kx \qquad m = sx \nonumber \\
-n - m &= kx - sx \nonumber \\
-&= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m) \nonumber \\
-\nonumber \newline
-&2 \implies 1 \qquad kx = n - m \qquad sx = m \nonumber \\
-n &= (n - m) + m \nonumber \\
-&= kx + sx \nonumber \\
-&= (k + s) \cdot x \nonumber
+&1. \quad x|n \land x|m \\
+\newline
+&2. \quad x|(n - m) \land x|m \\
+\newline
+&1 \implies 2 \qquad n = kx \qquad m = sx \\
+n - m &= kx - sx \\
+&= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m)  \\
+ \newline
+&2 \implies 1 \qquad kx = n - m \qquad sx = m  \\
+n &= (n - m) + m  \\
+&= kx + sx  \\
+&= (k + s) \cdot x
 \end{align*}
 $$

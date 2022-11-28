@@ -4,20 +4,25 @@
 
 - **Steigungsdreiecke**
 
-**Lineare Funktion:** $f(x) = mx + b$
+**Lineare Funktion:** $f(x) = ax + b$
 
 m ist die Steigung
 
 - Ableitungsfunktionen
 
-$f(x) \to f'(x)$
+$$f(x) \to f'(x)$$
 
 - stetig
 - differenzierbar
 
 > Binomische Formeln (Pascalsches Dreieck)
 
-$f(x) = x^n + c \\ f'(x) = nx^{(n - 1)} + c$
+$$
+\begin{align*}
+f(x) &= x^n + c \\
+f'(x) &= nx^{n - 1} + c
+\end{align*}
+$$
 
 ```
 (f(x0 + h) - f(x0)) / h
@@ -38,16 +43,30 @@ f'(x) = n * x^(n-1)
 f'(x) = 8x^7
 ```
 
-- a) $f(x) = 4x^7 - x + 2$
+- a)
 
-  $f'(x) = 28x^6 - 1$
+$$
+\begin{align*}
+f(x) &= 4x^7 - x + 2 \\
+f'(x) &= 28x^6 - 1
+\end{align*}
+$$
 
-- b) $f(x) = 5x^3 - 2x^2$
+- b)
 
-  $f'(x) = 15x^2 - 4x$
+$$
+\begin{align*}
+f(x) &= 5x^3 - 2x^2 \\
+f'(x) &= 15x^2 - 4x
+\end{align*}
+$$
 
-- c) $f(x) = \sqrt{x}$
+- c)
+$$
+\begin{align*}
+f(x) &= \sqrt{x} \\
+f'(x) &= {1 \over 0.5\sqrt{x}}
+\end{align*}
+$$
 
-  $f'(x) = {1 \over 0.5\sqrt{x}}$
-
-> - **Ableitungssätze**
+>**Ableitungssätze**

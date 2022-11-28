@@ -147,9 +147,11 @@ $$
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
 $$
 
-$$\underline{\text{underlined text}}$$
+<ins>$\text{underlined text}$</ins>
 
 $\nleq\ngeqslant\nRightarrow\nleftrightarrow$
 
 $\;\not\nobreak\!\!\!\!\implies$\
-$\to \longrightarrow \Longrightarrow$
+$\to \longrightarrow \Longrightarrow$\
+$\;\;\not\!\!\!\!\Longleftrightarrow$\
+$\nrightarrow \nRightarrow \nleftarrow \nLeftarrow \nleftrightarrow \nLeftrightarrow$

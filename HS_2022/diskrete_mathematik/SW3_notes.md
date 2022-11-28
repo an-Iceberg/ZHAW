@@ -20,7 +20,7 @@ $F = (p \land q) \lor (z \land y) \quad | \quad \text{Distribution}$
 
 $F = ((p \land q) \lor z) \land ((p \land q) \lor y) \quad | \quad \text{Distribution}$
 
-$\underline{\underline{F = (z \lor p) \land (z \lor q) \land (y \lor p) \land (y \lor q)}}$
+$F = (z \lor p) \land (z \lor q) \land (y \lor p) \land (y \lor q)$
 
 KNF -> DNF
 
@@ -28,7 +28,7 @@ $F = (p \lor q) \land (z \lor y) \quad | \quad \text{Distribution}$
 
 $F = ((p \lor q) \land z) \lor ((p \lor q) \land y) \quad | \quad \text{Distribution}$
 
-$\underline{\underline{F = (z \land p) \lor (z \land q) \lor (y \land p) \lor (y \land q)}}$
+$F = (z \land p) \lor (z \land q) \lor (y \land p) \lor (y \land q)$
 
 # Mengen
 

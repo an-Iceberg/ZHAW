@@ -151,7 +151,9 @@ $$
 
 $\nleq\ngeqslant\nRightarrow\nleftrightarrow$
 
+hacky ways to negate long arrows\
 $\\;\not\\!\\!\\!\\!\implies$\
-$\to \longrightarrow \Longrightarrow$\
-$\\;\\;\not\\!\\!\\!\Longleftrightarrow$\
+$\\;\\;\not\\!\\!\\!\\!\Longleftrightarrow$
+
+$\to \longrightarrow \Longrightarrow \longleftarrow \Longleftarrow$\
 $\nrightarrow \nRightarrow \nleftarrow \nLeftarrow \nleftrightarrow \nLeftrightarrow$

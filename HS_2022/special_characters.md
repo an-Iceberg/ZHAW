@@ -1,36 +1,6 @@
 TODO: restructuring
 
-➤
-
-⮚
-
-⮞
-
-🠞
-
-🡲
-
-🢂
-
-➾
-
-➨
-
-🠶
-
-➔
-
-➜
-
-⟹
-
-⟾
-
-⤇
-
-➞
-
-➝
+➤ ⮚ ⮞ 🠞 🡲 🢂 ➾ ➨ 🠶 ➔ ➜ ⟹ ⟾ ⤇ ➞ ➝
 
 This $\implies$ something else
 
@@ -52,8 +22,16 @@ $\mathcal{MaThCaL}$\
 $\mathbb{MATHBB}$\
 $\mathscr{MATHSCR}$
 
-newlines only work in the preview😔\
-$A \\ \stackrel{?}{=} \\ B$
+$\text{text}$\
+$\textbf{textbf}$\
+$\textmd{textmd}$\
+$\textrm{textrm}$\
+$\textsf{textsf}$\
+$\texttt{texttt}$\
+$\textit{textit}$\
+$\textup{textup}$
+
+$$A \\ \stackrel{?}{=} \\ B$$
 
 $\stackrel{1}{2}$
 
@@ -68,11 +46,13 @@ B
 $
 
 doesn't work 😔\
-❗$
+❗
+$$
 \lim\limits_{x \to \infty} {e^x - 1 \over 2x}
 \overset{\left[ {0 \over 0} \right]}{\underset{\mathrm{H}}{=}}
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
-$❗
+$$
+❗
 
 doesn't work 😔\
 ❗$
@@ -121,9 +101,6 @@ $\colorbox{green}{\text{Hello World}}$
 doesn't work with anything math inside of it 😔\
 $\color{teal}\fcolorbox{white}{purple}{\text{Hello World}}$
 
-doesn't work 😔\
-$\underline{\text{something that is underlined}}$
-
 $\equiv_5 \not\equiv$
 
 $$
@@ -153,7 +130,19 @@ $\nleq\ngeqslant\nRightarrow\nleftrightarrow$
 
 hacky ways to negate long arrows\
 $\\;\not\\!\\!\\!\\!\implies$\
-$\\;\\;\not\\!\\!\\!\\!\Longleftrightarrow$
+$\\;\\;\not\\!\\!\\!\Longleftrightarrow$
 
 $\to \longrightarrow \Longrightarrow \longleftarrow \Longleftarrow$\
 $\nrightarrow \nRightarrow \nleftarrow \nLeftarrow \nleftrightarrow \nLeftrightarrow$
+
+$$
+\begin{align*}
+  6 &= {10 \over 1 - q}        & &| \quad \cdot (1 - q) \\
+  &\to 6 \cdot (1 - q) = 10    \\
+  &\to 6 - 6q = 10             & &| \quad -6 \\
+  &\to -6q = 4                 & &| \quad \cdot (-1) \\
+  &\to 6q = -4                 & &| \quad \div 6 \\
+  &\Rightarrow q = -{4 \over 6}\\
+  &= -{2 \over 3}
+\end{align*}
+$$

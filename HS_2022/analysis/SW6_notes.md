@@ -4,7 +4,7 @@
 
 **Unendliche geometrische Reihe**
 
-konvergent wenn |q| < 1
+konvergent wenn $|q| < 1$
 
 ## Grenzwerte
 

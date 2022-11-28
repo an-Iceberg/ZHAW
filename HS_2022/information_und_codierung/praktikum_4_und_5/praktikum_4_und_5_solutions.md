@@ -106,13 +106,13 @@ $E(s_n) = 21.875$
 
 ## 4.
 
-$I(22) = \log_2({1 \over 0.0625}) = \underline{\underline{4}}$
+$I(22) = \log_2({1 \over 0.0625}) = 4$
 
-$I(34) = \log_2({1 \over 0.125}) = \underline{\underline{3}}$
+$I(34) = \log_2({1 \over 0.125}) = 3$
 
 ## 5.
 
-$H(S) = 4(0.0625 \times 4) + 6(0.125 \times 3) = \underline{\underline{3.25}}$
+$H(S) = 4(0.0625 \cdot 4) + 6(0.125 \cdot 3) = 3.25$
 
 ## 6.
 
@@ -122,6 +122,6 @@ Die Entropie unserer Quelle ist ein wenig kleiner als das maximal Mögliche.
 
 ## 7.
 
-$L = S(P(s_n) \times 8) = 4(0.0625 \times 8) + 6(0.125 \times 8) = 8$
+$L = S(P(s_n) \cdot 8) = 4(0.0625 \cdot 8) + 6(0.125 \cdot 8) = 8$
 
 $R = L - H = 8 - 3.25 = 4.75$

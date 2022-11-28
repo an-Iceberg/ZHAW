@@ -110,7 +110,7 @@ $\boxed{8\text{ Bits}}$
 
 ### d)
 
-$(2 \times 4\text{ Bit}) + (23 \times 8\text{ Bits}) + (3 \times 2\text{ Bits}) = \boxed{198\text{ Bits}}$
+$(2 \cdot 4\text{ Bit}) + (23 \cdot 8\text{ Bits}) + (3 \cdot 2\text{ Bits}) = \boxed{198\text{ Bits}}$
 
 ### e)
 
@@ -149,7 +149,7 @@ $2 + 6 + 2 = 10 \text{ Bit für 1 Token}$
 
 ### b)
 
-$(2 \times 4\text{ Bit}) + (7 \times 14\text{ Bits}) = \boxed{106\text{ Bits}}$
+$(2 \cdot 4\text{ Bit}) + (7 \cdot 14\text{ Bits}) = \boxed{106\text{ Bits}}$
 
 ### c)
 

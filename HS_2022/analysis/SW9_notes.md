@@ -12,7 +12,7 @@ $x^\alpha = \left(e^{\ln(x)} \right)^\alpha = e^{\ln(x) \cdot \alpha} \quad \alp
 
 - a) $f(x) = {1 \over x^4} = x^{-4}$
 
-  $f'(x) = -4 \cdot x^{-5} = \underline{\underline{{-4 \over x^5}}}$
+  $f'(x) = -4 \cdot x^{-5} = {-4 \over x^5}$
 
 - b) $f(x) = \sqrt{x^3} = x^{1 \over 3}$
 
@@ -93,7 +93,7 @@ $\Rightarrow y = {1 \over 5} + {1 \over 2} \cdot (x - 1) + {3 \over 5}$
 
 $\Rightarrow y = {x \over 2} - {1 \over 2} + {4 \over 5}$
 
-$\underline{\underline{y = {x \over 2} + {3 \over 10} = 0.5x + 0.3}}$
+$y = {x \over 2} + {3 \over 10} = 0.5x + 0.3$
 
 ---
 
@@ -109,7 +109,7 @@ $\Rightarrow y = e^0 \cdot (x - 0) + e^0$
 
 $\Rightarrow y = 1 \cdot x + 1$
 
-$\Rightarrow \underline{\underline{y = x + 1}}$
+$\Rightarrow y = x + 1$
 
 ## Höhere Ableitungen
 

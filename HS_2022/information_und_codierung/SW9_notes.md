@@ -51,7 +51,7 @@ $R = \text{Abtastrate}$\
 $K = \text{Skalierungsfaktor}$\
 $i = \text{Zähler}$
 
-$S_i = K \times \sin\left({i \times 2\pi \times f \over R}\right)$
+$S_i = K \cdot \sin\left({i \cdot 2\pi \cdot f \over R}\right)$
 
 ## Lossless Audio Encoding
 
@@ -63,11 +63,11 @@ MPEG
 
 Sound Pressure Level (SPL)
 
-Schallpegel $L = 20 \times \log_{10}\left({p \over p_0}\right)$
+Schallpegel $L = 20 \cdot \log_{10}\left({p \over p_0}\right)$
 
 $p:$ Effektiver Schalldruck [Pa]\
 $p_0:$ Bezugsschalldruck
 
-$20 \times \log_{10}(2) = 6.02\text{dB}$
+$20 \cdot \log_{10}(2) = 6.02\text{dB}$
 
 ### Spektrale Maskierung

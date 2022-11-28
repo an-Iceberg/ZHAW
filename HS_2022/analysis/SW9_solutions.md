@@ -6,13 +6,13 @@
 
 >$f(x) = {1 \over x^2} = x^{-2}$
 
-$\underline{\underline{f^{(1)} =}} -2x^{-3} = \underline{\underline{-{1 \over 2x^3}}}$
+$f^{(1)} = -2x^{-3} = -{1 \over 2x^3}$
 
 ### b)
 
 >$f(x) = \sqrt{x} = x^{1 \over 2}$
 
-$\underline{\underline{f^{(1)} =}} {1 \over 2}x^{-{1 \over 2}} = \underline{\underline{{1 \over \sqrt{{1 \over 2}x}}}}$
+$f^{(1)} = {1 \over 2}x^{-{1 \over 2}} = {1 \over \sqrt{{1 \over 2}x}}$
 
 ## 2.
 
@@ -24,7 +24,7 @@ $\Rightarrow a + b + 3 = 2 \quad | \quad -3$
 
 $\Rightarrow a + b = -1 \quad | \quad - b$
 
-$\Rightarrow \underline{\underline{a = -1 - b}}$
+$\Rightarrow a = -1 - b$
 
 $b \text{ ist frei wählbar}$
 
@@ -38,7 +38,7 @@ $\Rightarrow 5 + a = b + 4 \quad | \quad -4$
 
 $\Rightarrow 1 + a = b \quad | \quad$
 
-$\Rightarrow \underline{\underline{b = 1 + a}}$
+$\Rightarrow b = 1 + a$
 
 ## 3.
 
@@ -79,18 +79,18 @@ $\Rightarrow y = 4'000 \cdot (x - 10) + 10'000$
 
 $\Rightarrow y = 4'000x - 40'000 + 10'000$
 
-$\Rightarrow \underline{\underline{y = 4'000x - 30'000}}$
+$\Rightarrow y = 4'000x - 30'000$
 
 
 ### b)
 
-$\underline{\underline{y(10) =}} 40'000 - 30'000 = \underline{\underline{10'000}}$
+$y(10) = 40'000 - 30'000 = 10'000$
 
 >$x_1 = 10.002$
 
-$\underline{\underline{f(x_1) = 10'008.00'240'032'001'6\dots}}$
+$f(x_1) = 10'008.00'240'032'001'6\dots$
 
-$\underline{\underline{y(x_1) =}} 40'008 - 30'000 = \underline{\underline{10'008}}$
+$y(x_1) = 40'008 - 30'000 = 10'008$
 
 $(x_1,y_1) = (10.002, 10'008)$
 
@@ -113,15 +113,15 @@ $\Rightarrow y = {1 \over 3}\sqrt[3]{1 \over 1'000^2} \cdot (x - 1'000) + 1'000^
 
 $\Rightarrow y = {1 \over 300} \cdot (x - 1'000) + 10$
 
-$\Rightarrow \underline{\underline{y = {1 \over 300}x - {40 \over 3}}}$
+$\Rightarrow y = {1 \over 300}x - {40 \over 3}$
 
 ### b)
 
 >$x_1 = 997$
 
-$\underline{\underline{y_1 =}} {997 \over 300} - {40 \over 3} = \underline{\underline{{-3'003 \over 300}}}$
+$y_1 = {997 \over 300} - {40 \over 3} = {-3'003 \over 300}$
 
-$\underline{\underline{f(x_1) = 9.9899\dots}}$
+$f(x_1) = 9.9899\dots$
 
 ## 6.
 

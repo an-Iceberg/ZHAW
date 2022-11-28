@@ -11,15 +11,15 @@ Was wäre der Grenzwert?
 
 $f(x)$ ist immer im Bereich $[-1,1]$.
 
-$\lim\limits_{x \to \infty} \sin({1 \over x}) \times x = 0$
+$\lim\limits_{x \to \infty} \sin({1 \over x}) \cdot x = 0$
 
 ${x^2 - 1 \over x - 1}$
 
 $(x^2 - 1) \div (x - 1) = x + 1$
 
-$(x^2 - 1) \times (x - 1)^{-1} $
+$(x^2 - 1) \cdot (x - 1)^{-1} $
 
-Binomische Formel: $a^2 - b^2 = (a + b)\times(a - b)$
+Binomische Formel: $a^2 - b^2 = (a + b)\cdot(a - b)$
 
 ${x^2 - 1 \over x - 1} = {(x + 1)(x - 1) \over x - 1}$
 
@@ -37,7 +37,7 @@ Der Grenzwert ist der Versuch, Definitionslücken zu füllen.
 - b)
 
   $f(x) = {7x + 1 \over 5x + 6}$\
-  $\lim\limits_{x\to\infty} {7x + 1 \over 5x + 6} \quad | \quad \times {{1 \over x} \over {1 \over x}}$\
+  $\lim\limits_{x\to\infty} {7x + 1 \over 5x + 6} \quad | \quad \cdot {{1 \over x} \over {1 \over x}}$\
   $= \lim\limits_{x\to\infty} {7 + {1 \over x} \over 5 + {6 \over x}}$\
   $= \lim\limits_{x\to\infty} {7 + {1 \over x} \over 5 + {6 \over x}}$\
   $= {7 \over 5}$
@@ -45,7 +45,7 @@ Der Grenzwert ist der Versuch, Definitionslücken zu füllen.
 - c)
 
   $f(x) = {x^3 \over x^2 + 1}$\
-  $= \lim\limits_{x\to\infty} {x^3 \over x^2 + 1} \quad | \quad \times {{1 \over x^2} \over {1 \over x^2}}$\
+  $= \lim\limits_{x\to\infty} {x^3 \over x^2 + 1} \quad | \quad \cdot {{1 \over x^2} \over {1 \over x^2}}$\
   $= \lim\limits_{x\to\infty} {x \over 1 + {1 \over x^2}}$\
   $= {\infty \over 1}$\
   $= \infty$

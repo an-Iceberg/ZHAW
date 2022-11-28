@@ -13,7 +13,7 @@ $$
 =
 \left.  \frac{2n^2 - n}{n^2 + n - 1}
 \quad
-\middle| \quad \times \frac{1 \over n^2}{1 \over n^2}
+\middle| \quad \cdot \frac{1 \over n^2}{1 \over n^2}
 \right.
 $$
 
@@ -32,7 +32,7 @@ $$
 $$
 a_n
 =
-{2 \over 0} = \underline{\underline{0}}
+{2 \over 0} = 0
 $$
 
 ### b)
@@ -43,7 +43,7 @@ $$
 \lim \limits _{n \to \infty}
 =
 \left.  {3^n - 3^{n - 1} \over 2 + 3^n} \quad
-\middle | \quad \times {3^{-n} \over 3^{-n}}
+\middle | \quad \cdot {3^{-n} \over 3^{-n}}
 \right.
 $$
 
@@ -56,7 +56,7 @@ $$
 $$
 a_n
 =
-{{2 \over 3} \over 0 + 0} = \underline{\underline{0}}
+{{2 \over 3} \over 0 + 0} = 0
 $$
 
 ### c)
@@ -67,7 +67,7 @@ $$
 \lim \limits _{n \to \infty}
 =
 \left. {3n - 2(-1)^n \over n} \quad
-\middle | \quad \times {{1 \over n} \over {1 \over n}}
+\middle | \quad \cdot {{1 \over n} \over {1 \over n}}
 \right.
 $$
 
@@ -81,7 +81,7 @@ $$
 >\lim \limits _{n \to \infty}
 >=
 >\left. {-2^n \over n} \quad
->\middle | \quad \times {-2^{-n} \over -2^{-n}}
+>\middle | \quad \cdot {-2^{-n} \over -2^{-n}}
 >\right.
 >$$
 
@@ -94,13 +94,13 @@ $$
 >=
 >{1 \over 0}
 >=
->\underline{0}
+>0}
 >$$
 
 $$
 a_n
 =
-{3 - 0 \over 1} = \underline{\underline{3}}
+{3 - 0 \over 1} = 3
 $$
 
 ### d)
@@ -111,7 +111,7 @@ $$
 \lim \limits _{n \to \infty}
 =
 \left. {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \quad
-\middle | \quad \times {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
+\middle | \quad \cdot {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
 \right.
 $$
 
@@ -146,13 +146,13 @@ $$
 $$
 \lim \limits _{n \to \infty}
 =
-\left(1 + {1 \over 7n}\right)^{7n \times {1 \over 7}}
+\left(1 + {1 \over 7n}\right)^{7n \cdot {1 \over 7}}
 $$
 
 $$
 a_n
 =
-\underline{\underline{e \over 7}}
+e \over 7
 $$
 
 ## 2.

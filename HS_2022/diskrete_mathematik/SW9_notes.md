@@ -10,9 +10,9 @@ Eine Menge, die injektiv aber nicht surjektiv ist impliziert, dass die Menge une
 
 $|\mathcal{P}(n)| = 2^n$
 
-$\underline{\text{Bew.:}} \quad n = 0 :$ ✔️
+$\text{Bew.:} \quad n = 0 :$ ✔️
 
-$\underline{n \to n+1} : \overbrace{A(n) = 2^n}^{\text{Induktinsannahme}} \implies A(n+1) = 2^{n+1}$
+$n \to n+1 : \overbrace{A(n) = 2^n}^{\text{Induktinsannahme}} \implies A(n+1) = 2^{n+1}$
 
 $2^{n+1} = 2 \quad 2^n = 2 \quad A(n) = A(n+1)$
 
@@ -40,6 +40,6 @@ Weitere Annahmen:
 - $n_0$ ist teilbar
 - $\exists x,y \in \mathbb{N}(x|n_0 \land y |n_0)$
 
-$n_0 \notin \mathbb{P} \implies n_0 = x \times y \implies \underbrace{1 < x,y < n_0}_{x,y \notin PT(n_0)}$
+$n_0 \notin \mathbb{P} \implies n_0 = x \cdot y \implies \underbrace{1 < x,y < n_0}_{x,y \notin PT(n_0)}$
 
 $\underbrace{1 < x < n_0}_{x \notin PT(n_0)} \implies$ es gibt $p \in \mathbb{P}$ mit $p|x \quad \square$

@@ -8,6 +8,6 @@ $\lim\limits_{n \to \infty}$
 
 > :information_source:️ Grenzwerte werden typischerweise aus Zusammensetzungen berechent.
 
-$(a - b) \times (a + b) = a^2 + b^2$
+$(a - b) \cdot (a + b) = a^2 + b^2$
 
 ## Von Reihen

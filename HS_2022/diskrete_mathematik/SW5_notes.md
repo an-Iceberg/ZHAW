@@ -12,9 +12,9 @@ Bsp.: $(x,y)$
 
 Menge aller Tupel
 
-$A \times B = \\{(a,b) \ | \ a \in A \land b \in B\\} \neq B \times A$
+$A \cdot B = \\{(a,b) \ | \ a \in A \land b \in B\\} \neq B \cdot A$
 
-Bsp.: $\\{1,2\\} \times \\{2,1\\} = \\{(1,2),\ (1,1),\ (2,2),\ (2,1)\\}$
+Bsp.: $\\{1,2\\} \cdot \\{2,1\\} = \\{(1,2),\ (1,1),\ (2,2),\ (2,1)\\}$
 
 # Relationen
 

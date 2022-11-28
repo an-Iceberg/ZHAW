@@ -3,20 +3,24 @@
 ## Aufgabe 1
 
 $F := p \to (q \land r)$\
-$\Rightarrow \underline{\underline{\lnot p \lor (q \land r)}}$
+$\Rightarrow \lnot p \lor (q \land r)$
 
 $Q := (r \land q) \to s$\
 $\Rightarrow ¬(r \land q) \lor s$\
-$\Rightarrow \underline{\underline{¬r \lor ¬q \lor s}}$
+$\Rightarrow ¬r \lor ¬q \lor s$
 
 ### a)
 
-$\text{false} \to (\text{true} \land \text{true}) \quad | \quad \text{Absorbtion}$\
-$\Rightarrow \text{false} \to \text{true} \quad | \quad \text{Implikation}$\
-$\Rightarrow ¬\text{false} \lor \text{true} \quad | \quad \text{Negation}$\
-$\Rightarrow \text{true} \lor \text{true} \quad | \quad \text{Absorption}$
+$$
+\begin{align*}
+\text{false} &\to (\text{true} \land \text{true}) & &| \quad \text{Absorbtion} \\
+&\Rightarrow \text{false} \to \text{true} & &| \quad \text{Implikation} \\
+&\Rightarrow ¬\text{false} \lor \text{true} & &| \quad \text{Negation} \\
+&\Rightarrow \text{true} \lor \text{true} & &| \quad \text{Absorption}
+\end{align*}
+$$
 
-$\Rightarrow \underline{\underline{\text{true}}}$
+$$\Rightarrow \text{true}$$
 
 $(\text{true} \land \text{true}) \to \text{false} \quad | \quad \text{Absorption}$\
 $\Rightarrow \text{true} \to \text{false} \quad | \quad \text{Implikation}$\
@@ -24,7 +28,7 @@ $\Rightarrow ¬\text{true} \lor \text{false} \quad | \quad \text{Negation}$\
 $\Rightarrow \text{false} \lor  \text{false} \quad | \quad \text{Absorbtion}$\
 $\Rightarrow \text{false}$
 
-$\Rightarrow \underline{\underline{\text{false}}}$
+$\Rightarrow \text{false}$
 
 ### b)
 
@@ -52,29 +56,29 @@ $s = \text{false}$
 $p \to (q \lor (p_1 \land p_2)) \quad | \quad \text{Implikation}$\
 $\Rightarrow ¬p \lor (q \lor (p_1 \land p_2)) \quad | \quad \text{Distributivität}$\
 $\Rightarrow ¬p \lor ((p_1 \lor q) \land (p_2 \lor q)) \quad | \quad \text{Distributivität}$\
-$\Rightarrow \underline{(¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q)} \quad | \quad \text{Distributivität}$\
+$\Rightarrow (¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q) \quad | \quad \text{Distributivität}$\
 $\Rightarrow (((¬p \lor p_1 \lor q) \land ¬p) \lor ((¬p \lor p_1 \lor q) \land p_2) \lor ((¬p \lor p_1 \lor q) \land q)) \quad | \quad \text{Distributivität}$\
 $\Rightarrow (¬p \land ¬p) \lor (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1) \lor (q \land q)$\
-$\Rightarrow \underline{(¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)}$
+$\Rightarrow (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)$
 
-$\underline{\underline{\text{KNF:} \ (¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q)}}$\
-$\underline{\underline{\text{DNF:} \ (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)}}$
+$\text{KNF:} \ (¬p \lor p_1 \lor q) \land (¬p \lor p_2 \lor q)$\
+$\text{DNF:} \ (¬p \land p_1) \lor (¬p \land q) \lor (p_2 \land ¬p) \lor (p_2 \land p_1) \lor (p_2 \land q) \lor (q \land ¬p) \lor (q \land p_1)$
 
 ### b)
 
 $p \to (q \to p_1) \quad | \quad \text{Implikation}$\
 $\Rightarrow ¬p \lor ¬q \lor p_1$\
-$\underline{\underline{\text{DNF und KNF:} \ ¬p \lor ¬q \lor p_1}}$
+$\text{DNF und KNF:} \ ¬p \lor ¬q \lor p_1$
 
 ### c)
 
 $(p \to q) \to p_1 \quad | \quad \text{Implikation}$\
 $\Rightarrow ¬(¬p \lor q) \lor p_1 \quad | \quad \text{DeMorgaDeMorgann}$\
-$\Rightarrow \underline{(p \land ¬q) \lor p_1} \quad | \quad \text{Distributivität}$\
-$\Rightarrow \underline{(p_1 \lor p) \land (p_1 \lor ¬q)}$
+$\Rightarrow (p \land ¬q) \lor p_1 \quad | \quad \text{Distributivität}$\
+$\Rightarrow (p_1 \lor p) \land (p_1 \lor ¬q)$
 
-$\underline{\underline{\text{DNF:} \ (p \land ¬q) \lor p_1}}$\
-$\underline{\underline{\text{KNF:} \ (p_1 \lor p) \land (p_1 \lor ¬q)}}$
+$\text{DNF:} \ (p \land ¬q) \lor p_1$\
+$\text{KNF:} \ (p_1 \lor p) \land (p_1 \lor ¬q)$
 
 ## Aufgabe 4
 
@@ -94,7 +98,7 @@ $\Rightarrow \text{true}$
 |1|0|1            |
 |1|1|1            |
 
-$\underline{\underline{\text{(a) ist allgemeingültig}}}$
+$\text{(a) ist allgemeingültig}$
 
 ### b)
 
@@ -114,7 +118,7 @@ $\Rightarrow \text{true}$
 |1|0|1                     |
 |1|1|1                     |
 
-$\underline{\underline{\text{(b) ist allgemeingültig}}}$
+$\text{(b) ist allgemeingültig}$
 
 ### c)
 
@@ -133,7 +137,7 @@ $\Rightarrow p \lor ¬q$
 |1|0|1                   |
 |1|1|1                   |
 
-$\underline{\underline{\text{(c) ist erfüllbar}}}$
+$\text{(c) ist erfüllbar}$
 
 ### d)
 
@@ -152,7 +156,7 @@ $\Rightarrow \text{false}$
 |1|0|0                  |
 |1|1|0                  |
 
-$\underline{\underline{\text{(d) ist unerfüllbar}}}$
+$\text{(d) ist unerfüllbar}$
 
 ## Aufgabe 6
 

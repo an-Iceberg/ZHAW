@@ -16,9 +16,9 @@ $f(n + 1) = 2 \cdot f(n)$
 
 $\Rightarrow \text{Induktionsannahme: } f(n) = 2^n \quad n \in \mathbb{N}$
 
-$\underline{n = 0}: \quad f(0) = 1 = 2^0$
+$n = 0: \quad f(0) = 1 = 2^0$
 
-$\underline{n \rightarrow n + 1}: \quad \text{ zu zeigen: } f(n) = 2^n \implies f(n + 1) = 2^{n + 1}$
+$n \rightarrow n + 1: \quad \text{ zu zeigen: } f(n) = 2^n \implies f(n + 1) = 2^{n + 1}$
 
 $f(n + 1) = 2 \cdot f(n) \stackrel{\text{Induktionsannahme}}{=} 2 \cdot 2^n = 2^{n + 1}$
 

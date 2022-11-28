@@ -5,9 +5,9 @@
 $$
 \begin{align*}
   \text{Reflexiv} &:\Leftrightarrow \forall x \in X (xRx) \\
-  \text{Symmetrisch} &:\Leftrightarrow \forall x,y \in X (xRy \Rightarrow yRx) \\
-  \text{Antisymmetrisch} &:\Leftrightarrow \forall x,y \in X ((xRy \land yRx) \Rightarrow x = y) \\
-  \text{Transitiv} &:\Leftrightarrow \forall x,y,z \in X ((xRy \land yRz) \Rightarrow xRz)
+  \text{Symmetrisch} &:\Leftrightarrow \forall x,y \in X (xRy \to yRx) \\
+  \text{Antisymmetrisch} &:\Leftrightarrow \forall x,y \in X ((xRy \land yRx) \to x = y) \\
+  \text{Transitiv} &:\Leftrightarrow \forall x,y,z \in X ((xRy \land yRz) \to xRz)
 \end{align*}
 $$
 

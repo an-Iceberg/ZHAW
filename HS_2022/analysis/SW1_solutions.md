@@ -4,19 +4,19 @@
 
 ### a)
 
-R
+$\mathbb{R}$
 
 ### b)
 
-R ohne 1
+$\mathbb{R} \backslash 1$
 
 ### c)
 
-R
+$\mathbb{R}$
 
 ### d)
 
-R ohne 1
+$\mathbb{R} \backslash 1$
 
 ## 2.
 

@@ -132,3 +132,15 @@ $$
       &= x^2 + (a+b)x + ab \nonumber
 \end{align}
 $$
+
+$$
+f(n) =
+\begin{cases}
+  n/2       & \quad \text{if } n \text{ is even}\\
+  -(n+1)/2  & \quad \text{if } n \text{ is odd}
+\end{cases}$$
+$$
+\lim\limits_{x \to \infty} {e^x - 1 \over 2x}
+\overset{\left[ {0 \over 0} \right]}{\underset{\mathrm{H}}{=}}
+\lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
+$$

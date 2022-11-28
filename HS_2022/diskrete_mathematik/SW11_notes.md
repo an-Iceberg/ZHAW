@@ -22,11 +22,14 @@ $r := m - kn$
 
   Falls $r \ge n$
 
-  $m = kn + r$
-
-  $\quad \le kn + n$
-
-  $\quad = (k + 1) \cdot n$ ⚡
+$$
+\begin{align}
+ m &= kn + r \nonumber \\
+  &\le kn + n \nonumber \\
+  &= (k + 1) \cdot n \nonumber
+\end{align}
+$$
+⚡
 
 ---
 

@@ -125,3 +125,10 @@ doesn't work 😔\
 $\underline{\text{something that is underlined}}$
 
 $\equiv_5 \not\equiv$
+
+$$
+\begin{align}
+ f(x) &= (x+a)(x+b) \nonumber \\
+      &= x^2 + (a+b)x + ab \nonumber
+\end{align}
+$$

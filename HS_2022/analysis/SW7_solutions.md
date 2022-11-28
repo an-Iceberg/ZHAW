@@ -9,30 +9,30 @@
 > $$(a _n) = \left(\frac{2n^2 - n}{n^2 + n - 1}\right)$$
 
 $$
-\lim \limits _{n \to \infty}
-=
-\left.  \frac{2n^2 - n}{n^2 + n - 1}
-\quad
-\middle| \quad \cdot \frac{1 \over n^2}{1 \over n^2}
-\right.
-$$
+\begin{align*}
+  \lim \limits _{n \to \infty}
+  &=
+  \frac{2n^2 - n}{n^2 + n - 1}
+  & &| \quad \cdot \frac{1 \over n^2}{1 \over n^2}
+  \\
 
-$$
-\lim \limits _{n \to \infty}
-=
-{2 - {1 \over n} \over 0 + {1 \over n} - {1 \over n^2}}
-$$
+  \lim \limits _{n \to \infty}
+  &=
+  {2 - {1 \over n} \over 0 + {1 \over n} - {1 \over n^2}}
+  & &| \quad \lim
+  \\
 
-$$
-a_n
-=
-{2 - 0 \over 0 + 0 - 0}
-$$
+  a_n
+  &=
+  {2 - 0 \over 0 + 0 - 0}
+  \\
 
-$$
-a_n
-=
-{2 \over 0} = 0
+  a_n
+  &=
+  {2 \over 0} \\
+
+  &= 0
+\end{align*}
 $$
 
 ### b)
@@ -90,7 +90,7 @@ $$
 >=
 >{1 \over -2n^{-n}}
 >=
->{1 \over {1 \over -2n^{n}}}
+>{1 \over {1 \over -2n^{n}}
 >=
 >{1 \over 0}
 >=
@@ -108,27 +108,24 @@ $$
 > $$(a _n) = \left( {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \right )$$
 
 $$
-\lim \limits _{n \to \infty}
-=
-\left. {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \quad
-\middle | \quad \cdot {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
-\right.
-$$
+\begin{align*}
+  \lim \limits _{n \to \infty}
+  &=
+  {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \quad
+  & &| \quad \cdot {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
+  \\
 
-$$
-\lim \limits _{n \to \infty}
-=
-\left. {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \quad
-\middle | \quad \text{Umformung}
-\right.
-$$
+  \lim \limits _{n \to \infty}
+  &=
+  {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \quad
+  & &| \quad \text{Umformung}
+  \\
 
-$$
-\lim \limits _{n \to \infty}
-=
-\left. {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}} \quad
-\middle | \quad
-\right.
+  \lim \limits _{n \to \infty}
+  &=
+  {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}} \quad
+  & &| \quad
+\end{align*}
 $$
 
 ### e)

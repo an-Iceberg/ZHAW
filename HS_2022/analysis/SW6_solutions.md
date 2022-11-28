@@ -148,7 +148,7 @@ $a(3) = 0.00'4$
 
 $\lim\limits_{n \to \infty} s_n = {0.4 \over 1 - 0.1n} = 0.\overline{44}$
 
-$s=0.\overline{44}}$
+$s=0.\overline{44}$
 
 ### c)
 

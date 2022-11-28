@@ -4,9 +4,14 @@
 
 ### a)
 
-$\lim\limits_{x \to \infty} {9x - 5 \over 7x + 3} \quad | \quad \cdot {{1 \over x} \over {1 \over x}}$\
-$= \lim\limits_{x \to \infty} {9 - {5 \over x} \over 7 + {3 \over x}} \quad | \quad \lim$\
-$= {9 \over 7}$
+$$
+\begin{align*}
+&\lim\limits_{x \to \infty} {9x - 5 \over 7x + 3} & &| \quad \cdot {{1 \over x} \over {1 \over x}} \\
+&= \lim\limits_{x \to \infty} {9 - {5 \over x} \over 7 + {3 \over x}} & &| \quad \lim \\
+&= {9 - {5 \over \infty} \over 7 + {3 \over \infty}} \\
+&= {9 \over 7}
+\end{align*}
+$$
 
 ### b)
 
@@ -34,7 +39,7 @@ $\lim\limits_{x \to - \infty} {x^2 - 5x + 3 \over 7x^2 + 1} \quad | \quad \cdot 
 $= \lim\limits_{x \to - \infty} {1 - {5x \over x^2} + {3 \over x^2} \over 7 + {1 \over x^2}}$\
 $\quad \lim\limits_{x \to - \infty} -{5x \over x^2} \quad | \quad \cdot {{1 \over x} \over {1 \over x}}$\
 $\quad = \lim\limits_{x \to - \infty} -{5 \over x} \quad | \quad \lim$\
-$\quad = -{5 \over -\infty} = 0}$\
+$\quad = -{5 \over -\infty} = 0$\
 $= \lim\limits_{x \to - \infty} {1 - 0 + {3 \over x^2} \over 7 + {1 \over x^2}} \quad | \quad \lim$\
 $= {1 + 0 \over 7 + 0} = 1 \over 7$
 

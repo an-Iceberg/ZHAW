@@ -151,7 +151,7 @@ $$
 
 $\nleq\ngeqslant\nRightarrow\nleftrightarrow$
 
-$\\;\not\nobreak\\!\\!\\!\\!\implies$\
+$\\;\not\\!\\!\\!\\!\implies$\
 $\to \longrightarrow \Longrightarrow$\
 $\\;\\;\not\\!\\!\\!\Longleftrightarrow$\
 $\nrightarrow \nRightarrow \nleftarrow \nLeftarrow \nleftrightarrow \nLeftrightarrow$

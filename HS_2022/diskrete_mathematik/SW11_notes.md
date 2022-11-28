@@ -59,17 +59,18 @@ $r = nx + r' > n$ ⚡
 $ggT(n,m) = ggT(n - m,m)$
 
 $$
-\begin{align}
+\begin{align*}
 &1. \quad x|n \land x|m \nonumber \\
 \nonumber \newline
 &2. \quad x|(n - m) \land x|m \nonumber \\
 \nonumber \newline
 &1 \implies 2 \qquad n = kx \qquad m = sx \nonumber \\
 n - m &= kx - sx \nonumber \\
-&= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m) \nonumber \\ \nonumber \\
+&= \underbrace{(k - s)}_{\in \mathbb{Z}} \cdot x \implies x|(n - m) \nonumber \\
+\nonumber \newline
 &2 \implies 1 \qquad kx = n - m \qquad sx = m \nonumber \\
 n &= (n - m) + m \nonumber \\
 &= kx + sx \nonumber \\
 &= (k + s) \cdot x \nonumber
-\end{align}
+\end{align*}
 $$

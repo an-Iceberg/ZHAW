@@ -138,9 +138,13 @@ f(n) =
 \begin{cases}
   n/2       & \quad \text{if } n \text{ is even}\\
   -(n+1)/2  & \quad \text{if } n \text{ is odd}
-\end{cases}$$
+\end{cases}
+$$
+
 $$
 \lim\limits_{x \to \infty} {e^x - 1 \over 2x}
 \overset{\left[ {0 \over 0} \right]}{\underset{\mathrm{H}}{=}}
 \lim\limits_{x \to \infty} {e^x \over 2} = {1 \over 2}
 $$
+
+$$\underline{\text{underlined text}}$$

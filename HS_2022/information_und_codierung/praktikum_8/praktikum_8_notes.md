@@ -91,10 +91,20 @@ Die Werte der einzelnen Koeffizienten.
 
 ### b)
 
+Das JPEG codierte Bildausschnitt.
+
 ### c)
+
+Es entspricht dem Bild aus dem Screenshot.
 
 ### d)
 
+$320 \cdot 320 \cdot 8 \cdot 8 = 6'553'600$
+
 ### e)
 
+$3200 \cdot 3200 \cdot 8 \cdot 8 = 655'360'000$
+
 ### f)
+
+Überall, wo die Koeffizienten 0 sind, kann die durchführung der Rechnung weggelassen werden.

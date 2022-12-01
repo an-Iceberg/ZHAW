@@ -26,10 +26,10 @@ public class AudioTest
 
   public static void main(String[] args)
   {
-    int sampleRate = 44100;                                                         // Sampling Rate
-    int bitsPerSample = 16;                                                         // Bits per Sample
-    int nChannels = 1;                                                              // Number of Channels
-    int duration = 3;                                                               // Duration in seconds
+    int sampleRate = 44100; // Sampling Rate
+    int bitsPerSample = 16; // Bits per Sample
+    int nChannels = 1; // Number of Channels
+    int duration = 3; // Duration in seconds
 
     try
     {
@@ -38,24 +38,24 @@ public class AudioTest
 
       raw.writeBytes("RIFF");
       raw.writeInt(0); // Final file size not known yet, write 0. This is = sample count + 36 bytes from header.
-      raw.writeBytes("WAVE");                                                     // Keyword "WAVE"
-      raw.writeBytes("fmt ");                                                     // Keyword "fmt "
-      raw.writeInt(Integer.reverseBytes(16));                                     // Sub-chunk size, 16 for PCM
-      raw.writeShort(Short.reverseBytes((short) 1));                              // AudioFormat, 1 for PCM
+      raw.writeBytes("WAVE"); // Keyword "WAVE"
+      raw.writeBytes("fmt "); // Keyword "fmt "
+      raw.writeInt(Integer.reverseBytes(16)); // Sub-chunk size, 16 for PCM
+      raw.writeShort(Short.reverseBytes((short) 1)); // AudioFormat, 1 for PCM
 
       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       // TODO: Hier fehlende Header Eintraege ergaenzen
 
-                                                                                  // Number of channels, 1 for mono, 2 for stereo
-                                                                                  // Sample rate
-                                                                                  // Byte rate
-                                                                                  // Block align, nChannels*bitsPerSample/8
-                                                                                  // Bits per Sample
-                                                                                  // Keyword "data"
+      // Number of channels, 1 for mono, 2 for stereo
+      // Sample rate
+      // Byte rate
+      // Block align, nChannels*bitsPerSample/8
+      // Bits per Sample
+      // Keyword "data"
 
 
       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      raw.writeInt(0);                                                            // Data chunk size not known yet, write 0
+      raw.writeInt(0); // Data chunk size not known yet, write 0
     }
     catch(IOException e)
     {

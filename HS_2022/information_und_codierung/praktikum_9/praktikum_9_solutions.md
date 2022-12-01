@@ -2,7 +2,15 @@
 
 # 1.
 
+✔
+
 # 2.
+
+$$S_i = K \cdot \sin\left({i \cdot 2 \pi f \over R}\right)$$
+
+$$K = 2^{\text{bit per sample} - 1} - 1$$
+
+$$\boxed{K = 32'767}$$
 
 # 3.
 

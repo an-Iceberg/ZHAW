@@ -109,6 +109,20 @@ public class DCT_Aufgabe {
     // den DC- und die AC-Werte
     // Output: Bild mit 8x8 Pixeln
 
+    for (int x = 0; x < 8; x++) {
+      for (int y = 0; y < 8; y++) {
+        double Summe = 0.0;
+      for (int v = 0; v < 8; v++) {
+          for (int u = 0; u < 8; u++) {
+            Summe = Summe + Freq[v][u] * C(u) * C(v) *
+            Math.cos((2.0 * x + 1.0) * u * Math.PI / 16.0) *
+            Math.cos((2.0 * y + 1.0) * v * Math.PI / 16.0);
+          }
+        }
+        Bild[y][x] = (int) (Math.round((Summe / 4.0)));
+      }
+    }
+
   }
 
   //======================== Programm Entry Point ===============================

@@ -89,6 +89,8 @@ Die Werte der einzelnen Koeffizienten.
 
 ### a)
 
+✔️
+
 ### b)
 
 Das JPEG codierte Bildausschnitt.

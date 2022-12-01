@@ -4,7 +4,7 @@ fn main()
 {
   let mut file;
 
-  match fs::File::create("file.wav")
+  match fs::File::create("signal1.wav")
   {
     Ok(file_handle) =>
       file = file_handle,

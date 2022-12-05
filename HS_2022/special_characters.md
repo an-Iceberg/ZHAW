@@ -148,3 +148,5 @@ $$
 $$
 
 $\bar{\land}$
+
+$$\overline{\text{overline}}$$

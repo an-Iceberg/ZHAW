@@ -6,7 +6,7 @@
 
 # 2.
 
->$$S_i = K \cdot \sin\left({i \cdot 2 \pi f \over R}\right)$$
+>$$S_i = K \cdot \sin\left({i \cdot 2 \pi \cdot f \over R}\right)$$
 
 $$K = 2^{\text{bit per sample} - 1} - 1$$
 

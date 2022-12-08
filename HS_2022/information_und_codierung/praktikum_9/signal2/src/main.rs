@@ -39,7 +39,7 @@ fn main()
   file.write(&0_u32.to_le_bytes()).unwrap(); // Data chunk size not known yet, write 0
 
   // let frequency: f32 = 2_f32 * sample_rate as f32;
-  let frequency_1 = 1_000_f32;
+  let frequency_1 = 1_900_f32;
   let frequency_2 = 1_050_f32;
   // $K = 2^{\text{bits per sample} - 1} - 1$
   let scaling_factor_k: f32 = 2_f32.powf(bits_per_sample as f32 - 1_f32) - 1_f32;

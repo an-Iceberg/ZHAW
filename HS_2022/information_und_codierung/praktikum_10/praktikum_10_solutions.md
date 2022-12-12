@@ -62,22 +62,35 @@ $P_{F,N} = {N! \over F! \cdot (N - F)!} \cdot \varepsilon^F \cdot (1 - \varepsil
 
 ### e)
 
+Kein Faktor scheint einen überheblichen Einfluss auf das Resultat auszuüben.
+
 ### f)
+
+$\sum_{F=0}^5 {F \over N} \cdot P_F = \underbrace{{0 \over 31} \cdot 0.14}_{0} + \underbrace{{1 \over 31} \cdot 0.29}_{\approx 0.00935} + \underbrace{{2 \over 31} \cdot 0.28}_{\approx 0.018} + \underbrace{{3 \over 31} \cdot 0.17}_{\approx 0.01645} + \underbrace{{4 \over 31} \cdot 0.07}_{\approx 0.009} + \underbrace{{5 \over 31} \cdot 0.02}_{\approx 0.00322} = 0.05602 \boxed{\approx 0.06}$
 
 ## 3.
 
+$P_{\leq F, N} = \sum_{t = 0}^F \binom{N}{t} \cdot 0.06^t \cdot (1 - 0.06)^{N - t}$
+
 ||Code 1|Code 2|Code 3|
 |:-|:-:|:-:|:-:|
-|$N$|31|31|511|
-|$K$|21|11|340|
+|$N$                     |31|31|511|
+|$K$                     |21|11|340|
 |Korrigierbare Fehler $f$|2|5|20|
-|a) Coderate||||
-|b) Übertragung von ...|21 Infobits = 1 Codewort|11 Infobits = 1 Codewort|340 Infobits = 1 Codewort|
-|Wahrscheinlichkeit für eine fehlerfreie Übertragung|||$P_{\leq20'511} = 0.9058$|
-|c) Übertragung von ...|105 Infobits = _ Codeworte|99 Infobits = _ Codeworte|_|
-|Wahrscheinlichkeit für eine fehlerfreie Übertragung|||_|
-|d) Übertragung von ...|1008 Infobits = _ Codeworte|1001 Infobits = _ Codeworte|1020 Infobits = _ Codeworte|
+|a) Coderate             |0.677|0.355|0.665|
+|b) Übertragung von ...  |21 Infobits = 1 Codewort|11 Infobits = 1 Codewort|340 Infobits = 1 Codewort|
+|Wahrscheinlichkeit für eine fehlerfreie Übertragung|$P_{\leq 2, 31} = \sum_{t = 0}^2 \binom{31}{t} \cdot 0.06^t \cdot (1 - 0.06)^{31 - t} = 0.71$|$P_{F,N} = {N! \over F! \cdot (N - F)!} \cdot \varepsilon^F \cdot (1 - \varepsilon)^{N - F}$|$P_{\leq20'511} = 0.9058$|
+|c) Übertragung von ...  |105 Infobits = 5 Codeworte|99 Infobits = 9 Codeworte|-|
+|Wahrscheinlichkeit für eine fehlerfreie Übertragung|||-|
+|d) Übertragung von ...  |1008 Infobits = 48 Codeworte|1001 Infobits = 91 Codeworte|1020 Infobits = 3 Codeworte|
 |Wahrscheinlichkeit für eine fehlerfreie Übertragung||||
+
+```
+1 * 1 * 0.147 = 0.147
+31 * 0.06 * 0.156 = 0.29
+465 * 0.0036 * 0.166 = 0.277
+
+```
 
 ### a)
 

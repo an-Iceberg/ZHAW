@@ -49,4 +49,10 @@ nein
 
 # 7.
 
+9 Stüzstellen pro Periode.
+
+Ebenfalls 9 aber diesmal ist die Audiowelle um 180° phasenverschoben.
+
 # 8.
+
+✔️

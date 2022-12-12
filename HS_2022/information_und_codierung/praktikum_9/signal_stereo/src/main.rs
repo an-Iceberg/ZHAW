@@ -2,7 +2,7 @@ use std::{fs, io::{Write, Seek}, f32::consts::PI};
 
 fn main()
 {
-  let mut file = match fs::File::create("signal1.wav")
+  let mut file = match fs::File::create("signal_stereo.wav")
   {
     Ok(file_handle) => file_handle,
 
@@ -13,9 +13,11 @@ fn main()
     }
   };
 
+  // TODO: adjust everything for stereo
+
   let sample_rate: u32 = 44_100; // Originally 44'100
   let bits_per_sample: u16 = 16;
-  let number_of_channels: u16 = 1;
+  let number_of_channels: u16 = 2; // Stereo
   let duration: u32 = 3;
   let mut byte_count: u32 = 1;
 
@@ -35,19 +37,25 @@ fn main()
 
   file.write(&0_u32.to_le_bytes()).unwrap(); // Data chunk size not known yet, write 0
 
+  // TODO: left 440 Hz, right 880 Hz
   // let frequency: f32 = 2_f32 * sample_rate as f32;
-  let frequency = 7_000_f32; // Originally 1'000
+  // let frequency = 1_000_f32; // Originally 1'000
+  let left_frequency = 440_f32;
+  let right_frequency = 880_f32;
+
   // $K = 2^{\text{bits per sample} - 1} - 1$
   let scaling_factor_k: f32 = 2_f32.powf(bits_per_sample as f32 - 1_f32) - 1_f32;
 
-  for i in 0..(sample_rate * duration)
+  for i in 0..((sample_rate * duration) / 2)
   {
     // TODO: make some noise!!
     // $S_i = K \cdot \sin\left({i \cdot 2\pi \cdot f \over R}\right)$
-    let sample = (scaling_factor_k * ((i as f32 * 2_f32 * PI * frequency) / sample_rate as f32).sin()) as i16;
+    let left_sample = (scaling_factor_k * ((i as f32 * 2_f32 * PI * left_frequency) / sample_rate as f32).sin()) as i16;
+    let right_sample = (scaling_factor_k * ((i as f32 * 2_f32 * PI * right_frequency) / sample_rate as f32).sin()) as i16;
 
-    file.write(&sample.to_le_bytes()).unwrap();
-    byte_count += 2;
+    file.write(&left_sample.to_le_bytes()).unwrap();
+    file.write(&right_sample.to_le_bytes()).unwrap();
+    byte_count += 4;
   }
 
   println!("\nbyte_count:{}\n", byte_count);

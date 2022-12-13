@@ -45,13 +45,6 @@ $$
 
 ### d)
 
-$N = 31$\
-$F = 0 \dots 5$\
-$\varepsilon = 0.06$
-
-$P_{F,N} = \binom{N}{F} \cdot \varepsilon^F \cdot (1 - \varepsilon)^{N - F}$\
-$P_{F,N} = {N! \over F! \cdot (N - F)!} \cdot \varepsilon^F \cdot (1 - \varepsilon)^{N - F}$
-
 |Fehler $F$|0|1|2|3|4|5|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |$\binom{31}{F}$             |${8.22\text{e}+33 \over 1 \cdot 8.22\text{e}+33} = 1$|${8.22\text{e}+33 \over 1 \cdot 2.65\text{e}+32} \approx 31$|${8.22\text{e}+33 \over 2 \cdot 8.842\text{e}+30} \approx 464.83$|${8.22\text{e}+33 \over 6 \cdot 304.89\text{e}+27} \approx 4'493.42$|${8.22\text{e}+33 \over 24 \cdot 10.89\text{e}+27} \approx 31'450.87$|${8.22\text{e}+33 \over 120 \cdot 403.3\text{e}+24} \approx 169'848.75$|
@@ -70,8 +63,6 @@ $\sum_{F=0}^5 {F \over N} \cdot P_F = \underbrace{{0 \over 31} \cdot 0.14}_{0} +
 
 ## 3.
 
-$P_{\leq F, N} = \sum_{t = 0}^F \binom{N}{t} \cdot 0.06^t \cdot (1 - 0.06)^{N - t}$
-
 ||Code 1|Code 2|Code 3|
 |:-|:-:|:-:|:-:|
 |$N$                     |31|31|511|
@@ -79,21 +70,20 @@ $P_{\leq F, N} = \sum_{t = 0}^F \binom{N}{t} \cdot 0.06^t \cdot (1 - 0.06)^{N - 
 |Korrigierbare Fehler $f$|2|5|20|
 |a) Coderate             |0.677|0.355|0.665|
 |b) Übertragung von ...  |21 Infobits = 1 Codewort|11 Infobits = 1 Codewort|340 Infobits = 1 Codewort|
-|Wahrscheinlichkeit für eine fehlerfreie Übertragung|$P_{\leq 2, 31} = \sum_{t = 0}^2 \binom{31}{t} \cdot 0.06^t \cdot (1 - 0.06)^{31 - t} = 0.71$|$P_{F,N} = {N! \over F! \cdot (N - F)!} \cdot \varepsilon^F \cdot (1 - \varepsilon)^{N - F}$|$P_{\leq20'511} = 0.9058$|
+|Wahrscheinlichkeit für eine fehlerfreie Übertragung|$P_{\leq 2, 31} = \sum_{t = 0}^2 \binom{31}{t} \cdot 0.06^t \cdot (1 - 0.06)^{31 - t} = 0.71$|$P_{\leq 5,31} = \sum_{t = 0}^5 \binom{31}{t} \cdot 0.06^t \cdot (1 - 0.06)^{31 - t} = 0.99$|$P_{\leq20, 511} = 0.9058$|
 |c) Übertragung von ...  |105 Infobits = 5 Codeworte|99 Infobits = 9 Codeworte|-|
-|Wahrscheinlichkeit für eine fehlerfreie Übertragung|||-|
+|Wahrscheinlichkeit für eine fehlerfreie Übertragung|$0.71^5 = 0.18$|$0.99^9 = 0.91$|-|
 |d) Übertragung von ...  |1008 Infobits = 48 Codeworte|1001 Infobits = 91 Codeworte|1020 Infobits = 3 Codeworte|
-|Wahrscheinlichkeit für eine fehlerfreie Übertragung||||
-
-```
-1 * 1 * 0.147 = 0.147
-31 * 0.06 * 0.156 = 0.29
-465 * 0.0036 * 0.166 = 0.277
-
-```
+|Wahrscheinlichkeit für eine fehlerfreie Übertragung|$0.71^{48} \approx 0$|$0.99^{91} = 0.4$|$0.9058^3 = 0.74$|
 
 ### a)
 
+Ungefähr 2 mal so lange da 2 mal mehr codes geschickt werden müssen um die gleiche Menge an Information zu übertragen.
+
 ### b)
 
+Ja.
+
 ### c)
+
+Code 2 hat die meiste Redundanz, hat aber die fehlerfreieste Übertragugnsrate. Code 1 hat die grösste Datenrate. Code 3 muss ein Witz sein da es sehr unpraktisch ist, solche grosse Datenpackete auf einmal zu schicken (verglichen mit Code 1 und 2).

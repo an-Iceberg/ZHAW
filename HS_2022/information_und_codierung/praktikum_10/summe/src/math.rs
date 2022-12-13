@@ -1,40 +1,49 @@
-pub fn sum(f: u128, n: u128, epsilon: f64) -> f64
-{
-  let mut sum = 0;
+//#[allow(dead_code)]
 
-  for t in 0..=f
+pub fn sum(f: f64, n: f64, epsilon: f64) -> f64
+{
+  let mut sum = 0_f64;
+
+  for t in 0..=(f as i64)
   {
-    sum += binomial(n, t) * power(epsilon, t) * power(1_f64 - epsilon, n - t);
+    sum += binomial(n, t as f64) * power(epsilon, t) * power(1_f64 - epsilon, n as i64 - t);
   }
 
   return sum;
 }
 
-pub fn power(mut base: f64, exponent: u128) -> f64
+pub fn power(base: f64, mut exponent: i64) -> f64
 {
-  for _i in 0..=exponent
+  let mut value = 1_f64;
+
+  loop
   {
-    base *= base;
+    if exponent < 1
+    {
+      break;
+    }
+
+    exponent -= 1;
+    value *= base;
   }
 
-  return base;
+  return value;
 }
 
-pub fn factorial(mut number: u128) -> u128
+pub fn factorial(mut number: f64) -> f64
 {
-  let mut factorial = 1_u128;
+  let mut factorial = 1_f64;
 
-  while number > 0
+  while number > 1_f64
   {
     factorial *= number;
-    number -= 1;
+    number -= 1_f64;
   }
 
   return factorial;
 }
 
-// TODO: needs to return an f64
-pub fn binomial(top: u128, bottom: u128) -> f64
+pub fn binomial(top: f64, bottom: f64) -> f64
 {
   let up = factorial(top);
   let bottom_left = factorial(bottom);

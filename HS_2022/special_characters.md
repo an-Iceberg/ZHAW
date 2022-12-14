@@ -149,4 +149,5 @@ $$
 
 $\bar{\land}$
 
-$$\overline{\text{overline}}$$
+doesn't work 😔
+$$\underline{\overline{\text{overline}}}$$

@@ -59,7 +59,7 @@ Kein Faktor scheint einen überheblichen Einfluss auf das Resultat auszuüben.
 
 ### f)
 
-$\sum_{F=0}^5 {F \over N} \cdot P_F = \underbrace{{0 \over 31} \cdot 0.14}_{0} + \underbrace{{1 \over 31} \cdot 0.29}_{\approx 0.00935} + \underbrace{{2 \over 31} \cdot 0.28}_{\approx 0.018} + \underbrace{{3 \over 31} \cdot 0.17}_{\approx 0.01645} + \underbrace{{4 \over 31} \cdot 0.07}_{\approx 0.009} + \underbrace{{5 \over 31} \cdot 0.02}_{\approx 0.00322} = 0.05602 \boxed{\approx 0.06}$
+$$\sum_{F=0}^5 {F \over N} \cdot P_F = \underbrace{{0 \over 31} \cdot 0.14}_{0} + \underbrace{{1 \over 31} \cdot 0.29}_{\approx 0.00935} + \underbrace{{2 \over 31} \cdot 0.28}_{\approx 0.018} + \underbrace{{3 \over 31} \cdot 0.17}_{\approx 0.01645} + \underbrace{{4 \over 31} \cdot 0.07}_{\approx 0.009} + \underbrace{{5 \over 31} \cdot 0.02}_{\approx 0.00322} = 0.05602 \boxed{\approx 0.06}$$
 
 ## 3.
 

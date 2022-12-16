@@ -6,13 +6,31 @@
 
 ### a)
 
-$y = (5x^3 - 4x) \cdot (x^2 + 5x) = (5x^3 \cdot x^2) + (5x^3 \cdot 5x) - (4x \cdot x^2) - (4x + 5x) = 5x^5 + 10x^3 - 4x^3 - 9x = 5x^5 + 6x^3 - 9x$
+$$
+\begin{align*}
+  y &= (5x^3 - 4x) \cdot (x^2 + 5x) \\
+  &= (5x^3 \cdot x^2) + (5x^3 \cdot 5x) - (4x \cdot x^2) - (4x + 5x) \\
+  &= 5x^5 + 10x^3 - 4x^3 - 9x \\
+  &= 5x^5 + 6x^3 - 9x
+\end{align*}
+$$
 
-$y^{(1)} = (5 \cdot 5x^4) + (3 \cdot 6x^2) - 9 = \boxed{25x^4 + 18x^2 - 9}$
+$$
+\begin{align*}
+  y^{(1)} &= (5 \cdot 5x^4) + (3 \cdot 6x^2) - 9 \\
+  &= \boxed{25x^4 + 18x^2 - 9}
+\end{align*}
+$$
 
 ### b)
 
-$y^{(1)} = (15x^2 - 4) \cdot (x^2 + 5x) + (5x^3 - 4x) \cdot (2x + 5) = 15x^4 + 75x^3 - 4x^2 - 9x^2 + 10x^4 + 25x^3 - 8x^2 - 9x = \dots$
+$$
+\begin{align*}
+  y^{(1)} &= (15x^2 - 4) \cdot (x^2 + 5x) + (5x^3 - 4x) \cdot (2x + 5) \\
+  &= 15x^4 + 75x^3 - 4x^2 - 9x^2 + 10x^4 + 25x^3 - 8x^2 - 9x \\
+  &= \dots
+\end{align*}
+$$
 
 ## 2.
 
@@ -40,7 +58,13 @@ $y = 4^{x \cdot \ln(x)}$
 
 $a(x) = 4^x, b(x) = x \cdot \ln(x)$
 
-$y^{(1)} = a'(b(x)) \cdot b'(x) = \left(4^{x \cdot \ln(x)} \cdot \ln(4)\right) \cdot \ln(x) \cdot x \cdot {1 \over x} = \boxed{\left(4^{x \cdot \ln(x)} \cdot \ln(4)\right) \cdot \ln(x)}$
+$$
+\begin{align*}
+  y^{(1)} &= a'(b(x)) \cdot b'(x) \\
+  &= \left(4^{x \cdot \ln(x)} \cdot \ln(4)\right) \cdot \ln(x) \cdot x \cdot {1 \over x} \\
+  &= \boxed{\left(4^{x \cdot \ln(x)} \cdot \ln(4)\right) \cdot \ln(x)}
+\end{align*}
+$$
 
 ### e)
 
@@ -70,7 +94,13 @@ $\boxed{y^{(1)} = 6x^5 + 12x^3 + 6x}$
 
 ### b)
 
-$y^{(1)} = 3(x^2 + 1)^2 \cdot 2x = (3x^4 + 6x^2 + 3) \cdot 2x = \boxed{6x^5 + 12x^3 + 6x}$
+$$
+\begin{align*}
+  y^{(1)} &= 3(x^2 + 1)^2 \cdot 2x \\
+  &= (3x^4 + 6x^2 + 3) \cdot 2x \\
+  &= \boxed{6x^5 + 12x^3 + 6x}
+\end{align*}
+$$
 
 ## 5.
 
@@ -82,7 +112,12 @@ $y^{(1)} = 3(x^2 + 1)^2 \cdot 2x = (3x^4 + 6x^2 + 3) \cdot 2x = \boxed{6x^5 + 12
 
 ### a)
 
-$y^{(1)} = {1 \over 2\sqrt{x}} \cdot (x + 1) + \sqrt{x} \cdot 1 = \boxed{{x + 1 \over 2\sqrt{x}} + \sqrt{x}}$
+$$
+\begin{align*}
+  y^{(1)} &= {1 \over 2\sqrt{x}} \cdot (x + 1) + \sqrt{x} \cdot 1 \\
+  &= \boxed{{x + 1 \over 2\sqrt{x}} + \sqrt{x}}
+\end{align*}
+$$
 
 ### b)
 

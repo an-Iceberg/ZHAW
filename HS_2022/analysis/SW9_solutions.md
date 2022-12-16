@@ -6,39 +6,39 @@
 
 >$f(x) = {1 \over x^2} = x^{-2}$
 
-$f^{(1)} = -2x^{-3} = -{1 \over 2x^3}$
+$$f^{(1)}(x) = -2x^{-3} = -{1 \over 2x^3}$$
 
 ### b)
 
 >$f(x) = \sqrt{x} = x^{1 \over 2}$
 
-$f^{(1)} = {1 \over 2}x^{-{1 \over 2}} = {1 \over \sqrt{{1 \over 2}x}}$
+$$f^{(1)}(x) = {1 \over 2}x^{-{1 \over 2}} = {1 \over \sqrt{{1 \over 2}x}}$$
 
 ## 2.
 
 ### a)
 
-$a \cdot 1^2 + b \cdot 1 + 3 = 2$
-
-$\Rightarrow a + b + 3 = 2 \quad | \quad -3$
-
-$\Rightarrow a + b = -1 \quad | \quad - b$
-
-$\Rightarrow a = -1 - b$
-
-$b \text{ ist frei wählbar}$
+$$
+\begin{align*}
+  a \cdot 1^2 + b \cdot 1 + 3 &= 2 \\
+  a + b + 3 &= 2 &&| \ -3 \\
+  a + b &= -1 &&| \ - b \\
+  a &= -1 - b \\
+  b \text{ ist frei wählbar}
+\end{align*}
+$$
 
 ### b)
 
-$-(-1)^2 - 4(-1) + a = b(-1)^2 + 4$
-
-$\Rightarrow 1 + 4 + a = b + 4$
-
-$\Rightarrow 5 + a = b + 4 \quad | \quad -4$
-
-$\Rightarrow 1 + a = b \quad | \quad$
-
-$\Rightarrow b = 1 + a$
+$$
+\begin{align*}
+  -(-1)^2 - 4(-1) + a &= b(-1)^2 + 4 \\
+  1 + 4 + a &= b + 4 \\
+  5 + a &= b + 4 &&| \ -4 \\
+  1 + a &= b &&| \ \\
+  b &= 1 + a
+\end{align*}
+$$
 
 ## 3.
 
@@ -49,8 +49,8 @@ $x^2 + a = -x^2 + 4x + 1 $
 $y_1(x) = x^2 + a$\
 $y_2(x) = -x^2 + 4x + 1$
 
-$y_1^{(1)} = 2x$\
-$y_2^{(1)} = -2x + 4$
+$y_1^{(1)}(x) = 2x$\
+$y_2^{(1)}(x) = -2x + 4$
 
 ### b)
 
@@ -69,18 +69,16 @@ $y_2^{(1)} = -2x + 4$
 
 >$x_0 = 10$
 
-$y = f^{(1)}(x_0) \cdot (x - x_0) + f(x_0) \quad | \quad f(x) = x^4, f^{(1)} = 4x^3$
-
-$\Rightarrow y = 4x_0^3 \cdot (x - x_0) + x_0^4 \quad | \quad x_0 = 10$
-
-$\Rightarrow y = 4 \cdot 10^3 \cdot (x - 10) + 10^4$
-
-$\Rightarrow y = 4'000 \cdot (x - 10) + 10'000$
-
-$\Rightarrow y = 4'000x - 40'000 + 10'000$
-
-$\Rightarrow y = 4'000x - 30'000$
-
+$$
+\begin{align*}
+  y &= f^{(1)}(x_0) \cdot (x - x_0) + f(x_0) &&| \ f(x) = x^4, f^{(1)}(x) = 4x^3 \\
+  y &= 4x_0^3 \cdot (x - x_0) + x_0^4 &&| \ x_0 = 10 \\
+  y &= 4 \cdot 10^3 \cdot (x - 10) + 10^4 \\
+  y &= 4'000 \cdot (x - 10) + 10'000 \\
+  y &= 4'000x - 40'000 + 10'000 \\
+  y &= 4'000x - 30'000
+\end{align*}
+$$
 
 ### b)
 
@@ -94,7 +92,7 @@ $y(x_1) = 40'008 - 30'000 = 10'008$
 
 $(x_1,y_1) = (10.002, 10'008)$
 
-$f(x_1) \simeq y(x_1)$
+$f(x_1) \approx y(x_1)$
 
 ## 5.
 
@@ -105,15 +103,15 @@ $f(x_1) \simeq y(x_1)$
 
 >$x_0 = 1'000$
 
-$y = f'(x_0) \cdot (x - x_0) + f(x_0) \quad | \quad f(x), f^{(1)}(x)$
-
-$\Rightarrow y = {1 \over 3}\sqrt[3]{1 \over x_0^2} \cdot (x - x_0) + x_0^{1 \over 3} \quad | \quad x_0 = 1'000$
-
-$\Rightarrow y = {1 \over 3}\sqrt[3]{1 \over 1'000^2} \cdot (x - 1'000) + 1'000^{1 \over 3}$
-
-$\Rightarrow y = {1 \over 300} \cdot (x - 1'000) + 10$
-
-$\Rightarrow y = {1 \over 300}x - {40 \over 3}$
+$$
+\begin{align*}
+  y &= f'(x_0) \cdot (x - x_0) + f(x_0) &&| \ f(x), f^{(1)}(x) \\
+  y &= {1 \over 3}\sqrt[3]{1 \over x_0^2} \cdot (x - x_0) + x_0^{1 \over 3} &&| \ x_0 = 1'000 \\
+  y &= {1 \over 3}\sqrt[3]{1 \over 1'000^2} \cdot (x - 1'000) + 1'000^{1 \over 3} \\
+  y &= {1 \over 300} \cdot (x - 1'000) + 10 \\
+  y &= {1 \over 300}x - {40 \over 3}
+\end{align*}
+$$
 
 ### b)
 

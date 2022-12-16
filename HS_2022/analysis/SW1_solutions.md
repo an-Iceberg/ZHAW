@@ -38,45 +38,51 @@ Nein (Gewissen Eingabewerten sind mehrere Ausgabewerte zugeordnet)
 
 ## 3.
 
-- $f(x) = 3x + 7, g(x) = 0.5 \cdot x^2$
+$$f(x) = 3x + 7, g(x) = 0.5 \cdot x^2$$
 
-- $f(-3) = 7$
+$$f(-3) = 7$$
 
-- $g(-3) = 4.5ä
+$$g(-3) = 4.5$$
 
-- $f(u + 1) = 3(u + 1) + 7$
+$$
+\begin{align*}
+  f(u + 1) &= 3(u + 1) + 7 \\
+  &= 3u + 3 + 7 \\
+  &= 3u + 10
+\end{align*}
+$$
 
-= $3u + 3 + 7$
+$$
+\begin{align*}
+  g(u + 1) &= 0.5 \cdot (u + 1)^2 \\
+  &= 0.5 \cdot (u^2 + 2u + 1) \\
+  &= 0.5 \cdot u^2 + u + 0.5
+\end{align*}
+$$
 
-= $3u + 10$
+$$f(y^2) = 3y^2 + 7$$
 
-- $g(u + 1) = 0.5 \cdot (u + 1)^2$
-
-= $0.5 \cdot (u^2 + 2u + 1)$
-
-= $0.5 \cdot u^2 + u + 0.5$
-
-- $f(y^2) = 3y^2 + 7$
-
-- $g(y^2) = 0.5 \cdot (y^2)^2 // = (y^2) \cdot (y^2) \Rightarrow y^{\text{inner} + \text{outer}}$
+$$g(y^2) = 0.5 \cdot (y^2)^2 // = (y^2) \cdot (y^2) \Rightarrow y^{\text{inner} + \text{outer}}$$
 
 = $0.5 * y^4$
 
-- $f((z - 3)^2) = 3((z - 3)^2) + 7$
+$$
+\begin{align*}
+  f((z - 3)^2) &= 3((z - 3)^2) + 7 \\
+  &= 3(z^2 - 6z + 9) + 7 \\
+  &= 3z^2 - 18z + 27 + 7 \\
+  &= 3z^2 - 18z + 34
+\end{align*}
+$$
 
-= $3(z^2 - 6z + 9) + 7$
-
-= $3z^2 - 18z + 27 + 7$
-
-= $3z^2 - 18z + 34$
-
-- $g((z - 3)^2) = 0.5 \cdot ((z - 3)^2)^2$
-
-= $0.5 \cdot (z - 3)^4$
-
-= $0.5 \cdot (z^4 - 12z^3 + 54z^2 - 108z + 81)$
-
-= $0.5z^4 - 6z^3 + 27z^2 - 54z + 40.5$
+$$
+\begin{align*}
+  g((z - 3)^2) &= 0.5 \cdot ((z - 3)^2)^2 \\
+  &= 0.5 \cdot (z - 3)^4 \\
+  &= 0.5 \cdot (z^4 - 12z^3 + 54z^2 - 108z + 81) \\
+  &= 0.5z^4 - 6z^3 + 27z^2 - 54z + 40.5
+\end{align*}
+$$
 
 ## 4.
 

@@ -10,27 +10,10 @@
 
 $$
 \begin{align*}
-  \lim \limits _{n \to \infty}
-  &=
-  \frac{2n^2 - n}{n^2 + n - 1}
-  & &| \quad \cdot \frac{1 \over n^2}{1 \over n^2}
-  \\
-
-  \lim \limits _{n \to \infty}
-  &=
-  {2 - {1 \over n} \over 0 + {1 \over n} - {1 \over n^2}}
-  & &| \quad \lim
-  \\
-
-  a_n
-  &=
-  {2 - 0 \over 0 + 0 - 0}
-  \\
-
-  a_n
-  &=
-  {2 \over 0} \\
-
+  \lim \limits _{n \to \infty} &= \frac{2n^2 - n}{n^2 + n - 1} &&| \ \cdot \frac{1 \over n^2}{1 \over n^2} \\
+  \lim \limits _{n \to \infty} &= {2 - {1 \over n} \over 0 + {1 \over n} - {1 \over n^2}} &&| \ \lim \\
+  a_n &= {2 - 0 \over 0 + 0 - 0} \\
+  a_n &= {2 \over 0} \\
   &= 0
 \end{align*}
 $$
@@ -40,23 +23,11 @@ $$
 > $$(a _n) = \left({3^n - 3^{n - 1} \over 2 + 3^n}\right)$$
 
 $$
-\lim \limits _{n \to \infty}
-=
-\left.  {3^n - 3^{n - 1} \over 2 + 3^n} \quad
-\middle | \quad \cdot {3^{-n} \over 3^{-n}}
-\right.
-$$
-
-$$
-\lim \limits _{n \to \infty}
-=
-{1 - {1 \over 3} \over {1 \over 6^n} + 0}
-$$
-
-$$
-a_n
-=
-{{2 \over 3} \over 0 + 0} = 0
+\begin{align*}
+  \lim \limits _{n \to \infty} &= {3^n - 3^{n - 1} \over 2 + 3^n} &&| \ \cdot {3^{-n} \over 3^{-n}} \\
+  \lim \limits _{n \to \infty} &= {1 - {1 \over 3} \over {1 \over 6^n} + 0} &&| \ \lim \\
+  a_n &= {{2 \over 3} \over 0 + 0} = 0
+\end{align*}
 $$
 
 ### c)
@@ -64,17 +35,10 @@ $$
 > $$(a _n) = \left({3n - 2(-1)^n \over n}\right)$$
 
 $$
-\lim \limits _{n \to \infty}
-=
-\left. {3n - 2(-1)^n \over n} \quad
-\middle | \quad \cdot {{1 \over n} \over {1 \over n}}
-\right.
-$$
-
-$$
-\lim \limits _{n \to \infty}
-=
-{3 - {-2^n \over n} \over 1}
+\begin{align*}
+  \lim \limits _{n \to \infty} &= {3n - 2(-1)^n \over n} &&| \ \cdot {{1 \over n} \over {1 \over n}} \\
+  \lim \limits _{n \to \infty} &= {3 - {-2^n \over n} \over 1}
+\end{align*}
 $$
 
 >$$
@@ -105,51 +69,26 @@ $$
 
 ### d)
 
-> $$(a _n) = \left( {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \right )$$
+> $$(a _n) = \left( {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \right)$$
 
 $$
 \begin{align*}
-  \lim \limits _{n \to \infty}
-  &=
-  {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} \quad
-  & &| \quad \cdot {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}}
-  \\
-
-  \lim \limits _{n \to \infty}
-  &=
-  {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \quad
-  & &| \quad \text{Umformung}
-  \\
-
-  \lim \limits _{n \to \infty}
-  &=
-  {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}} \quad
-  & &| \quad
+  \lim \limits _{n \to \infty} &= {\sqrt{4n^2 + n + 2} - \sqrt{4n^2 + 1}} &&| \ \cdot {{\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} \over {\sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}}} \\
+  \lim \limits _{n \to \infty} &= {4n^2 + n + 2 - 4n^2 + 1 \over \sqrt{4n^2 + n + 2} + \sqrt{4n^2 + 1}} &&| \ \text{Umformung} \\
+  \lim \limits _{n \to \infty} &= {n + 3 \over (4n^2 + n + 2)^{{1 \over 2}} + (4n^2 + 1)^{1 \over 2}}
 \end{align*}
 $$
 
 ### e)
 
-> $$(a _n) = \left( \left(1 + {1 \over 7n}\right)^n \right )$$
+> $$(a _n) = \left( \left(1 + {1 \over 7n}\right)^n \right)$$
 
 $$
-\lim \limits _{n \to \infty}
-=
-\left. \left(1 + {1 \over 7n}\right)^n \quad
-\middle | ^{7 {1 \over 7}}
-\right.
-$$
-
-$$
-\lim \limits _{n \to \infty}
-=
-\left(1 + {1 \over 7n}\right)^{7n \cdot {1 \over 7}}
-$$
-
-$$
-a_n
-=
-e \over 7
+\begin{align*}
+  \lim \limits _{n \to \infty} &= \left(1 + {1 \over 7n}\right)^n &&| \ ^{7 {1 \over 7}} \\
+  \lim \limits _{n \to \infty} &= \left(1 + {1 \over 7n}\right)^{7n \cdot {1 \over 7}} \\
+  a_n &= {e \over 7}
+\end{align*}
 $$
 
 ## 2.

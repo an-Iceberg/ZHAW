@@ -57,8 +57,6 @@ Für die Zahl 8 bräuchten wir ein weiteres Bit, um es kodieren zu können.
 
 ## Aufgabe 2
 
-TODO: Papier hier übertragen
-
 ### a)
 
 Max. Dictionary size: 511\

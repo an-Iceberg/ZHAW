@@ -46,7 +46,6 @@ fn main()
 
   for i in 0..(sample_rate * duration)
   {
-    // TODO: make some noise!!
     // $S_i = K \cdot \sin\left({i \cdot 2\pi \cdot f \over R}\right)$
     let sample =
     (

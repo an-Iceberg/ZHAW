@@ -42,7 +42,6 @@ fn main()
 
   for i in 0..(sample_rate * duration)
   {
-    // TODO: make some noise!!
     // $S_i = K \cdot \sin\left({i \cdot 2\pi \cdot f \over R}\right)$
     let sample = (scaling_factor_k * ((i as f32 * 2_f32 * PI * frequency) / sample_rate as f32).sin()) as i16;
 

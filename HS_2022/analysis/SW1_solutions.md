@@ -38,67 +38,67 @@ Nein (Gewissen Eingabewerten sind mehrere Ausgabewerte zugeordnet)
 
 ## 3.
 
-- f(x) = 3x + 7, g(x) = 0.5 * x<sup>2</sup>
+- $f(x) = 3x + 7, g(x) = 0.5 \cdot x^2$
 
-- f(-3) = 7
+- $f(-3) = 7$
 
-- g(-3) = 4.5
+- $g(-3) = 4.5ä
 
-- f(u + 1) = 3(u + 1) + 7
+- $f(u + 1) = 3(u + 1) + 7$
 
-= 3u + 3 + 7
+= $3u + 3 + 7$
 
-= 3u + 10
+= $3u + 10$
 
-- g(u + 1) = 0.5 * (u + 1)<sup>2</sup>
+- $g(u + 1) = 0.5 \cdot (u + 1)^2$
 
-= 0.5 * (u<sup>2</sup> + 2u + 1)
+= $0.5 \cdot (u^2 + 2u + 1)$
 
-= 0.5 * u<sup>2</sup> + u + 0.5
+= $0.5 \cdot u^2 + u + 0.5$
 
-- f(y<sup>2</sup>) = 3y<sup>2</sup> + 7
+- $f(y^2) = 3y^2 + 7$
 
-- g(y<sup>2</sup>) = 0.5 * (y<sup>2</sup>)<sup>2</sup> // = (y<sup>2</sup>) * (y<sup>2</sup>) => y<sup>(inner + outer)</sup>
+- $g(y^2) = 0.5 \cdot (y^2)^2 // = (y^2) \cdot (y^2) \Rightarrow y^{\text{inner} + \text{outer}}$
 
-= 0.5 * y<sup>4</sup>
+= $0.5 * y^4$
 
-- f((z - 3)<sup>2</sup>) = 3((z - 3)<sup>2</sup>) + 7
+- $f((z - 3)^2) = 3((z - 3)^2) + 7$
 
-= 3(z<sup>2</sup> - 6z + 9) + 7
+= $3(z^2 - 6z + 9) + 7$
 
-= 3z<sup>2</sup> - 18z + 27 + 7
+= $3z^2 - 18z + 27 + 7$
 
-= 3z<sup>2</sup> - 18z + 34
+= $3z^2 - 18z + 34$
 
-- g((z - 3)<sup>2</sup>) = 0.5 * ((z - 3)<sup>2</sup>)<sup>2</sup>
+- $g((z - 3)^2) = 0.5 \cdot ((z - 3)^2)^2$
 
-= 0.5 * (z - 3)<sup>4</sup>
+= $0.5 \cdot (z - 3)^4$
 
-= 0.5 * (z<sup>4</sup> - 12z<sup>3</sup> + 54z<sup>2</sup> - 108z + 81)
+= $0.5 \cdot (z^4 - 12z^3 + 54z^2 - 108z + 81)$
 
-= 0.5z<sup>4</sup> - 6z<sup>3</sup> + 27z<sup>2</sup> - 54z + 40.5
+= $0.5z^4 - 6z^3 + 27z^2 - 54z + 40.5$
 
 ## 4.
 
-Scheitelpunktformel einer Parabel: f(x) = a(x - d)<sup>2</sup> + e
+Scheitelpunktformel einer Parabel: $f(x) = a(x - d)^2 + e$
 
-S = (-b/2a, c-(b<sup>2</sup>/4a))
+$S = \left({-b \over 2a}, c - {b^2 \over 4a}\right)$
 
-4x<sup>2</sup> + 2x + 5 = 0
+$4x^2 + 2x + 5 = 0$
 
-a = 4
+$a = 4$
 
-b = 2
+$b = 2$
 
-c = 5
+$c = 5$
 
-Scheitel = (-2/2 * 4, 5-(2<sup>2</sup>/4 * 4))
+Scheitel = $\left({-2 \over 2 \cdot 4}, 5 - {2^2 \over 4 \cdot 4}\right)$
 
-= (-0.25, 4.75)
+= $(-0.25, 4.75)$
 
-Nullstellen = (-2 +- w(2<sup>2</sup> - 4 * 4 * 5)) / 2 * 4
+Nullstellen = ${-2 \pm \sqrt{2^2 - 4 \cdot 4 \cdot 5} \over 2 \cdot 4}$
 
-= (-2 +- w(-76)) / 8
+= ${-2 \pm \sqrt{-76} \over 8}$
 
 Negative Wurzel => Keine Nullstellen
 
@@ -110,48 +110,48 @@ TODO: research synthetic division
 
 ### a)
 
-f(x) = ax<sup>3</sup> + bx<sup>2</sup> + cx + d
+$f(x) = ax^3 + bx^2 + cx + d$
 
-x1(1,0)
+$x_1(1,0)$
 
-x2(3,0)
+$x_2(3,0)$
 
-x3(4,0)
+$x_3(4,0)$
 
-x4(6,300)
+$x_4(6,300)$
 
-0 = a + b + c + d
+$0 = a + b + c + d$
 
-0 = 27a + 9b + 3c + d
+$0 = 27a + 9b + 3c + d$
 
-0 = 64a + 16b + 4c + d
+$0 = 64a + 16b + 4c + d$
 
-300 = 216a + 36b + 6c + d
+$300 = 216a + 36b + 6c + d$
 
 ### b)
 
-f(x) = ax<sup>3</sup> + bx<sup>2</sup> + cx + d
+$f(x) = ax^3 + bx^2 + cx + d$
 
-x1(-3,0) Tangent
+$x_1(-3,0)$ Tangent
 
-x2(0,36)
+$x_2(0,36)$
 
-x3(3,-72)
+$x_3(3,-72)$
 
 ### c)
 
-f(x) = ax<sup>6</sup> + bx<sup>5</sup> + cx<sup>4</sup> + dx<sup>3</sup> + ex<sup>2</sup> + fx + g
+$f(x) = ax^6 + bx^5 + cx^4 + dx^3 + ex^2 + fx + g$
 
-y0(0,450)
+$y_0(0,450)$
 
-x1(-2,0)
+$x_1(-2,0)$
 
-x2(3,0)
+$x_2(3,0)$
 
-x3(5,0)
+$x_3(5,0)$
 
-x4(2,0)
+$x_4(2,0)$
 
-x5(-3,0)
+$x_5(-3,0)$
 
-x6(-5,0)
+$x_6(-5,0)$

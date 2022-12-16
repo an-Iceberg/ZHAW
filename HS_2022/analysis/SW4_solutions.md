@@ -2,22 +2,29 @@
 
 1.
 
-  - a)
-
+- a)
 $$
 \begin{align*}
   f(x) &= 2x^5 - 4x^3 + 6x^2 - 2 \\
-  f'(x) &= 1/3 * x^6 - x^4 + 2x^3 - 2x + C
+  f'(x) &= {1 \over 3}x^6 - x^4 + 2x^3 - 2x + C
 \end{align*}
 $$
 
-  - b) g(x) = -10x^4 + 2x^3 - 2
+- b)
+$$
+\begin{align*}
+  g(x) &= -10x^4 + 2x^3 - 2 \\
+  G(x) &= -2x^5 + {1 \over 2}x^4 - 2x + C
+\end{align*}
+$$
 
-    ***G(x) = -2x^5 + 1/2 * x^4 - 2x + C***
-
-  - c) h(x) = x^2 + 1/x^2 = x^2 + x^-2
-
-    ***H(x) =*** 1/3 * x^3 - x^-1 + C = ***1/3 * x^3 - 1/x + C***
+- c)
+$$
+\begin{align*}
+  h(x) &= x^2 + {1 \over x^2} = x^2 + x^{-2} \\
+  H(x) &= {1 \over 3}x^3 - {1 \over x} + C
+\end{align*}
+$$
 
 2.
 

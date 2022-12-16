@@ -44,7 +44,6 @@ public class AudioTest
       raw.writeShort(Short.reverseBytes((short) 1)); // AudioFormat, 1 for PCM
 
       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      // TODO: Hier fehlende Header Eintraege ergaenzen
 
       // Number of channels, 1 for mono, 2 for stereo
       // Sample rate
@@ -66,7 +65,6 @@ public class AudioTest
     for (int i = 0; i < sampleRate*duration; i++)
     {
       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      // TODO: Hier Audio Samples erzeugen
 
 
       writeSample(.....);

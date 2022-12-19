@@ -48,8 +48,8 @@
 ## Lösungsvorschläge
 
 - Verständnis der Aufgabenstellung ist sehr wichtig
-- Abstimmungsmeetings zur klärung von Fragen
-- Öftere Kommunikation ("daily" standups via Teams 'emulieren')
+- Abstimmungsmeetings zur Klärung von Fragen
+- Öftere Kommunikation ("daily" Standups via Teams 'emulieren')
 - Status im Teams posten um andere Teammitglieder zu informieren
 
 ## Konkrete Ziele
@@ -60,7 +60,7 @@
 ## Input vom Dozenten
 
 - Es hat Spass gemacht
-- Gute Spielerführung bezüglich erlaubten inputs
+- Gute Spielerführung bezüglich erlaubten Inputs
 - Tests haben ohne Korrektur gelaufen
 - Eigene Tests hatten nicht gut funktioniert
 - Versuchen, nicht zu prokrastinieren

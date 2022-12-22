@@ -6,6 +6,7 @@ Fragen:
 - Sind Blockcodes und Faltungscodes verschiedene Arten von Kanalcodierung welche Hammingcodes produzieren?
 - Weshalb sind die Eigenschaften von Codeworten (systematisch, linear, zyklisch) wichtig?
 - Wie würde ein Galoi Feld (10) aussehen? Und weshalb gibt es keinen "overflow"?
+- Wo werden in der Praxis was für Codes verwended? Und gibt es noch weitere?
 
 ❌✔️
 

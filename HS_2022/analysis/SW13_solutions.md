@@ -117,6 +117,37 @@ $$
 
 ## 3.
 
+$$4y = x^2 \implies y = {x^2 \over 4}$$
+$$y^2 = 4x \implies y = \sqrt{4x}$$
+
+1. Schnittstelle: (0,0)\
+2. Schnitstelle: (4,4)
+
+$$
+\begin{align*}
+  {x^2 \over 4} &= \sqrt{4x} \ &&| \ \cdot 4, \div \sqrt{4x} \\
+  {x^2 \over \sqrt{4x}} &= 4 \\
+  x^2 \cdot {1 \over \sqrt{4x}} &= 4 \\
+  x^2 \cdot {1 \over (4x)^{1 \over 2}} &= 4 \\
+  x^2 \cdot (4x)^{-{1 \over 2}} &= 4 \\
+  x^2 \cdot 4^{-{1 \over 2}} \cdot x^{-{1 \over 2}} &= 4 \\
+  x^2 \cdot {1 \over \sqrt{4}} \cdot x^{-{1 \over 2}} &= 4 \\
+  x^2 \cdot {1 \over 2} \cdot x^{-{1 \over 2}} &= 4 \ &&| \ \cdot 2 \\
+  x^2 \cdot x^{-{1 \over 2}} &= 8 \\
+  x^{2 - {1 \over 2}} &= 8 \\
+  x^{3 \over 2} &= 8 \\
+  (\sqrt[2]{x})^3 &= 8 \ &&| \ \sqrt[3]{} \\
+  \sqrt{x} &= 2 \ &&| \ ^2 \\
+  x &= 4
+\end{align*}
+$$
+
+$$F(x) \Rightarrow (4x)^{1 \over 2} \Rightarrow {1 \over 6} \cdot (4x)^{3 \over 2} = {(\sqrt{4x})^3 \over 6}$$
+
+$$ \int_0^4 {x^2 \over 4} \ \mathrm{d}x = {4^3 \over 12} - {0^3 \over 12} = {16 \over 3} $$
+$$ \int_0^4 \sqrt{4x} \ \mathrm{d}x = {(\sqrt{4 \cdot 4})^3 \over 6} - {(\sqrt{4 \cdot 0})^3 \over 6} = {32 \over 3}$$
+$$A = {32 \over 3} - {16 \over 3} = \boxed{16 \over 3}$$
+
 ## 4.
 
 $$x_{1,2} = {-b \pm \sqrt{b^2 - 4ac} \over 2a}$$
@@ -171,8 +202,68 @@ $$
 
 ## 5.
 
+$$f(x) = x^2 + 9x + 12,\ g(x) = 4x^2 - 27x + 72$$
+
+$$F(x) = {x^3 \over 3} + {9x^2 \over 2} + 12x + C$$
+$$G(x) = {4x^3 \over 3} - {27x^2 \over 2} + 72x + C$$
+
+$$
+\begin{align*}
+  x^2 + 9x + 12 &= 4x^2 - 27x + 72 \ &&| \ -x^2, -9x, -72 \\
+  -60 &= 3x^2 - 36x \ &&| \ + 60 \\
+  0 &= 3x^2 - 36x + 60 \\
+  &\Rightarrow \text{ midnight formula}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+  x_{1,2} &= {-b \pm \sqrt{b^2 - 4ac} \over 2a} \\
+  &= {-(-36) \pm \sqrt{(-36)^2 - 4 \cdot 3 \cdot 60} \over 2 \cdot 3} \\
+  &= {36 \pm 24 \over 6} \\
+  x_1 &= {36 + 24 \over 6} = 10 \\
+  x_2 &= {36 - 24 \over 6} = 2 \\
+\end{align*}
+$$
+
+$$[2,10]$$
+
+$$\int_2^{10} f(x) = \left({10^3 \over 3} + {9 \cdot 10^2 \over 2} + 12 \cdot 10\right) - \left({2^3 \over 3} + {9 \cdot 2^2 \over 2} + 12 \cdot 2\right) = 903.3333 - 44.6666 = 858.6667$$
+$$\int_2^{10} g(x) = \left({4 \cdot 10^3 \over 3} - {27 \cdot 10^2 \over 2} + 72 \cdot 10\right) - \left({4 \cdot 2^3 \over 3} - {27 \cdot 2^2 \over 2} + 72 \cdot 2\right) = 703.3333 - 100.6666 = 602.6667$$
+$$A = 858.6667 - 602.6667 = \boxed{256}$$
+
 ## 6.
 
 ### a)
 
+$$y = 3x - x^3$$
+$$Y = {3x^2 \over 2} - {x^4 \over 4}$$
+
+$$
+\begin{align*}
+  0 &= 3x - x^3 \\
+  0 &= x(3 - x^2) \\
+  x_1 &= (3 - x^2 = 0) = (x^2 = 3) = \sqrt{3} \\
+  x_2 &= 0 \\
+  x_3 &= -\sqrt{3} \\
+\end{align*}
+$$
+
+$$\int_0^{\sqrt{3}} Y = {3 \cdot \sqrt{3}^2 \over 2} - {\sqrt{3}^4 \over 4} - {3 \cdot 0^2 \over 2} - {0^4 \over 4} = 4.5 - 2.25 = \boxed{2.25}$$
+
 ### b)
+
+$$
+\begin{align*}
+  3x - x^3 &= x \ &&| \ - x \\
+  2x - x^3 &= 0 \\
+  x(2 - x^2) &= 0 \\
+  x_1 &= (2 -x^2 = 0) = (x^2 = 2) = \sqrt{2} \\
+  x_2 &= 0 \\
+  x_3 &= -\sqrt{2} \\
+\end{align*}
+$$
+
+$$\int_0^{\sqrt{2}} Y = {3\sqrt{2}^2 \over 2} - {\sqrt{2}^4 \over 4} = 3 - 1 = 2$$
+$$\int_0^{\sqrt{2}} x \ \mathrm{d}x= \sqrt{2}$$
+$$A = \boxed{2 - \sqrt{2} \approx 0.5858}$$

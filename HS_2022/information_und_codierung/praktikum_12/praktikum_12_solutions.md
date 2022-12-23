@@ -1,15 +1,5 @@
 # Praktikum 12: Block-Codes
 
-Fragen:
->- Wenn in der Generatorenmatrix die Einheitsmatrix rechts ist, kann man dann zur Erstellung der Parity-Check-Matrix einfach eine Einheitsmatrix oben hinstellen?
->- Sind Blockcodes und Faltungscodes verschiedene Arten von Kanalcodierung welche Hammingcodes produzieren?
->- Weshalb sind die Eigenschaften von Codeworten (systematisch, linear, zyklisch) wichtig?
->- Wie würde ein Galoi Feld (10) aussehen? Und weshalb gibt es keinen "overflow"?
->- Wo werden in der Praxis was für Codes verwended? Und gibt es noch weitere?
->- Fehler in den Folien (Blockcodes)?
-
-❌✔️
-
 ## 1.
 
 ### a)
@@ -150,7 +140,7 @@ Systematisch:\
 
 $$
 \begin{bmatrix}
-  1 & 0 & 1 \\
+  1 & 1 & 1 \\
 \end{bmatrix}
 $$
 
@@ -158,9 +148,9 @@ $$
 
 $$
 \begin{bmatrix}
-  1 \\
-  0 \\
-  1
+  1 & 1 \\
+  1 & 0 \\
+  0 & 1
 \end{bmatrix}
 $$
 

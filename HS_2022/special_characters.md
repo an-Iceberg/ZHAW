@@ -30,6 +30,7 @@ $\textsf{textsf}$\
 $\texttt{texttt}$\
 $\textit{textit}$\
 $\textup{textup}$
+$$\textit{This is italic text.}$$
 
 $$A \\ \stackrel{?}{=} \\ B$$
 

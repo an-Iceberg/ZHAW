@@ -1,6 +1,6 @@
 ###### Information und Codierung - Semesterwoche #14 - 20. Dezember 2022
 
-Fragestunde: 10:00 am, Donnerstag 12. Januar 2022, Raum: siehe E-Mails
+Fragestunde: 10:00 am, Donnerstag 12. Januar 2022, Raum: ZL O3.01
 
 Zu Repetieren:
 - zweier Komplement
